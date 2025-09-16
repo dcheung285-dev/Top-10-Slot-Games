@@ -8,8 +8,8 @@ Configure individual blog posts with all their content, images, categories, and 
 
 // ========== BLOG HERO SECTION ==========
 const BLOG_HERO = {
-    title: "Gaming Laptop Blog",                                    // ← Blog page main title
-    subtitle: "Expert reviews, performance analysis, and the latest trends in gaming laptops. Get insider knowledge to choose the most powerful and reliable gaming machines."  // ← Blog page description
+    title: "Crypto Slot Blog",                                    // ← Blog page main title
+    subtitle: "Expert slot reviews, RTP and volatility explainers, feature breakdowns, and promo guides to help you pick the best crypto-friendly games."  // ← Blog page description
 };
 
 // ========== BLOG CTA BANNER CONFIGURATION ==========
@@ -28,11 +28,11 @@ const BLOG_CTA_BANNER = {
         scale: 1.0,                                            // ← Reset to normal scale for testing
     },
     content: {
-        icon: "fas fa-laptop",                                  // ← Header icon
-        title: "Looking for the Best Gaming Laptops?",      // ← Main headline
-        subtitle: "Don't waste hours researching. We've already done the work for you!", // ← Description text
+        icon: "fas fa-coins",                                  // ← Header icon
+        title: "Looking for the Best Crypto Slots?",      // ← Main headline
+        subtitle: "Skip the guesswork—our research backs every pick with RTP, volatility, and features.", // ← Description text
         button: {
-            text: "View Our Top 10 Ranked List",              // ← Button text
+            text: "View Our Top 10 Slots",              // ← Button text
             icon: "fas fa-trophy",                                // ← Button icon
             link: "./index.html#top10"                         // ← Button link
         }
@@ -41,154 +41,154 @@ const BLOG_CTA_BANNER = {
 
 // ========== INDIVIDUAL BLOG POSTS CONFIGURATION ==========
 const BLOG_POSTS = {
-    // Blog Post 1 - MacBook Pro M4 Max Review
+    // Blog Post 1 - Sugar Rush (Editor’s Choice)
     post1: {
-        title: "MacBook Pro M4 Max Review 2025: Why It's Our #1 Pick",
-        excerpt: "Discover why the MacBook Pro M4 Max earned our top ranking with exceptional performance, stunning display, and industry-leading battery life. Our comprehensive review covers everything from creative workflows to gaming performance.",
-        image: "./assets/images/laptop_test/macbook-pro.jpg",
-        imageAlt: "MacBook Pro M4 Max review and analysis",
+        title: "Sugar Rush Review: Why It’s Our Editor’s Choice",
+        excerpt: "7×7 Cluster Pays with sticky multiplier spots up to ×128, ~96.5% RTP variants, and Free Spins that preserve multipliers—here’s why Sugar Rush is our top pick.",
+        image: "./assets/images/slot-games/sugar-rush-pic.avif",
+        imageAlt: "Sugar Rush slot review and analysis",
         
         // Image positioning and scaling settings
         imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
         imagePositioning: {
             objectPosition: 'top center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
-            objectFit: 'cover'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
+            objectFit: 'fill'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
         },
         date: "December 15, 2024",
-        category: "Laptop Review",
+        category: "Slot Review",
         categoryColor: "primary",
         link: "./index.html#editors-choice-review",
         badges: [
-            { text: "Editor's Pick", type: "primary" },
-            { text: "Top Rated", type: "success" }
+            { text: "Editor's Choice", type: "primary" },
+            { text: "Cluster Pays", type: "success" }
         ],
-        ctaText: "💻 Ready to buy?",
-        ctaMessage: "Shop <a href=\"#macbook-pro\" class=\"text-primary\">MacBook Pro M4 Max</a> and save $300 + get free AppleCare+!"
+        ctaText: "🎰 Try a demo:",
+        ctaMessage: "Play <a href=\"./index.html#editors-choice-review\" class=\"text-primary\">Sugar Rush</a> and learn the multiplier spots."
     },
 
-    // Blog Post 2 - Dell XPS 15 Plus Review
+    // Blog Post 2 - Gates of Olympus Review
     post2: {
-        title: "Dell XPS 15 Plus Review: Premium Design Meets Performance",
-        excerpt: "The Dell XPS 15 Plus combines stunning premium design with powerful Intel Core i9 performance and gorgeous 4K+ OLED display. Learn why it's the perfect choice for professionals who value aesthetics.",
-        image: "./assets/images/laptop_test/Dell_XPS_15_Plus.jpg",
-        imageAlt: "Dell XPS 15 Plus comprehensive review",
-        
-        // Image positioning and scaling settings
-        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
-        imagePositioning: {
-            objectPosition: 'center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
-            objectFit: 'cover'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
-        },
-        date: "December 12, 2024",
-        category: "Laptop Review",
-        categoryColor: "accent",
-        link: "./index.html#review-2",
-        badges: [
-            { text: "Premium Design", type: "secondary" },
-            { text: "OLED Display", type: "accent" }
-        ],
-        ctaText: "💎 Shop premium:",
-        ctaMessage: "Experience <a href=\"#dell-xps\" class=\"text-primary\">Dell XPS 15 Plus</a> and save 13% + get premium support!"
-    },
-
-    // Blog Post 3 - Laptop Buying Guide
-    post3: {
-        title: "Gaming Laptop Buying Guide: How to Choose the Perfect Machine",
-        excerpt: "Learn essential factors when buying a gaming laptop, from choosing the right CPU and GPU to understanding display specifications. Our expert guide covers everything you need to make the perfect choice.",
-        image: "./assets/images/laptop_test/blog1.webp",
-        imageAlt: "Gaming laptop buying guide",
-        
-        // Image positioning and scaling settings
-        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
-        imagePositioning: {
-            objectPosition: 'center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
-            objectFit: 'cover'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
-        },
-        date: "December 10, 2024",
-        category: "Buying Guide",
-        categoryColor: "primary",
-        link: "./blogpost1.html",
-        badges: [
-            { text: "Buying Guide", type: "primary" },
-            { text: "Expert Tips", type: "secondary" }
-        ],
-        ctaText: "🎯 Need the perfect laptop?",
-        ctaMessage: "Find your ideal gaming laptop in our <a href=\"./index.html#top10\" class=\"text-primary\">Top 10 rankings</a>!"
-    },
-
-    // Blog Post 4 - Provably Fair Gaming
-    post4: {
-        title: "RTX 4090 vs RTX 4080: Which GPU Powers the Best Gaming Laptops?",
-        excerpt: "Compare the RTX 4090 and RTX 4080 in gaming laptops. Discover performance differences, power consumption, thermal management, and which GPU delivers the best value for high-end gaming laptops.",
-        image: "./assets/images/laptop_test/gpu.jpg",
-        imageAlt: "RTX 4090 vs RTX 4080 gaming laptop comparison",
-        
-        // Image positioning and scaling settings
-        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
-        imagePositioning: {
-            objectPosition: 'center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
-            objectFit: 'cover'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
-        },
-        date: "December 8, 2024",
-        category: "GPU Guide",
-        categoryColor: "success",
-        link: "./blogpost2.html",
-        badges: [
-            { text: "RTX 4090", type: "secondary" },
-            { text: "Performance", type: "success" }
-        ],
-        ctaText: "🎮 Want top gaming performance?",
-        ctaMessage: "Check out <a href=\"#razer-blade\" class=\"text-primary\">RTX 4090 gaming laptops</a> for ultimate performance!"
-    },
-
-    // Blog Post 5 - Bonus Guide
-    post5: {
-        title: "Gaming Laptop Cooling Systems: Thermal Management Guide 2025",
-        excerpt: "Master gaming laptop cooling with our comprehensive thermal management guide. Learn about liquid metal cooling, vapor chambers, fan curves, and how to maintain peak performance during intense gaming sessions.",
-        image: "./assets/images/laptop_test/cooling.jpg",
-        imageAlt: "Gaming laptop cooling system and thermal management guide",
-        
-        // Image positioning and scaling settings
-        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
-        imagePositioning: {
-            objectPosition: 'center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
-            objectFit: 'cover'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
-        },
-        date: "December 5, 2024",
-        category: "Cooling Guide",
-        categoryColor: "success",
-        link: "./blogpost3.html",
-        badges: [
-            { text: "Cooling", type: "success" },
-            { text: "Performance", type: "secondary" }
-        ],
-        ctaText: "🌡️ Keep your laptop cool:",
-        ctaMessage: "Find <a href=\"#asus-rog\" class=\"text-primary\">laptops with advanced cooling</a> in our top rankings!"
-    },
-
-    // Blog Post 6 - Roobet Review
-    post6: {
-        title: "Razer Blade 16 Review: Premium Gaming Excellence 2025",
-        excerpt: "In-depth review of the Razer Blade 16 gaming laptop. Discover Intel Core i9-14900HX performance, premium build quality, advanced cooling, and why it's the ultimate choice for gaming enthusiasts.",
-        image: "./assets/images/laptop_test/Razer_Blade_16.webp",
-        imageAlt: "Razer Blade 16 gaming laptop review",
+        title: "Gates of Olympus Review: Tumbles and 500× Multipliers",
+        excerpt: "Scatter-pays + tumble loop with random orbs from 2× to 500×, 15 Free Spins with additive multipliers, and multiple RTP variants—why Gates remains a streamer favorite.",
+        image: "./assets/images/slot-games/gates-of-olympus-pic.jpg",
+        imageAlt: "Gates of Olympus slot review",
         
         // Image positioning and scaling settings
         imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
         imagePositioning: {
             objectPosition: 'top center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
-            objectFit: 'cover'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
+            objectFit: 'fill'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
+        },
+        date: "December 12, 2024",
+        category: "Slot Review",
+        categoryColor: "accent",
+        link: "./index.html#review-2",
+        badges: [
+            { text: "Tumbles", type: "secondary" },
+            { text: "500× Orbs", type: "accent" }
+        ],
+        ctaText: "⚡ Multiply your wins:",
+        ctaMessage: "See our <a href=\"./index.html#review-2\" class=\"text-primary\">Gates breakdown</a> and learn orb timing."
+    },
+
+    // Blog Post 3 - RTP & Volatility Guide
+    post3: {
+        title: "RTP & Volatility Explained: Picking Crypto Slots Wisely",
+        excerpt: "Understand standard vs reduced RTP variants, how volatility and hit frequency shape sessions, and the trade-offs behind max-win ceilings.",
+        image: "./assets/images/slot-games/Volatility+RTP.jpg",
+        imageAlt: "Crypto slots RTP and volatility guide",
+        
+        // Image positioning and scaling settings
+        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
+        imagePositioning: {
+            objectPosition: 'top center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
+            objectFit: 'fill'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
+        },
+        date: "December 10, 2024",
+        category: "Guide",
+        categoryColor: "primary",
+        link: "./blogpost1.html",
+        badges: [
+            { text: "RTP", type: "primary" },
+            { text: "Volatility", type: "secondary" }
+        ],
+        ctaText: "🎯 Learn the math:",
+        ctaMessage: "Check our <a href=\"./index.html#top10\" class=\"text-primary\">Top 10 slots</a> and compare RTP/volatility."
+    },
+
+    // Blog Post 4 - Slot Features Guide
+    post4: {
+        title: "Scatter, Tumbles, Cluster, Megaways: Feature Breakdown",
+        excerpt: "A practical explainer with examples from Gates, Sweet Bonanza, Sugar Rush, and Bonanza Megaways—how features affect pacing and outcomes.",
+        image: "./assets/images/slot-games/features-outcomes.png",
+        imageAlt: "Slot features breakdown",
+        
+        // Image positioning and scaling settings
+        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
+        imagePositioning: {
+            objectPosition: 'top center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
+            objectFit: 'fill'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
+        },
+        date: "December 8, 2024",
+        category: "Guide",
+        categoryColor: "success",
+        link: "./blogpost2.html",
+        badges: [
+            { text: "Scatter/Tumbles", type: "secondary" },
+            { text: "Megaways", type: "success" }
+        ],
+        ctaText: "🧠 Master features:",
+        ctaMessage: "See examples in our <a href=\"./index.html#reviews\" class=\"text-primary\">reviews</a>."
+    },
+
+    // Blog Post 5 - Bonuses & Promos Guide
+    post5: {
+        title: "Drops & Wins, Welcome Spins, and Jackpot Networks",
+        excerpt: "How to evaluate provider promos and site offers, what bonus T&Cs to check, and how bonus-buys affect eligibility.",
+        image: "./assets/images/slot-games/bonus2.jpg",
+        imageAlt: "Crypto slot bonuses and promos guide",
+        
+        // Image positioning and scaling settings
+        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
+        imagePositioning: {
+            objectPosition: 'top center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
+            objectFit: 'fill'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
+        },
+        date: "December 5, 2024",
+        category: "Promos Guide",
+        categoryColor: "success",
+        link: "./blogpost3.html",
+        badges: [
+            { text: "Drops & Wins", type: "success" },
+            { text: "Welcome Spins", type: "secondary" }
+        ],
+        ctaText: "🎁 Get more value:",
+        ctaMessage: "Compare promos with our <a href=\"./index.html#top10\" class=\"text-primary\">Top 10 slots</a>."
+    },
+
+    // Blog Post 6 - Money Train 4 Review
+    post6: {
+        title: "Money Train 4 Review: 150,000× Max Potential",
+        excerpt: "6×6 scatter-pays, Money Cart with persistent symbols, base Respins, and feature buys (where allowed). Why MT4 is the spectacle king.",
+        image: "./assets/images/slot-games/money-train-4-pic.avif",
+        imageAlt: "Money Train 4 slot review",
+        
+        // Image positioning and scaling settings
+        imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
+        imagePositioning: {
+            objectPosition: 'top center',                                  // Options: 'top left', 'top center', 'top right', 'center left', 'center', 'center right', 'bottom left', 'bottom center', 'bottom right'
+            objectFit: 'fill'                                         // Options: 'cover', 'contain', 'fill', 'scale-down', 'none'
         },
         date: "December 3, 2024",
-        category: "Laptop Review",
+        category: "Slot Review",
         categoryColor: "accent",
-        link: "./index.html#review-7",
+        link: "./index.html#review-1",
         badges: [
-            { text: "Premium Gaming", type: "accent" },
-            { text: "Intel i9", type: "primary" }
+            { text: "150,000× Cap", type: "accent" },
+            { text: "Money Cart", type: "primary" }
         ],
-        ctaText: "🎮 Want premium gaming?",
-        ctaMessage: "Check out the <a href=\"./index.html#review-7\" class=\"text-primary\">Razer Blade 16</a> in our top rankings!"
+        ctaText: "🚆 Board the last train:",
+        ctaMessage: "Read our <a href=\"./index.html#review-1\" class=\"text-primary\">MT4 review</a> then try a demo."
     }
 };
 

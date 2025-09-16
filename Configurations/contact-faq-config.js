@@ -11,7 +11,7 @@ const CONTACT_PAGE_TITLE = "Contact Us | {{BRAND_NAME}}";     // ← Contact pag
 // ========== CONTACT PAGE HERO SECTION ==========
 const CONTACT_HERO = {
     title: "Get in Touch",                                    // ← Contact page main title
-    subtitle: "Have questions about our gaming laptop reviews? Need help choosing the perfect laptop? We're here to help you find the ideal gaming machine for your needs."  // ← Contact page description
+    subtitle: "Have questions about our slot reviews? Need help choosing a crypto-friendly game? We're here to help you compare RTP, volatility, and features with confidence."  // ← Contact page description
 };
 
 // ========== CONTACT FORM CONFIGURATION ==========
@@ -26,10 +26,10 @@ const CONTACT_FORM = {
     // Subject dropdown options
     subjectOptions: [
         { value: "", text: "Select a topic" },                // ← Default option
-        { value: "laptop-question", text: "Gaming Laptop Question" },
-        { value: "performance-inquiry", text: "Performance & Specs Inquiry" },
-        { value: "buying-question", text: "Laptop Buying Question" },
-        { value: "review-request", text: "Laptop Review Request" },
+        { value: "slot-question", text: "Slot Question" },
+        { value: "rtp-volatility", text: "RTP & Volatility" },
+        { value: "features-mechanics", text: "Features & Mechanics (Scatter, Tumbles, Cluster, Megaways)" },
+        { value: "review-request", text: "Slot Review Request" },
         { value: "partnership", text: "Brand Partnership Inquiry" },
         { value: "technical-issue", text: "Technical Issue" },
         { value: "general-inquiry", text: "General Inquiry" },
@@ -45,7 +45,7 @@ const CONTACT_FORM = {
     },
     
     placeholders: {
-        message: "Tell us about your gaming laptop question or how we can help you find the perfect laptop..."
+        message: "Tell us about your slot question—RTP variant, volatility, features—or how we can help you compare games..."
     },
     
     // Submit button text
@@ -56,16 +56,16 @@ const CONTACT_FORM = {
 
 // ========== CTA BOX CONFIGURATION ==========
 const CONTACT_CTA_BOX = {
-    title: "Ready to Find the Best Gaming Laptops?",              // ← CTA box main title
-    subtitle: "Check out our expertly reviewed Top 10 gaming laptop recommendations!", // ← CTA box description
+    title: "Ready to Find the Best Crypto Slots?",              // ← CTA box main title
+    subtitle: "Check out our expertly reviewed Top 10 slot game recommendations!", // ← CTA box description
     
     // Icon configuration (FontAwesome classes)
-    titleIcon: "fas fa-laptop",                              // ← Icon before title
-    buttonIcon: "fas fa-star",                               // ← Icon in button
+    titleIcon: "fas fa-coins",                              // ← Icon before title
+    buttonIcon: "fas fa-trophy",                               // ← Icon in button
     
     // Button configuration
-    buttonText: "View Our Top 10 Gaming Laptops",                 // ← Button text
-    buttonLink: "./index.html#index.html",                       // ← Button destination link
+    buttonText: "View Our Top 10 Slots",                 // ← Button text
+    buttonLink: "./index.html#top10",                       // ← Button destination link
     
     // Styling options
     showTitleIcon: true,                                     // ← Show/hide title icon
@@ -99,13 +99,13 @@ buttonText: "View All Reviews"
 
 // ========== CONTACT INFORMATION ==========
 const CONTACT_INFO = {
-    email: "contact@LaptopWorld.com",                            // ← Your contact email "eg. contact@yoursite.com"
+    email: "contact@SpinRated.com",                            // ← Your contact email "eg. contact@yoursite.com"
     phone: "020 7946 0000",                              // ← Your phone number "eg. +1 (555) 123-4567"
     address: "888 Main St, London, UK",               // ← Your address "eg. 123 Main St, City, State 12345"
-    responseTime: "1-2 hours",                                 // ← Typical response time "eg. 24 hours"
+    responseTime: "Within 24 hours",                                 // ← Typical response time "eg. 24 hours"
 
     // Visibility toggles (set to false to hide)
-    showEmail: true,
+    showEmail: false,
     showPhone: false,
     showAddress: false,
     showResponseTime: true,
@@ -123,41 +123,29 @@ const CONTACT_INFO = {
 // ========== FAQ CONFIGURATION ==========
 const FAQ_CONFIG = {
     title: "Frequently Asked Questions",                     // ← FAQ section title
-    subtitle: "Quick answers to common gaming laptop questions",           // ← FAQ section subtitle
+    subtitle: "Quick answers to common crypto slot questions",           // ← FAQ section subtitle
     
     // FAQ items - add/edit/remove as needed
     items: [
         {
-            question: "How do you test gaming laptops?",
-            answer: "We thoroughly test each gaming laptop for performance, build quality, display quality, battery life, thermal management, and user experience. Our reviews include benchmark testing, real-world gaming sessions, and long-term reliability assessment."
+            question: "How do you review slot games?",
+            answer: "We confirm the RTP variant shown in-game, assess volatility pacing and hit frequency, and evaluate features/perks and max-win potential. We favour transparent, crypto-friendly games from reputable providers."
         },
         {
-            question: "Are your laptop reviews unbiased?",
-            answer: "Yes, our reviews are completely honest and unbiased. We only recommend laptops that meet our strict performance and quality standards, regardless of affiliate commissions. We test every laptop extensively before making recommendations."
+            question: "What should I look for in a crypto slot?",
+            answer: "Check the live RTP variant, volatility band, hit frequency, and feature style (scatter pays, tumbles, cluster multipliers, Megaways). Match these to your goals: entertainment time, bonus-hunting, or ceiling chasing."
         },
         {
-            question: "What should I look for in a gaming laptop?",
-            answer: "Key factors include a powerful GPU (RTX 4060 or better), sufficient RAM (16GB minimum), fast storage (SSD), good cooling system, high refresh rate display (144Hz+), and reliable build quality. We evaluate all these aspects in our reviews."
+            question: "Do RTP variants matter?",
+            answer: "Yes. The same game may ship multiple RTP versions (e.g., ~96% and lower). Venues choose the variant they offer. Always open the info screen to confirm the active RTP before you play."
         },
         {
-            question: "How much should I spend on a gaming laptop?",
-            answer: "Gaming laptops range from £800 for entry-level to £4000+ for premium models. For solid 1080p gaming, expect £1200-2000. For 1440p/4K gaming, budget £2000-3500. We provide clear value recommendations in each price category."
+            question: "How should I budget my sessions?",
+            answer: "Think in spins, not minutes. Set limits, scale stake to volatility, and plan stop-loss and take-profit points. Expect swings—especially on high-volatility games like Money Train 4 or San Quentin xWays."
         },
         {
-            question: "Which brands make the best gaming laptops?",
-            answer: "Top gaming laptop brands include ASUS ROG, MSI, Razer, Dell Alienware, HP Omen, Acer Predator, and Lenovo Legion. Each has strengths in different areas - we highlight the best models from each manufacturer in our reviews."
-        },
-        {
-            question: "How important is display quality for gaming?",
-            answer: "Display quality is crucial for gaming. Look for high refresh rates (144Hz-240Hz), low input lag, good color accuracy, and appropriate resolution. We test display performance extensively and recommend the best gaming displays in each category."
-        },
-        {
-            question: "Do gaming laptops have good battery life?",
-            answer: "Gaming laptops typically have 3-6 hours of general use and 1-3 hours while gaming. Some ultrabooks with gaming capability offer 8+ hours for productivity tasks. We clearly indicate battery performance in each review."
-        },
-        {
-            question: "Can you review a specific gaming laptop?",
-            answer: "Absolutely! We love hearing from our community. Send us your suggestions using the form above, and we'll consider it for our next review cycle if it meets our testing criteria and availability."
+            question: "Are bonus buys allowed with promos?",
+            answer: "Often excluded. Many venues don’t count bought bonuses toward wagering, and some providers publish different RTP for buys vs natural. Read T&Cs carefully before opting in. 18+ only; play responsibly."
         }
     ]
 };

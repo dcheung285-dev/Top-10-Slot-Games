@@ -4,23 +4,23 @@
  */
 
 // ========== PAGE TITLE CONFIGURATION ==========
-const HOME_PAGE_TITLE = "Home | {{BRAND_NAME}}";     // ← Home page browser tab title
+const HOME_PAGE_TITLE = "Home | {{BRAND_NAME}} – Top Crypto Slot Games";     // ← Home page browser tab title
 
 const HOME_CONFIG = {
     // Hero Section Configuration
     hero: {
         enabled: true,
-        title: "Top 10 Gaming Laptops 2025",
+        title: "Top 10 Crypto Slot Games 2025",
         subtitle: "Expert Reviews & Comprehensive Rankings",
-        description: "Discover the most powerful gaming laptops with our detailed reviews, performance analysis, and exclusive deals. From MacBook Pro M4 Max to ASUS ROG - find your perfect gaming machine.",
+        description: "Discover fan-favourite crypto-casino slots with verified RTP, volatility, hit rate, and max-win specs. From Money Train 4 to Sugar Rush—find your perfect game.",
         ctaButton: {
-            text: "View Our Top 10 Gaming Laptops",
+            text: "View Our Top 10 Slots",
             link: "index.html",
-            icon: "fas fa-laptop"
+            icon: "fas fa-coins"
         },
         backgroundType: "animated", // "static", "video", "animated"
         backgroundConfig: {
-            animationType: "matrix", // "crypto-rain", "floating-coins", "matrix", "particles"
+            animationType: "crypto-rain", // "crypto-rain", "floating-coins", "matrix", "particles"
             primaryColor: "var(--primary-color)",
             secondaryColor: "var(--secondary-color)",
             intensity: "medium" // "low", "medium", "high"
@@ -30,9 +30,9 @@ const HOME_CONFIG = {
             position: "bottom", // "left", "right", "center", "top", "bottom"
             layout: "stacked", // "side-by-side", "stacked", "overlay"
             image: {
-                src: "assets/images/laptop_test/laptop_guy.png", // Path to your image
-                alt: "Top Gaming Laptop Experience",
-                placeholder: "💻", // Emoji or icon if image fails to load
+                src: "assets/images/slot-games/slots-hero4.png", // Path to your image (TODO: slot-themed artwork)
+                alt: "Top Crypto Slot Experience",
+                placeholder: "🎰", // Emoji or icon if image fails to load
                 aspectRatio: "16:9", // "1:1", "4:3", "16:9", "21:9", "auto"
                 objectFit: "contain" // "cover", "contain", "fill", "scale-down"
             },
@@ -60,31 +60,31 @@ const HOME_CONFIG = {
                 id: "section-1",
                 trigger: 200, // pixels scrolled
                 backgroundType: "gradient", // Changed from image to gradient
-                backgroundValue: "linear-gradient(135deg, #1f2937, #374151)", // Dark gradient
-                title: "Powerful Performance",
-                description: "Experience cutting-edge processors and graphics for demanding workflows",
+                backgroundValue: "linear-gradient(135deg,rgb(22, 196, 249),rgb(154, 224, 236))", // Orange gradient
+                title: "Max Potential",
+                description: "Chase ceilings up to 150,000× with proven crowd favourites.",
                 animation: "fade-slide-left",
-                icon: "fas fa-microchip"
+                icon: "fas fa-rocket"
             },
             {
                 id: "section-2", 
                 trigger: 600,
                 backgroundType: "gradient",
-                backgroundValue: "linear-gradient(135deg, #065f46, #047857)", // Green gradient
-                title: "Stunning Displays",
-                description: "Crystal-clear screens with high refresh rates and accurate color reproduction",
+                backgroundValue: "linear-gradient(135deg,rgb(245, 202, 153),rgb(247, 139, 139))",
+                title: "RTP & Volatility",
+                description: "Know the RTP variants and volatility before you spin.",
                 animation: "fade-slide-right",
-                icon: "fas fa-tv"
+                icon: "fas fa-chart-line"
             },
             {
                 id: "section-3",
                 trigger: 1000,
                 backgroundType: "gradient",
-                backgroundValue: "linear-gradient(135deg, #7c2d12, #9a3412)", // Orange gradient
-                title: "All-Day Battery",
-                description: "Long-lasting battery life to keep you productive throughout your day",
+                backgroundValue: "linear-gradient(135deg, #0ea5e9, #1d4ed8)", // Cyan-to-blue complementary gradient
+                title: "Bonuses & Promos",
+                description: "Drops & Wins, welcome spins, and jackpot networks—compare offers.",
                 animation: "fade-slide-up",
-                icon: "fas fa-battery-full"
+                icon: "fas fa-gift"
             }
         ]
     },
@@ -93,13 +93,13 @@ const HOME_CONFIG = {
     videoSections: [
         {
             enabled: true,
-            title: "How to Choose the Perfect Gaming Laptop",
-            description: "Learn the key factors when selecting a gaming laptop. Discover how CPU, GPU, and display specifications impact your gaming and productivity experience.",
-            videoUrl: "./assets/videos/laptop_test/laptop_loop1.mp4", // Local video file path
-            externalUrl: "https://youtube.com/watch?v=example1", // External URL (YouTube, etc.) - opens in new tab when clicked
+            title: "How to Choose Crypto Slots Wisely",
+            description: "Understand RTP variants, volatility, hit frequency, and bonus features before you play.",
+            videoUrl: "./assets/videos/slot-games/slots.mp4", // Local video file path
+            externalUrl: "https://www.youtube.com/watch?v=ejHx7pyeOf0", // External URL (YouTube, etc.) - opens in new tab when clicked
             displayType: "video", // "video" or "thumbnail" - choose how to display
             thumbnailImage: "./assets/images/casino_test/casino18.jpg", // Thumbnail image if displayType is "thumbnail"
-            placeholder: "🎥 Laptop Buying Guide Video - Add your video URL in home-config.js",
+            placeholder: "🎥 Slot Education Video - Add your video URL in home-config.js",
             autoplay: true,
             loop: true, // ← NEW: Video will loop continuously
             muted: true, // Recommended for autoplay to work in browsers
@@ -109,13 +109,13 @@ const HOME_CONFIG = {
         },
         {
             enabled: true,
-            title: "Gaming Laptop Performance Tests", 
-            description: "See real-world performance benchmarks and gaming tests. Learn about frame rates, thermal management, and optimization techniques for maximum performance.",
-            videoUrl: "./assets/videos/laptop_test/laptop_loop2.mp4", // Local video file path
-            externalUrl: "https://youtube.com/watch?v=example2", // External URL (YouTube, etc.) - opens in new tab when clicked
+            title: "Slot Features Explained", 
+            description: "Scatter pays, tumbles, cluster pays, Megaways, and bonus buys—see them in action.",
+            videoUrl: "./assets/videos/slot-games/features.mp4", // Local video file path
+            externalUrl: "https://www.youtube.com/watch?v=j4y96TCpqyw", // External URL (YouTube, etc.) - opens in new tab when clicked
             displayType: "video", // "video" or "thumbnail" - choose how to display
             thumbnailImage: "./assets/images/casino_test/casino16.webp", // Thumbnail image if displayType is "thumbnail"
-            placeholder: "🎯 Performance Testing Video - Add your video URL in home-config.js",
+            placeholder: "🎯 Slot Mechanics Video - Add your video URL in home-config.js",
             autoplay: true,
             loop: true, // ← NEW: Video will loop continuously
             muted: true, // Recommended for autoplay to work in browsers
@@ -132,11 +132,11 @@ const HOME_CONFIG = {
         {
             enabled: true,
             type: "banner", // "banner", "card", "popup", "floating"
-            title: "💻 MacBook Pro M4 Max Deal!",
-            subtitle: "Save $300 + Free AppleCare+",
-            description: "Limited time offer on our #1 ranked gaming laptop",
-            ctaText: "Get MacBook Deal",
-            ctaLink: "https://www.apple.com/uk/macbook-pro/",
+            title: "🎰 Drops & Wins Is Live!",
+            subtitle: "€2,000,000 monthly prize pool",
+            description: "Opt in at eligible Pragmatic casinos to join leaderboards and prize drops.",
+            ctaText: "See Eligible Sites",
+            ctaLink: "index.html#top10",
             animation: "pulse-glow-slide", // Enhanced animation
             backgroundType: "animated-gradient", // Enhanced background
             backgroundConfig: {
@@ -156,11 +156,11 @@ const HOME_CONFIG = {
         {
             enabled: true,
             type: "card",
-            title: "🚀 Dell XPS 15 Plus - Most Popular",
-            subtitle: "Premium Design Meets Performance", 
-            description: "Experience the most popular premium laptop with stunning 4K+ OLED display",
-            ctaText: "Shop Dell XPS",
-            ctaLink: "https://www.dell.com/en-uk/shop/dell-laptops/scr/laptops/appref=xps-product-line",
+            title: "💥 Money Train 4 – Max Potential",
+            subtitle: "150,000× top win ceiling", 
+            description: "Editor-backed top pick for spectacle and feature depth.",
+            ctaText: "Read Review",
+            ctaLink: "index.html#review-1",
             animation: "hover-lift-glow-shake", // Enhanced animation
             backgroundType: "animated-pattern",
             backgroundConfig: {
@@ -180,11 +180,11 @@ const HOME_CONFIG = {
         {
             enabled: true,
             type: "card",
-            title: "💎 ASUS ROG Zephyrus - Best Gaming",
-            subtitle: "Ultimate Gaming Performance",
-            description: "Enjoy the most powerful gaming laptop with 18-inch 240Hz display and RTX 4080",
-            ctaText: "Shop ASUS ROG",
-            ctaLink: "https://www.asus.com/uk/laptops/for-gaming/all-series/filter?SubSeries=ROG-Zephyrus",
+            title: "🍬 Sugar Rush – Editor’s Choice",
+            subtitle: "Cluster Pays with sticky multipliers",
+            description: "7×7 grid, multiplier spots up to ×128, ~96.5% RTP (variant dependent).",
+            ctaText: "Why We Picked It",
+            ctaLink: "index.html#editors-choice-review",
             animation: "bounce-glow-rotate", // New bouncing animation
             backgroundType: "animated-gradient",
             backgroundConfig: {
@@ -193,8 +193,8 @@ const HOME_CONFIG = {
                 sparkleEffect: true
             },
             glow: {
-                color: "#10b981",           // Base glow color (emerald)
-                hoverColor: "#34d399",      // Hover glow color (lighter green)
+                color: "#f59e0b",           // Base glow color (amber for slots)
+                hoverColor: "#fbbf24",      // Hover glow color (lighter amber)
                 blur: "28px",               // Base blur radius
                 hoverBlur: "56px"           // Hover blur radius
             },
@@ -236,7 +236,32 @@ const HOME_CONFIG = {
             },
             {
                 name: "crypto-rain", 
-                characters: ["₿", "♠", "Ξ", "♥", "Ł", "♦", "Ð", "♣", "₳", "♤", "○", "♡", "◊", "🎲", "△", "฿", "♧", "₮", "♢", "ɱ", "🎰", "ꜩ", "🍀", "Ƀ"],
+                characters: [
+                    "🍒", // cherries
+                    "7️⃣", // lucky seven
+                    "🔔", // bell
+                    "⭐", // star
+                    "🍋", // lemon
+                    "🍉", // watermelon
+                    "🍇", // grapes
+                    "💎", // diamond
+                    "🍊", // orange
+                    "🎰", // slot machine
+                    "🍓", // strawberry
+                    "🃏", // joker card
+                    "🥭", // exotic fruit (bonus style)
+                    "🍀", // four-leaf clover
+                    "🥝", // kiwi
+                    "BAR", // classic BAR symbol (can be rendered as text)
+                    "🔥", // fire (bonus effect)
+                    "👑", // crown (jackpot/royal)
+                    "💰", // money bag
+                    "🌟", // sparkle star
+                    "🍌", // banana
+                    "💵", // cash
+                    "💥", // explosion (bonus hit)
+                    "🎲"  // dice
+                  ],
                 density: "medium",
                 speed: "medium",
                 color: "var(--primary-color)"
@@ -250,7 +275,7 @@ const HOME_CONFIG = {
         elements: [
             {
                 type: "floating-cta",
-                text: "🎯 Find Your Perfect Laptop",
+                text: "🎯 Find Your Perfect Slot",
                 link: "index.html",
                 position: "bottom-right",
                 animation: "bounce-fade",

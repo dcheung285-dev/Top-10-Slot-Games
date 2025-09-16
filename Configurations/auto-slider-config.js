@@ -23,85 +23,69 @@ const AUTO_SLIDER_CONFIG = {
         animationSpeed: 35, // Override global speed if needed
         images: [
             {
-                src: 'assets/images/laptop_test/apple_logo_black_text.png',
-                alt: 'Apple',
+                src: 'assets/images/slot-games/Relax-Gaming-logo.png',
+                alt: 'Relax Gaming',
                 width: 'auto', // 'auto' or specific width like '120px'
                 height: '60px', // Height of individual images
-                scale: 1.2, // Scale factor (1.0 = 100%, 1.2 = 120%, 0.8 = 80%, etc.)
-                gap: 70     // Manual gap after this image (in pixels)
+                scale: 0.7, // Scale factor (1.0 = 100%, 1.2 = 120%, 0.8 = 80%, etc.)
+                gap: 50     // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/ASUS_logo_white.png',
-                alt: 'Asus',
+                src: 'assets/images/slot-games/pragmatic-play-logo.webp',
+                alt: 'Pragmatic Play',
                 width: 'auto', // 'auto' or specific width like '120px'
                 height: '60px', // Height of individual images
-                scale: 1.3, // Scale factor (1.0 = 100%, 1.2 = 120%, 0.8 = 80%, etc.)
-                gap: 50 // Manual gap after this image (in pixels)
+                scale: 1.5, // Scale factor (1.0 = 100%, 1.2 = 120%, 0.8 = 80%, etc.)
+                gap: 60 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/Dell_logo.png',
-                alt: 'Dell',
+                src: 'assets/images/slot-games/netent-logo.png',
+                alt: 'Netent',
                 width: 'auto',
                 height: '60px',
-                scale: 1.0,
-                gap: 95 // Manual gap after this image (in pixels)
+                scale: 0.8,
+                gap: 10 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/microsoft_logo_grey.png',
-                alt: 'Microsoft',
+                src: 'assets/images/slot-games/Push-Gaming-logo.png',
+                alt: 'Push Gaming',
                 width: 'auto',
                 height: '60px',
-                scale: 2.0,
-                gap: 145   // Larger gap for scaled image
+                scale: 0.8,
+                gap: 70   // Larger gap for scaled image
             },
             {
-                src: 'assets/images/laptop_test/samsung_logo.png',
-                alt: 'Samsung',
+                src: 'assets/images/slot-games/Big-Time-Gaming-logo.webp',
+                alt: 'Big Time Gaming',
                 width: 'auto',
                 height: '60px',
                 scale: 3.0,
-                gap: 115    // Larger gap for scaled image
-            },
-            {
-                src: 'assets/images/laptop_test/hp_logo.png',
-                alt: 'HP',
-                width: 'auto',
-                height: '60px',
-                scale: 1.5,
                 gap: 100    // Larger gap for scaled image
             },
             {
-                src: 'assets/images/laptop_test/Lenovo_logo.png',
-                alt: 'Lenovo',
-                width: 'auto',
-                height: '60px',
-                scale: 2.0,
-                gap: 110    // Larger gap for scaled image
-            },
-            {
-                src: 'assets/images/laptop_test/alienware_logo.png',
-                alt: 'Alienware',
-                width: 'auto',
-                height: '60px',
-                scale: 1.5,
-                gap: 60 // Much larger gap for heavily scaled image
-            },
-            {
-                src: 'assets/images/laptop_test/acer_logo.png',
-                alt: 'Acer',
+                src: 'assets/images/slot-games/Reel-Kingdom-logo.png',
+                alt: 'Reel Kingdom',
                 width: 'auto',
                 height: '60px',
                 scale: 1.0,
-                gap: 60 // Medium gap for moderately scaled image
+                gap: 70    // Larger gap for scaled image
             },
             {
-                src: 'assets/images/laptop_test/lg_logo.png',
-                alt: 'LG',
+                src: 'assets/images/slot-games/nolimit-city-logo2.webp',
+                alt: 'No Limit City',
                 width: 'auto',
                 height: '60px',
-                scale: 1.4,
-                gap: 85    // Large gap for heavily scaled image
-            }
+                scale: 1.5,
+                gap: 50    // Larger gap for scaled image
+            },
+            {
+                src: 'assets/images/slot-games/games-global-logo2.webp',
+                alt: 'Games Global',
+                width: 'auto',
+                height: '60px',
+                scale: 0.8,
+                gap: 10 // Much larger gap for heavily scaled image
+            },
         ],
         styling: {
             backgroundColor: 'transparent',
@@ -121,39 +105,39 @@ const AUTO_SLIDER_CONFIG = {
         animationSpeed: 25, // Different speed for variety
         images: [
             {
-                src: 'assets/images/laptop_test/stream1.jpg',
-                alt: 'Stream1',
+                src: 'assets/images/slot-games/money-train-4-pic.avif',
+                alt: 'Money Train 4',
                 width: 'auto',
                 height: '180px', // Bigger images
                 scale: 1.0, // Scale factor for individual sizing adjustments
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream2.jpg',
-                alt: 'Stream2',
+                src: 'assets/images/slot-games/gates-of-olympus-pic.jpg',
+                alt: 'Gates of Olympus',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream3.jpg',
-                alt: 'Stream3',
+                src: 'assets/images/slot-games/sweet-bonanza-pic.jpg',
+                alt: 'Sweet Bonanza',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream4.png',
-                alt: 'Stream4',
+                src: 'assets/images/slot-games/Dead-or-a=Alive-2-pic.png',
+                alt: 'Dead or Alive 2',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream5.jpg',
+                src: 'assets/images/slot-games/razor-shark-pic.avif',
                 alt: 'Stream5',
                 width: 'auto',
                 height: '180px',
@@ -161,159 +145,39 @@ const AUTO_SLIDER_CONFIG = {
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream6.jpg',
-                alt: 'Stream6',
+                src: 'assets/images/slot-games/bonanza-megaways-pic.jpg',
+                alt: 'Bonanza Megaways',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream7.jpg',
-                alt: 'Stream7',
+                src: 'assets/images/slot-games/dog-house-megaways-pic.avif',
+                alt: 'Dog House Megaways',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream8.png',
-                alt: 'Stream8',
+                src: 'assets/images/slot-games/big-bass-bonanza-pic.avif',
+                alt: 'Big Bass Bonanza',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/laptop_test/stream9.png',
-                alt: 'Stream9',
+                src: 'assets/images/slot-games/san-quentin-xways-pic.jpeg',
+                alt: 'San Quentin xWays',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0
             },
             {
-                src: 'assets/images/laptop_test/stream10.jpg',
-                alt: 'Stream10',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream11.png',
-                alt: 'Stream11',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream12.jpg',
-                alt: 'Stream12',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream13.webp',
-                alt: 'Stream13',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream14.jpg',
-                alt: 'Stream14',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream15.jpg',
-                alt: 'Stream15',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream16.jpg',
-                alt: 'Stream16',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream17.jpg',
-                alt: 'Stream17',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream18.webp',
-                alt: 'Stream18',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream19.jpg',
-                alt: 'Stream19',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream20.jpg',
-                alt: 'Stream20',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream21.avif',
-                alt: 'Stream21',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream22.avif',
-                alt: 'Stream22',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream23.jpg',
-                alt: 'Stream23',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream24.jpg',
-                alt: 'Stream24',
-                width: 'auto',
-                height: '180px',
-                scale: 1.0,
-                gap: 30 // Manual gap after this image (in pixels)
-            },
-            {
-                src: 'assets/images/laptop_test/stream25.png',
-                alt: 'Stream25',
+                src: 'assets/images/slot-games/Mega-Moolah-pic.jpg',
+                alt: 'Mega Moolah',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,

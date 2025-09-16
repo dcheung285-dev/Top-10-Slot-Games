@@ -10,390 +10,318 @@
 
 window.SEARCH_DATABASE = {
     
-    // Products from main page
+    // Products from main page (crypto slots)
     products: [
         {
-            title: "Apple MacBook Pro M4 Max",
-            description: "Our #1 Editor's Pick - The MacBook Pro M4 Max stands out with exceptional performance, stunning Liquid Retina XDR display, and industry-leading battery life. Its M4 Max chip delivers unmatched power for creative professionals.",
-            icon: "💻",
+            title: "Sugar Rush (Editor’s Choice)",
+            description: "7×7 Cluster Pays with sticky multiplier spots up to ×128; ~96% RTP variants and Free Spins that retain multipliers.",
+            icon: "🍬",
             url: "index.html#editors-choice-review",
-            keywords: ["macbook", "pro", "apple", "m4", "max", "editor", "choice", "best", "top", "pick", "performance", "display", "battery", "creative", "professional"]
+            keywords: ["sugar", "rush", "cluster", "pays", "editor", "choice", "crypto", "slot", "rtp", "volatility"]
         },
         {
-            title: "Acer Zenbook Pro 14 OLED",
-            description: "OLED 14-inch laptop with stunning design, powerful Intel Core i9 performance, and gorgeous 4K+ OLED display. Perfect for professionals who value both aesthetics and performance.",
-            icon: "💻",
+            title: "Money Train 4",
+            description: "150,000× max potential with Money Cart, persistent symbols, and feature buys (where allowed).",
+            icon: "🚆",
             url: "index.html#review-1",
-            keywords: ["acer", "zenbook", "pro", "14", "oled", "premium", "intel", "core", "i9", "oled", "display", "professional", "design", "performance"]
+            keywords: ["money", "train", "4", "mt4", "relax", "gaming", "money cart", "150000x", "max win"]
         },
         {
-            title: "Dell XPS 15 Plus",
-            description: "Premium laptop with stunning design, powerful Intel Core i9 performance, and gorgeous 4K+ OLED display. Perfect for professionals who value both aesthetics and performance.",
-            icon: "💻",
+            title: "Gates of Olympus",
+            description: "Scatter-pays + tumbles with random multipliers up to 500×; multiple RTP variants.",
+            icon: "⚡",
             url: "index.html#review-2",
-            keywords: ["dell", "xps", "15", "plus", "premium", "intel", "core", "i9", "oled", "display", "professional", "design", "performance"]
+            keywords: ["gates", "olympus", "pragmatic", "scatter pays", "tumbles", "500x"]
         },
         {
-            title: "Microsoft Surface Laptop Studio 2", 
-            description: "Versatile creative powerhouse with unique PixelSense Flow display, Intel Core i7 performance, and innovative 3-in-1 design perfect for digital artists.",
-            icon: "💻",
-            url: "index.html#review-2",
-            keywords: ["microsoft", "surface", "laptop", "studio", "creative", "pixelsense", "intel", "i7", "3-in-1", "digital", "artists", "versatile"]
+            title: "Sweet Bonanza",
+            description: "Tumble chains with multipliers in Free Spins; approachable volatility and bright pacing.",
+            icon: "🍭",
+            url: "index.html#review-3",
+            keywords: ["sweet", "bonanza", "tumbles", "multipliers", "pragmatic", "free spins"]
         },
         {
-            title: "Lenovo ThinkPad X1 Carbon Gen 13",
-            description: "Legendary business laptop with exceptional keyboard, MIL-STD-810H durability, and reliable Intel Core i7 performance. The gold standard for business professionals.",
-            icon: "💻",
-            url: "index.html#review-3", 
-            keywords: ["lenovo", "thinkpad", "x1", "carbon", "business", "keyboard", "durability", "intel", "i7", "professional", "reliable"]
-        },
-        {
-            title: "ASUS ROG Zephyrus G18",
-            description: "Ultimate gaming powerhouse with massive 18-inch 240Hz display, AMD Ryzen 9 processor, and RTX 4080 graphics. Built for serious gamers who demand desktop-class performance.",
-            icon: "💻",
+            title: "Dead or Alive 2",
+            description: "OG high-volatility classic with multiple bonus choices and massive line-hit potential.",
+            icon: "🤠",
             url: "index.html#review-4",
-            keywords: ["asus", "rog", "zephyrus", "g18", "gaming", "240hz", "amd", "ryzen", "9", "rtx", "4080", "graphics", "desktop", "performance"]
+            keywords: ["dead or alive 2", "doa2", "netent", "high volatility", "wilds"]
         },
         {
-            title: "HP Spectre x360 14",
-            description: "Versatile 2-in-1 convertible with Intel Core i7 performance, stunning OLED display, and excellent 15-hour battery life. Perfect for professionals who need flexibility.",
-            icon: "💻",
+            title: "Razor Shark",
+            description: "High RTP variants, Mystery Stacks, and Nudge & Reveal for sharp volatility spikes.",
+            icon: "🦈",
             url: "index.html#review-5",
-            keywords: ["hp", "spectre", "x360", "2-in-1", "convertible", "intel", "i7", "oled", "display", "battery", "professional", "flexible"]
+            keywords: ["razor", "shark", "push", "gaming", "mystery", "stacks", "rtp"]
         },
         {
-            title: "Razer Blade 16",
-            description: "Premium gaming laptop with Intel Core i9, RTX 4090 graphics, and stunning Mini LED 4K display. The ultimate choice for premium gaming performance.",
-            icon: "💻",
+            title: "Bonanza Megaways",
+            description: "Megaways pioneer with cascading wins and increasing multipliers in bonus rounds.",
+            icon: "💎",
             url: "index.html#review-6",
-            keywords: ["razer", "blade", "16", "premium", "gaming", "intel", "i9", "rtx", "4090", "mini", "led", "4k", "display", "performance"]
+            keywords: ["bonanza", "megaways", "btg", "cascades", "increasing multiplier"]
         },
         {
-            title: "Acer Swift Edge 3",
-            description: "Budget-friendly laptop with AMD Ryzen 7, stunning 16-inch OLED display, and lightweight design. Exceptional value with premium features at an affordable price.",
-            icon: "💻",
+            title: "The Dog House Megaways",
+            description: "Pick-your-bonus style with sticky vs raining wilds; upbeat and punchy sessions.",
+            icon: "🐶",
             url: "index.html#review-7",
-            keywords: ["acer", "swift", "edge", "budget", "amd", "ryzen", "7", "oled", "16-inch", "lightweight", "value", "affordable", "premium"]
+            keywords: ["dog house", "megaways", "pragmatic", "sticky wilds", "raining wilds"]
         },
         {
-            title: "Samsung Galaxy Book 4 Ultra",
-            description: "Premium laptop with seamless Samsung ecosystem integration, Intel Core i7 performance, and gorgeous AMOLED display. Perfect for Samsung users.",
-            icon: "💻",
+            title: "Big Bass Bonanza",
+            description: "Accessible value slot—fisherman collects cash fish, retriggers, and growing multipliers.",
+            icon: "🎣",
             url: "index.html#review-8",
-            keywords: ["samsung", "galaxy", "book", "ultra", "ecosystem", "integration", "intel", "i7", "amoled", "display", "samsung", "users"]
+            keywords: ["big bass", "bonanza", "reel kingdom", "fisherman", "cash"]
         },
         {
-            title: "LG Gram 17",
-            description: "Ultra-portable 17-inch laptop weighing just 2.98 pounds with incredible 20-hour battery life. The most portable large-screen laptop available.",
-            icon: "💻",
+            title: "San Quentin xWays",
+            description: "Extreme volatility with xWays/xSplit mechanics and stacked feature complexity.",
+            icon: "🏚️",
             url: "index.html#review-9",
-            keywords: ["lg", "gram", "17", "portable", "lightweight", "2.98", "pounds", "20-hour", "battery", "large", "screen", "portable"]
+            keywords: ["san quentin", "xways", "nolimit", "city", "extreme", "volatility"]
+        },
+        {
+            title: "Mega Moolah",
+            description: "Progressive jackpot network favorite with life-changing prizes and classic pacing.",
+            icon: "🧠",
+            url: "index.html#review-10",
+            keywords: ["mega", "moolah", "progressive", "jackpot", "games global"]
         }
     ],
 
     // Blog posts and guides
     blog: [
         {
-            title: "Blog - Latest Gaming Laptop News",
-            description: "Stay updated with the latest developments in gaming laptops, new product launches, and industry trends on our main blog page.",
+            title: "Blog - Latest Crypto Slot News",
+            description: "Stay updated with slot releases, provider promos, RTP changes, and strategy guides.",
             icon: "📰",
             url: "blog.html",
-            keywords: ["blog", "news", "gaming", "laptop", "technology", "developments", "launches", "trends", "updates", "industry", "articles", "posts"]
+            keywords: ["blog", "news", "slots", "crypto", "releases", "promos", "rtp", "guides"]
         },
         {
-            title: "Blog Post - MacBook Pro M4 Max Review",
-            description: "Comprehensive review of the MacBook Pro M4 Max covering performance, display quality, battery life, and creative workflow capabilities.",
+            title: "RTP & Volatility Explained",
+            description: "Standard vs reduced RTP variants, volatility, and hit frequency—how to choose.",
             icon: "📰",
             url: "blogpost1.html",
-            keywords: ["blog", "post", "macbook", "pro", "m4", "max", "review", "performance", "display", "battery", "creative", "workflow"]
+            keywords: ["rtp", "volatility", "hit frequency", "guide", "crypto slots"]
         },
         {
-            title: "Blog Post - Dell XPS 15 Plus Review",
-            description: "In-depth review of the Dell XPS 15 Plus covering premium design, OLED display, Intel performance, and professional use cases.",
+            title: "Scatter, Tumbles, Cluster, Megaways",
+            description: "Mechanics that shape pacing and outcomes with examples from popular titles.",
             icon: "📰", 
             url: "blogpost2.html",
-            keywords: ["blog", "post", "dell", "xps", "15", "plus", "review", "premium", "design", "oled", "intel", "professional"]
+            keywords: ["scatter", "tumbles", "cluster", "megaways", "mechanics", "features"]
         },
         {
-            title: "Blog Post - Gaming Laptop Buying Guide",
-            description: "Complete guide to choosing the perfect gaming laptop covering CPU, GPU, display, battery, and performance considerations.",
+            title: "Drops & Wins, Welcome Spins, Jackpots",
+            description: "Evaluate promos, wagering terms, and bonus-buy eligibility before opting in.",
             icon: "📰",
             url: "blogpost3.html", 
-            keywords: ["blog", "post", "gaming", "laptop", "buying", "guide", "cpu", "gpu", "display", "battery", "performance", "considerations"]
+            keywords: ["drops & wins", "welcome spins", "wagering", "bonus buys", "jackpots"]
         }
     ],
 
     // Streaming content
-    streaming: [
-        {
-            title: "YouTube - Gaming Laptop Reviews",
-            description: "Watch detailed gaming laptop reviews, benchmarks, and performance testing on our YouTube channel.",
-            icon: "📺",
-            url: "streaming.html",
-            keywords: ["youtube", "streaming", "gaming", "laptop", "reviews", "benchmarks", "performance", "testing", "video"]
-        },
-        {
-            title: "Twitch - Live Hardware Testing", 
-            description: "Follow our live gaming laptop testing streams on Twitch with real-time benchmarks and community interaction.",
-            icon: "🎮",
-            url: "streaming.html",
-            keywords: ["twitch", "live", "hardware", "testing", "streams", "benchmarks", "community", "interaction", "real-time"]
-        },
-        {
-            title: "X (Twitter) - Daily Laptop News",
-            description: "Get daily gaming laptop news, deal alerts, and quick updates on our X (Twitter) account.",
-            icon: "🐦",
-            url: "streaming.html", 
-            keywords: ["twitter", "x", "daily", "updates", "news", "deal", "alerts", "gaming", "laptop", "social"]
-        },
-        {
-            title: "Hardware Deep Dives",
-            description: "In-depth hardware analysis including GPU comparisons, memory testing, and thermal performance.",
-            icon: "🔧",
-            url: "streaming.html",
-            keywords: ["hardware", "deep", "dives", "analysis", "gpu", "comparisons", "memory", "testing", "thermal", "performance"]
-        },
-        {
-            title: "Gaming Performance Streams",
-            description: "Live gaming benchmarks across different titles testing RTX performance, ray tracing, and FPS.",
-            icon: "🎯",
-            url: "streaming.html",
-            keywords: ["gaming", "performance", "streams", "benchmarks", "rtx", "ray", "tracing", "fps", "testing"]
-        }
-    ],
+    streaming: [],
 
     // Podcast content
-    podcasts: [
-        {
-            title: "Gaming Laptop Tech Interviews",
-            description: "In-depth audio interviews with gaming laptop manufacturers, hardware developers, and tech innovators.",
-            icon: "🎧",
-            url: "podcast.html",
-            keywords: ["podcast", "gaming", "laptop", "tech", "interviews", "manufacturers", "hardware", "developers", "innovators", "audio"]
-        },
-        {
-            title: "Laptop Tech Deep Dive Podcast",
-            description: "Weekly podcast covering latest innovations, benchmarks, and trends in gaming laptop technology.",
-            icon: "📻",
-            url: "podcast.html", 
-            keywords: ["podcast", "laptop", "tech", "deep", "dive", "weekly", "innovations", "benchmarks", "trends", "technology"]
-        },
-        {
-            title: "Gaming Laptop News Podcast",
-            description: "Stay updated with the latest gaming laptop releases, reviews, and industry news in weekly summaries.",
-            icon: "🎤",
-            url: "podcast.html",
-            keywords: ["podcast", "gaming", "laptop", "news", "releases", "reviews", "industry", "weekly", "summaries", "updates"]
-        },
-        {
-            title: "Hardware Expert Interview Series",
-            description: "Exclusive interviews with CPU designers, GPU engineers, and gaming laptop industry leaders.",
-            icon: "🎙️",
-            url: "podcast.html",
-            keywords: ["podcast", "hardware", "expert", "interview", "series", "cpu", "gpu", "engineers", "gaming", "laptop", "leaders"]
-        }
-    ],
+    podcasts: [],
 
     // FAQ and support
     faq: [
         {
-            title: "How do you test gaming laptops?",
-            description: "Learn about our comprehensive testing methodology including benchmarks, thermal testing, and real-world performance evaluation.",
+            title: "How do you review slot games?",
+            description: "Our approach: confirm RTP variant, test volatility pacing, and evaluate features/perks.",
             icon: "❓",
             url: "contact.html#faq",
-            keywords: ["faq", "test", "gaming", "laptops", "methodology", "benchmarks", "thermal", "performance", "evaluation"]
+            keywords: ["faq", "review", "slots", "rtp", "volatility", "features", "methodology"]
         },
         {
-            title: "What should I look for in a gaming laptop?",
-            description: "Essential guide covering GPU, CPU, display, battery life, and cooling considerations for gaming laptops.",
-            icon: "🎁",
+            title: "What should I look for in a crypto slot?",
+            description: "RTP variants, volatility, hit frequency, feature style, and session pacing.",
+            icon: "❓",
             url: "contact.html#faq",
-            keywords: ["faq", "gaming", "laptop", "gpu", "cpu", "display", "battery", "cooling", "considerations", "guide"]
+            keywords: ["faq", "crypto", "slot", "rtp", "volatility", "hit", "frequency", "features"]
         },
         {
-            title: "Do gaming laptops have good battery life?",
-            description: "Information about gaming laptop battery performance, optimization tips, and what to expect from different models.",
-            icon: "✅",
+            title: "Do RTP variants matter?",
+            description: "Yes—venues choose versions. Always check the live variant before playing.",
+            icon: "❓",
             url: "contact.html#faq",
-            keywords: ["faq", "gaming", "laptops", "battery", "life", "performance", "optimization", "tips", "models"]
+            keywords: ["faq", "rtp", "variants", "venues", "check", "info"]
         },
         {
-            title: "How much should I spend on a gaming laptop?",
-            description: "Budget guide covering different price ranges and what gaming performance you can expect at each level.",
-            icon: "⏰",
+            title: "How should I budget my sessions?",
+            description: "Think in spins, set limits, scale stake to volatility, and plan stops.",
+            icon: "❓",
             url: "contact.html#faq",
-            keywords: ["faq", "budget", "spend", "gaming", "laptop", "price", "ranges", "performance", "levels"]
+            keywords: ["faq", "bankroll", "budget", "spins", "limits", "volatility"]
         },
         {
-            title: "Are gaming laptops good for work?",
-            description: "Overview of using gaming laptops for professional work, creative tasks, and productivity applications.",
-            icon: "⚖️",
+            title: "Are bonus buys eligible for promos?",
+            description: "Often excluded—confirm venue T&Cs; RTP may differ for buys vs natural.",
+            icon: "❓",
             url: "contact.html#faq", 
-            keywords: ["faq", "gaming", "laptops", "work", "professional", "creative", "tasks", "productivity", "applications"]
+            keywords: ["faq", "bonus", "buys", "promos", "wagering", "rtp", "eligibility"]
         }
     ],
 
-    // Laptop deals and promotions
+    // Deals and promotions
     deals: [
         {
-            title: "MacBook Pro M4 Max - Editor's Choice",
-            description: "Our top-rated gaming laptop with exceptional performance, stunning display, and industry-leading battery life.",
+            title: "Sugar Rush – Editor’s Choice",
+            description: "Cluster Pays, sticky multipliers, and balanced pacing—try a demo.",
             icon: "💰",
             url: "index.html#editors-choice-review",
-            keywords: ["macbook", "pro", "m4", "max", "editors", "choice", "top", "rated", "performance", "display", "battery"]
+            keywords: ["sugar", "rush", "editor", "choice", "cluster", "multipliers", "demo"]
         },
         {
-            title: "ASUS ROG Zephyrus - Best Gaming",
-            description: "Ultimate gaming powerhouse with 18-inch 240Hz display and RTX 4080 graphics for serious gamers.",
-            icon: "🎮",
-            url: "index.html#review-4",
-            keywords: ["asus", "rog", "zephyrus", "best", "gaming", "240hz", "rtx", "4080", "graphics", "gamers"]
+            title: "Money Train 4 – Max Potential",
+            description: "Spectacle slot with 150,000× ceiling and Money Cart mode.",
+            icon: "🎯",
+            url: "index.html#review-1",
+            keywords: ["money", "train", "4", "max potential", "money cart"]
         },
         {
-            title: "Acer Swift Edge - Best Budget",
-            description: "Exceptional value laptop with premium features at an affordable price point under £900.",
+            title: "Big Bass Bonanza – Value Pick",
+            description: "Accessible base game with retriggers and growing multipliers.",
             icon: "🆓",
-            url: "index.html#review-7",
-            keywords: ["acer", "swift", "edge", "best", "budget", "value", "premium", "affordable", "price", "900"]
+            url: "index.html#review-8",
+            keywords: ["big bass", "bonanza", "value", "retriggers", "multipliers"]
         },
         {
-            title: "HP Spectre x360 - Best 2-in-1",
-            description: "Versatile convertible laptop perfect for professionals who need flexibility and performance.",
+            title: "Dog House Megaways – Pick-Your-Bonus",
+            description: "Choose sticky or raining wilds; upbeat, high-energy sessions.",
             icon: "👑",
-            url: "index.html#review-5",
-            keywords: ["hp", "spectre", "x360", "best", "2-in-1", "convertible", "professionals", "flexibility", "performance"]
+            url: "index.html#review-7",
+            keywords: ["dog house", "megaways", "sticky wilds", "raining wilds"]
+        },
+        { 
+            title: "Rocketpot Casino – Editor’s Choice",
+            description: "Massive game selection, provably fair, and rich cashback bonuses.",
+            icon: "💰",
+            url: "https://rocketpot.io/",
+            keywords: ["rocketpot", "casino", "provably fair", "cashback", "bonuses"]
         }
     ],
 
-    // Features and technology
+    // Features and concepts
     features: [
         {
-            title: "RTX 4090 Graphics Performance",
-            description: "Experience cutting-edge gaming with NVIDIA RTX 4090 graphics cards delivering exceptional ray tracing and DLSS performance.",
+            title: "Scatter Pays vs Cluster Pays",
+            description: "Compare how wins form and how each mechanic shapes pacing and potential.",
             icon: "⚡",
-            url: "index.html",
-            keywords: ["rtx", "4090", "graphics", "performance", "nvidia", "ray", "tracing", "dlss", "gaming", "cutting", "edge"]
+            url: "index.html#reviews",
+            keywords: ["scatter", "cluster", "pays", "mechanics", "pacing", "potential"]
         },
         {
-            title: "OLED Display Technology",
-            description: "Stunning OLED displays with perfect blacks, vibrant colors, and exceptional contrast for immersive gaming.",
+            title: "RTP Variants Explained",
+            description: "Standard vs reduced RTP versions and where to find the live value.",
             icon: "🔍",
-            url: "index.html",
-            keywords: ["oled", "display", "technology", "perfect", "blacks", "vibrant", "colors", "contrast", "immersive", "gaming"]
+            url: "blogpost1.html",
+            keywords: ["rtp", "variants", "standard", "reduced", "info", "screen"]
         },
         {
-            title: "Advanced Cooling Systems",
-            description: "Innovative thermal management with liquid metal, vapor chambers, and advanced fan designs.",
-            icon: "❄️",
-            url: "index.html",
-            keywords: ["advanced", "cooling", "systems", "thermal", "management", "liquid", "metal", "vapor", "chambers", "fans"]
+            title: "Volatility & Hit Frequency",
+            description: "Understand session shape and budget planning across volatility bands.",
+            icon: "📈",
+            url: "blogpost1.html",
+            keywords: ["volatility", "hit", "frequency", "session", "budget"]
         },
         {
-            title: "240Hz High Refresh Displays",
-            description: "Ultra-smooth gaming with high refresh rate displays up to 240Hz for competitive gaming advantage.",
-            icon: "📱",
-            url: "index.html",
-            keywords: ["240hz", "high", "refresh", "displays", "smooth", "gaming", "competitive", "advantage", "ultra"]
+            title: "Bonus Buys: Eligibility & RTP",
+            description: "When buys are allowed, what changes in T&Cs and expected value.",
+            icon: "🎟️",
+            url: "blogpost3.html",
+            keywords: ["bonus", "buys", "eligibility", "rtp", "promos", "wagering"]
         },
         {
-            title: "Expert Review Process",
-            description: "Comprehensive testing and evaluation by our expert team with detailed benchmarks and real-world testing.",
+            title: "Our Review Process",
+            description: "How we assess RTP variants, volatility, features, and long-run value.",
             icon: "🔧",
-            url: "contact.html",
-            keywords: ["expert", "review", "process", "comprehensive", "testing", "evaluation", "benchmarks", "real", "world"]
+            url: "contact.html#faq",
+            keywords: ["review", "process", "rtp", "volatility", "features", "value"]
         }
     ],
 
-    // Laptop categories
+    // Slot categories
     categories: [
         {
-            title: "Gaming Laptops",
-            description: "High-performance laptops designed for gaming with powerful GPUs, fast displays, and advanced cooling.",
-            icon: "🎮",
-            url: "index.html",
-            keywords: ["gaming", "laptops", "high", "performance", "gpus", "fast", "displays", "advanced", "cooling", "powerful"]
+            title: "Crypto Slot Games",
+            description: "Top crypto-friendly slots with RTP, volatility, features, and max-win specs.",
+            icon: "🎰",
+            url: "index.html#top10",
+            keywords: ["crypto", "slot", "games", "rtp", "volatility", "max win"]
         },
         {
-            title: "Business Laptops",
-            description: "Professional laptops optimized for productivity with excellent keyboards, long battery life, and durability.",
-            icon: "💼",
-            url: "index.html",
-            keywords: ["business", "laptops", "professional", "productivity", "keyboards", "battery", "life", "durability", "optimized"]
+            title: "Megaways",
+            description: "Dynamic reels and cascading wins with increasing multipliers in bonuses.",
+            icon: "💥",
+            url: "index.html#reviews",
+            keywords: ["megaways", "dynamic", "reels", "cascades", "multipliers"]
         },
         {
-            title: "Creative Workstations",
-            description: "Powerful laptops for content creation with color-accurate displays, high-end CPUs, and ample memory.",
-            icon: "🎨",
-            url: "index.html",
-            keywords: ["creative", "workstations", "content", "creation", "color", "accurate", "displays", "cpus", "memory"]
+            title: "Scatter Pays",
+            description: "Anywhere pays with tumble chains and random multipliers.",
+            icon: "✨",
+            url: "index.html#reviews",
+            keywords: ["scatter", "pays", "tumbles", "multipliers"]
         },
         {
-            title: "Budget Laptops",
-            description: "Affordable laptops that don't compromise on quality, offering great value for money with solid performance.",
-            icon: "💰",
-            url: "index.html",
-            keywords: ["budget", "laptops", "affordable", "quality", "value", "money", "solid", "performance", "compromise"]
+            title: "Cluster Pays",
+            description: "Adjacency-based wins with sticky multiplier spots in bonuses.",
+            icon: "🧩",
+            url: "index.html#reviews",
+            keywords: ["cluster", "pays", "sticky", "multipliers"]
         },
         {
-            title: "2-in-1 Convertibles",
-            description: "Versatile laptops that transform into tablets with touchscreens, stylus support, and flexible designs.",
-            icon: "🔄",
-            url: "index.html", 
-            keywords: ["2-in-1", "convertibles", "versatile", "tablets", "touchscreens", "stylus", "support", "flexible", "designs"]
+            title: "Progressives & Jackpots",
+            description: "Network jackpots with high variance and life-changing prizes.",
+            icon: "🏆",
+            url: "index.html#reviews",
+            keywords: ["progressive", "jackpot", "network", "mega moolah"]
         }
     ],
 
     // Website pages and sections
     pages: [
         {
-            title: "Home - Top 10 Gaming Laptops",
-            description: "Main homepage featuring our top-ranked gaming laptops, editor's choice, and comprehensive laptop reviews.",
+            title: "Home - Top 10 Crypto Slots",
+            description: "Main homepage featuring our top-ranked crypto slot games and Editor’s Choice.",
             icon: "🏠",
             url: "index.html",
-            keywords: ["home", "homepage", "main", "top", "10", "gaming", "laptops", "ranked", "editor", "choice", "reviews"]
+            keywords: ["home", "top", "10", "crypto", "slots", "editor", "choice", "rankings"]
         },
         {
-            title: "Reviews - Detailed Laptop Reviews",
-            description: "In-depth reviews of the best gaming laptops with detailed analysis, ratings, and performance comparisons.",
+            title: "Reviews - Detailed Slot Reviews",
+            description: "In-depth slot reviews with RTP, volatility, features, perks, and specs.",
             icon: "⭐",
             url: "index.html#reviews",
-            keywords: ["reviews", "detailed", "laptop", "analysis", "ratings", "comparisons", "in-depth", "gaming", "best", "performance"]
+            keywords: ["reviews", "slot", "rtp", "volatility", "features", "perks", "specs"]
         },
         {
-            title: "Compare - Laptop Comparison Tool",
-            description: "Compare multiple gaming laptops side by side to find the perfect match for your gaming and work needs.",
+            title: "Compare - Game Comparison Tool",
+            description: "Compare multiple slots side by side to find the right fit for your goals.",
             icon: "⚖️",
             url: "index.html#comparison",
-            keywords: ["compare", "comparison", "tool", "multiple", "gaming", "laptops", "side", "by", "side", "work", "needs"]
+            keywords: ["compare", "comparison", "slots", "side by side", "tool"]
         },
         {
-            title: "Top 10 - Laptop Rankings",
-            description: "Our comprehensive ranking of the top 10 gaming laptops based on performance, value, features, and user experience.",
+            title: "Top 10 - Slot Rankings",
+            description: "Our comprehensive Top 10 slots based on RTP variants, volatility, features, and user feedback.",
             icon: "🏆",
             url: "index.html#top10",
-            keywords: ["top", "10", "laptop", "rankings", "comprehensive", "performance", "value", "features", "user", "experience"]
+            keywords: ["top", "10", "slots", "rankings", "rtp", "volatility", "features"]
         },
         {
             title: "Contact - Get in Touch",
-            description: "Contact us for questions, support, or feedback about gaming laptops and our reviews.",
+            description: "Contact us for questions, support, or feedback about slot reviews and guides.",
             icon: "📞",
             url: "contact.html",
-            keywords: ["contact", "get", "in", "touch", "questions", "support", "feedback", "gaming", "laptops"]
+            keywords: ["contact", "support", "feedback", "slots", "reviews"]
         },
-        {
-            title: "Streaming - Live Laptop Content",
-            description: "Watch live laptop reviews, benchmarks, hardware testing, and educational gaming laptop content.",
-            icon: "📺",
-            url: "streaming.html",
-            keywords: ["streaming", "live", "laptop", "content", "watch", "reviews", "benchmarks", "hardware", "testing", "educational"]
-        },
-        {
-            title: "Podcast - Audio Content",
-            description: "Listen to our gaming laptop podcasts featuring reviews, tech news, and expert interviews.",
-            icon: "🎧",
-            url: "podcast.html",
-            keywords: ["podcast", "audio", "content", "listen", "gaming", "laptop", "reviews", "tech", "news", "expert", "interviews"]
-        }
     ],
 
     // Navigation and menu items
@@ -472,7 +400,7 @@ window.performSearch = function(query) {
         });
 };
 
-console.log('🔍 Gaming Laptop Search Database loaded with', 
+console.log('🔍 Crypto Slot Search Database loaded with', 
     Object.values(window.SEARCH_DATABASE).reduce((total, category) => 
         total + (Array.isArray(category) ? category.length : 0), 0
     ), 'searchable items');
