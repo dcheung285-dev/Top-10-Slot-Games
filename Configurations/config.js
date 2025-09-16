@@ -130,7 +130,7 @@ const EDITORS_CHOICE_CONFIG = {
             logoAlt: 'Pragmatic Play Logo', // ← Alt text for logo
             gap: '24px'                      // ← Gap between logo and text in combined mode (e.g., '24px', '-10px', '2rem', '-50px' for overlapping)
         },
-        description: "Editor's Choice – 7×7 Cluster Pays with multiplier spots up to ×128, persistent in Free Spins. ~96.5% RTP standard (lower variants exist). High volatility; 5,000× max win.",
+        description: "Sugar Rush (Editor's Choice) – 7×7 Cluster Pays with multiplier spots up to ×128, persistent in Free Spins. ~96.5% RTP standard (lower variants exist). High volatility; 5,000× max win.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/Sugar-Rush-slots.jpg",
         rating: 4.0,
@@ -146,9 +146,9 @@ const EDITORS_CHOICE_CONFIG = {
         
         
         // Casino Websites
-        welcomeBonus: "Often included in welcome/free-spin offers (check region)",
-        welcomePackage: "Demo mode available on many sites",
-        addedBonus: "Feature-rich cluster + multiplier spots",
+        welcomeBonus: "Cluster Pays with persistent ×128 multiplier spots",
+        welcomePackage: "Free Spins via scatters; demo widely available",
+        addedBonus: "High volatility ~96.5% RTP standard",
         
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/sugar-rush/",
@@ -296,7 +296,7 @@ const PRODUCTS_CONFIG = {
     // Product 1 Configuration - Money Train 4 — Flagship Finale with 150,000x Max Win
     product1: {
         name: "Money Train 4",
-        description: "6×6 scatter-pays with cinematic polish, very high volatility, and a 150,000× ceiling. Money Cart bonus stacks synergistic special symbols; Respins add sticky state in base play.",
+        description: "Money Train 4 - 6×6 scatter-pays with cinematic polish, very high volatility, and a 150,000× ceiling. Money Cart bonus stacks synergistic special symbols; Respins add sticky state in base play.",
         productLogo: "./assets/images/slot-games/Relax-Gaming-logo.png",     // Product logo for content area
         productImage: "./assets/images/slot-games/money-train-4-slots.jpg",          // Main product image for grid view and reviews
         logoScale: {
@@ -364,16 +364,14 @@ const PRODUCTS_CONFIG = {
         // RANK BADGE DISPLAY SETTINGS
         // =============================================
         badgeSettings: {
-            showOnProductCard: true,     // ← Show/hide rank badge on product cards (true/false)
-            showOnDetailedReview: true   // ← Show/hide rank badge on detailed review cards (true/false)
+            showOnProductCard: false,     // ← Show/hide rank badge on product cards (true/false)
+            showOnDetailedReview: false   // ← Show/hide rank badge on detailed review cards (true/false)
         },
         
-        
         // Casino Websites
-        welcomeBonus: "Welcome spins/credits (varies by region)",
-        welcomePackage: "Feature Buy enabled (where allowed)",
-        addedBonus: "Low min bet from €/$0.10",
-        
+        welcomeBonus: "150,000× ceiling; Money Cart + base Respins",
+        welcomePackage: "Feature Buys incl. powerful modifiers (where allowed)",
+        addedBonus: "Scatter-pays; expanding rows; polished demo",
         
         affiliateLink: "https://www.relax-gaming.com/products/casino/moneytrain4",
         ctaText: "Demo", // This will be overridden by template config if needed
@@ -434,7 +432,7 @@ const PRODUCTS_CONFIG = {
     // Product 2 Configuration - Gates of Olympus — Greek God of Scatter-Pays
     product2: {
         name: "Gates of Olympus",
-        description: "6×5 scatter-pays with tumbles and random multiplier orbs (2×–500×). Very high volatility, 5,000× cap, multiple RTP variants (96.5% default). Streamer-famous loops.",
+        description: "Gates of Olympus - 6×5 scatter-pays with tumbles and random multiplier orbs (2×–500×). Very high volatility, 5,000× cap, multiple RTP variants (96.5% default). Streamer-famous loops.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/Gates-of-Olympus-slots.jpg",
         logoScale: {
@@ -509,9 +507,9 @@ const PRODUCTS_CONFIG = {
         // ========== UNIVERSAL TEMPLATE FIELDS ==========
         
         // Casino Websites
-        welcomeBonus: "Drops & Wins eligible (when listed)",
-        welcomePackage: "Leaderboard promos available",
-        addedBonus: "Ante Bet +25% (varies by site)",
+        welcomeBonus: "Tumbles + 2×–500× orbs; explosive Free Spins",
+        welcomePackage: "Ante Bet/Bonus Buy on many sites; frequent Drops & Wins",
+        addedBonus: "High volatility; iconic Greek theme",
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/gates-of-olympus/",
         ctaText: "Demo",
@@ -571,7 +569,7 @@ const PRODUCTS_CONFIG = {
     // Product 3 Configuration - Sweet Bonanza — Candy-Land Classic with 21,100× Cap
     product3: {
         name: "Sweet Bonanza",
-        description: "6×5 scatter-pays with tumbles and rainbow bombs up to 100×. RTP ~96.5% variants; medium-high volatility with a 21,100× cap and Double Chance option.",
+        description: "Sweet Bonanza - 6×5 scatter-pays with tumbles and rainbow bombs up to 100×. RTP ~96.5% variants; medium-high volatility with a 21,100× cap and Double Chance option.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/Sweet-Bonanza-slots.jpg",
         logoScale: {
@@ -639,14 +637,14 @@ const PRODUCTS_CONFIG = {
         // RANK BADGE DISPLAY SETTINGS
         // =============================================
         badgeSettings: {
-            showOnProductCard: true,     // ← Show/hide rank badge on product cards (true/false)
-            showOnDetailedReview: true   // ← Show/hide rank badge on detailed review cards (true/false)
+            showOnProductCard: false,     // ← Show/hide rank badge on product cards (true/false)
+            showOnDetailedReview: false   // ← Show/hide rank badge on detailed review cards (true/false)
         },
         
         // Casino Websites
-        welcomeBonus: "Drops & Wins eligible (when listed)",
-        welcomePackage: "Welcome spins offers (varies)",
-        addedBonus: "Double Chance toggle",
+        welcomeBonus: "Tumbles with bombs up to 100×; 21,100× cap",
+        welcomePackage: "Double Chance toggle; often in free spins promos",
+        addedBonus: "Low minimum stakes; broad availability",
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/sweet-bonanza/",
         ctaText: "Demo",
@@ -706,7 +704,7 @@ const PRODUCTS_CONFIG = {
     // Product 4 Configuration - Dead or Alive 2 — Cult Wild West, Proven Max Potential
     product4: {
         name: "Dead or Alive 2",
-        description: "5×3, 9 paylines with three free spins modes (Old Saloon, High Noon, Train Heist). Sticky wilds and multipliers with very high volatility and ~111,111× cited potential.",
+        description: "Dead or Alive 2 - 5×3, 9 paylines with three free spins modes (Old Saloon, High Noon, Train Heist). Sticky wilds and multipliers with very high volatility and ~111,111× cited potential.",
         productLogo: "./assets/images/slot-games/netent-logo.png",
         productImage: "./assets/images/slot-games/dead-or-alive-2-slots.jpg",
         logoScale: {
@@ -774,14 +772,14 @@ const PRODUCTS_CONFIG = {
         // RANK BADGE DISPLAY SETTINGS
         // =============================================
         badgeSettings: {
-            showOnProductCard: true,     // ← Show/hide rank badge on product cards (true/false)
-            showOnDetailedReview: true   // ← Show/hide rank badge on detailed review cards (true/false)
+            showOnProductCard: false,     // ← Show/hide rank badge on product cards (true/false)
+            showOnDetailedReview: false   // ← Show/hide rank badge on detailed review cards (true/false)
         },
         
         // Casino Websites
-        welcomeBonus: "Often in general welcome/free-spin bundles",
-        welcomePackage: "Mode choice: Old Saloon / High Noon / Train Heist",
-        addedBonus: "Sticky wilds with multipliers",
+        welcomeBonus: "Mode choice: Old Saloon / High Noon / Train Heist",
+        welcomePackage: "Free Spins via scatters; sticky wild multipliers",
+        addedBonus: "Very high volatility; classic NetEnt polish",
         
         affiliateLink: "https://games.netent.com/video-slots/dead-or-alive-2/",
         ctaText: "Demo",
@@ -841,7 +839,7 @@ const PRODUCTS_CONFIG = {
     // Product 5 Configuration - Razor Shark — High-RTP Deep-Sea Menace
     product5: {
         name: "Razor Shark",
-        description: "5×4, 20 lines with 96.7% RTP, Mystery Stacks + Nudge & Reveal, Razor Reveal coins, and escalating multipliers in Free Spins. Very high volatility.",
+        description: "Razor Shark - 5×4, 20 lines with 96.7% RTP, Mystery Stacks + Nudge & Reveal, Razor Reveal coins, and escalating multipliers in Free Spins. Very high volatility.",
         productLogo: "./assets/images/slot-games/Push-Gaming-logo.png",
         productImage: "./assets/images/slot-games/Razor-Shark-slots.jpg",
         logoScale: {
@@ -914,9 +912,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "General welcome offers/free spins (varies by operator)",
-        welcomePackage: "Eligible for slot promos (check site)",
-        addedBonus: "High RTP variant available",
+        welcomeBonus: "Mystery Stacks + Nudge & Reveal core loop",
+        welcomePackage: "High RTP variant on many sites",
+        addedBonus: "Escalating multipliers in Free Spins; documented mega wins",
         
         affiliateLink: "https://www.pushgaming.com/games/razor-shark.html",
         ctaText: "Demo",
@@ -976,7 +974,7 @@ const PRODUCTS_CONFIG = {
     // Product 6 Configuration - Bonanza Megaways — The Megaways Blueprint
     product6: {
         name: "Bonanza Megaways",
-        description: "6 reels up to 117,649 ways; reactions and carts; Free Spins with unlimited win multiplier. ~96% RTP; medium-high volatility; 26,000× max win.",
+        description: "Bonanza Megaways - 6 reels up to 117,649 ways; reactions and carts; Free Spins with unlimited win multiplier. ~96% RTP; medium-high volatility; 26,000× max win.",
         productLogo: "./assets/images/slot-games/Big-Time-Gaming-logo.webp",
         productImage: "./assets/images/slot-games/bonanza-megaways-slots.webp",
         logoScale: {
@@ -1044,14 +1042,14 @@ const PRODUCTS_CONFIG = {
         // RANK BADGE DISPLAY SETTINGS
         // =============================================
         badgeSettings: {
-            showOnProductCard: false,     // ← Show/hide rank badge on product cards (true/false)
-            showOnDetailedReview: false   // ← Show/hide rank badge on detailed review cards (true/false)
+            showOnProductCard: true,     // ← Show/hide rank badge on product cards (true/false)
+            showOnDetailedReview: true   // ← Show/hide rank badge on detailed review cards (true/false)
         },
         
         // Casino Websites
-        welcomeBonus: "Often included in standard welcome bundles",
-        welcomePackage: "Megaways fan-favorite visibility",
-        addedBonus: "Re-trigger potential in bonus",
+        welcomeBonus: "Up to 117,649 ways; cascades keep wins chaining",
+        welcomePackage: "Often in welcome/free-spin bundles",
+        addedBonus: "Unlimited bonus multiplier; iconic Megaways entry",
         
         affiliateLink: "https://www.bigtimegaming.com/games/bonanza?srsltid=AfmBOopfs6g8d35nOduBn_JKtBKR4SMzr1EwUC14LPn19dPccGhZm2kY",
         ctaText: "Demo",
@@ -1111,7 +1109,7 @@ const PRODUCTS_CONFIG = {
     // Product 7 Configuration - The Dog House Megaways — Sticky vs Raining Free Spins
     product7: {
         name: "The Dog House Megaways",
-        description: "6-reel Megaways slot with player choice: Sticky Wilds vs Raining Wilds. High volatility, ~96.55% RTP, ~12,305× max win.",
+        description: "The Dog House Megaways - 6-reel Megaways slot with player choice: Sticky Wilds vs Raining Wilds. High volatility, ~96.55% RTP, ~12,305× max win.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/The-Dog-House-Megaways-slots.webp",
         logoScale: {
@@ -1184,9 +1182,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Pragmatic tournaments/Drops & Wins (when listed)",
-        welcomePackage: "Often appears in welcome bundles",
-        addedBonus: "Sticky vs Raining choice",
+        welcomeBonus: "Pick Sticky or Raining Wilds bonus styles",
+        welcomePackage: "Frequently in Drops & Wins/welcome promos",
+        addedBonus: "~12,305× top with wild multipliers; upbeat theme",
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/the-dog-house-megaways-slot/",
         ctaText: "Demo",
@@ -1246,7 +1244,7 @@ const PRODUCTS_CONFIG = {
     // Product 8 Configuration - Big Bass Bonanza — Fan-Favorite Fish with 96.71% RTP
     product8: {
         name: "Big Bass Bonanza",
-        description: "5×3, 10 paylines with fisherman collector bonus, retrigger multipliers up to 10×. ~96.71% RTP variant; medium-high volatility; ~2,100× max win.",
+        description: "Big Bass Bonanza - 5×3, 10 paylines with fisherman collector bonus, retrigger multipliers up to 10×. ~96.71% RTP variant; medium-high volatility; ~2,100× max win.",
         productLogo: "./assets/images/slot-games/Reel-Kingdom-logo.png",
         productImage: "./assets/images/slot-games/big-bass-bonanza-slots.png",
         logoScale: {
@@ -1314,14 +1312,14 @@ const PRODUCTS_CONFIG = {
         // RANK BADGE DISPLAY SETTINGS
         // =============================================
         badgeSettings: {
-            showOnProductCard: true,     // ← Show/hide rank badge on product cards (true/false)
-            showOnDetailedReview: true   // ← Show/hide rank badge on detailed review cards (true/false)
+            showOnProductCard: false,     // ← Show/hide rank badge on product cards (true/false)
+            showOnDetailedReview: false   // ← Show/hide rank badge on detailed review cards (true/false)
         },
         
         // Casino Websites
-        welcomeBonus: "Appears in many welcome/free-spin promos",
-        welcomePackage: "Collector bonus focus",
-        addedBonus: "Retrigger multipliers up to 10×",
+        welcomeBonus: "Fisherman collects cash fish; retriggers possible",
+        welcomePackage: "~96.71% RTP variant available",
+        addedBonus: "Moderate volatility; broad availability; low learning curve",
         
         affiliateLink: "https://reelkingdom.com/games/big-bass-slot",
         ctaText: "Demo",
@@ -1381,7 +1379,7 @@ const PRODUCTS_CONFIG = {
     // Product 9 Configuration - San Quentin xWays — Notorious Nolimit Volatility
     product9: {
         name: "San Quentin xWays",
-        description: "xWays/xSplit enhancers with Lockdown Spins and extreme volatility. ~96.03% default RTP (lower variants exist); 150,000× max win.",
+        description: "San Quentin xWays - xWays/xSplit enhancers with Lockdown Spins and extreme volatility. ~96.03% default RTP (lower variants exist); 150,000× max win.",
         productLogo: "./assets/images/slot-games/nolimit-city-logo2.webp",
         productImage: "./assets/images/slot-games/San-Quentin-xWays-slots.webp",
         logoScale: {
@@ -1454,9 +1452,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "General welcome bonuses (site-specific)",
-        welcomePackage: "Check bonus-buy eligibility in T&Cs",
-        addedBonus: "Bonus buys may be excluded in promos",
+        welcomeBonus: "Lockdown Spins with Jumping Wilds and multipliers",
+        welcomePackage: "Bonus Buy options (where allowed)",
+        addedBonus: "Enhancer Cells, xWays/xSplit; 150,000× cap; extreme vol",
         
         affiliateLink: "https://nolimitcity.com/games/san-quentin",
         ctaText: "Demo",
@@ -1516,7 +1514,7 @@ const PRODUCTS_CONFIG = {
     // Product 10 Configuration - Mega Moolah — Iconic Progressive Jackpot
     product10: {
         name: "Mega Moolah",
-        description: "5×3, 25-line progressive with four jackpots and a random jackpot wheel. 88.12% RTP due to progressive contribution; medium volatility.",
+        description: "Mega Moolah - 5×3, 25-line progressive with four jackpots and a random jackpot wheel. 88.12% RTP due to progressive contribution; medium volatility.",
         productLogo: "./assets/images/slot-games/games-global-logo2.webp",
         productImage: "./assets/images/slot-games/Mega-Moolah-slots.jpg",
         logoScale: {
@@ -1589,9 +1587,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Progressive slot promos (check T&Cs)",
+        welcomeBonus: "Four-tier progressive jackpots; Free Spins with 3× multiplier",
         welcomePackage: "Verify jackpot eligibility in bonuses",
-        addedBonus: "Spec pages list RTP and bet limits",
+        addedBonus: "Low minimum stake; iconic and widely available",
         
         affiliateLink: "https://gamesglobal.com/Products",
         ctaText: "Demo",
@@ -1821,9 +1819,9 @@ const TEMPLATE_DISPLAY_CONFIG = {
         primaryField: "welcomeBonus",
         secondaryField: "welcomePackage",
         tertiaryField: "addedBonus", // Remove free spins - not needed
-        primaryLabel: "Welcome Bonus",
-        secondaryLabel: "Welcome Package",
-        tertiaryLabel: "Added Bonus",
+        primaryLabel: "Why Play",
+        secondaryLabel: "Bonus Access",
+        tertiaryLabel: "Highlights",
         icon: "🎰",
         ctaDefault: "Claim Bonus",
         fieldsToShow: 3, // Show only 2 fields
