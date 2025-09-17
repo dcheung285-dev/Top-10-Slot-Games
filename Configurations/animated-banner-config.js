@@ -485,7 +485,7 @@ const ANIMATED_BANNER_CONFIG = {
     // Banner positioning
     positioning: {
         showOnTop: true,                                          // ← Show at top of page
-        topOffset: '6rem',                                        // ← Distance from nav bar (nav height + 10px gap)
+        topOffset: '5rem',                                        // ← Distance from nav bar (nav height + 10px gap)
         zIndex: 15,                                              // ← Layer order (nav is 20)
         entranceAnimation: true,                                 // ← Enable slide-down entrance animation
         animationDuration: '0.8s'                               // ← Duration of entrance animation
