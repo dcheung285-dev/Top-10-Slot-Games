@@ -129,7 +129,7 @@ const AUTO_SLIDER_CONFIG = {
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/slot-games/Dead-or-a=Alive-2-pic.png',
+                src: 'assets/images/slot-games/Dead-or-Alive-2-pic.png',
                 alt: 'Dead or Alive 2',
                 width: 'auto',
                 height: '180px',
@@ -138,7 +138,7 @@ const AUTO_SLIDER_CONFIG = {
             },
             {
                 src: 'assets/images/slot-games/razor-shark-pic.avif',
-                alt: 'Stream5',
+                alt: 'Razor Shark',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,
@@ -153,8 +153,8 @@ const AUTO_SLIDER_CONFIG = {
                 gap: 30 // Manual gap after this image (in pixels)
             },
             {
-                src: 'assets/images/slot-games/dog-house-megaways-pic.avif',
-                alt: 'Dog House Megaways',
+                src: 'assets/images/slot-games/the-dog-house-megaways-pic.avif',
+                alt: 'The Dog House Megaways',
                 width: 'auto',
                 height: '180px',
                 scale: 1.0,

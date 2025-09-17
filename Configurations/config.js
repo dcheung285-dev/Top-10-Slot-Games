@@ -130,7 +130,7 @@ const EDITORS_CHOICE_CONFIG = {
             logoAlt: 'Pragmatic Play Logo', // ← Alt text for logo
             gap: '24px'                      // ← Gap between logo and text in combined mode (e.g., '24px', '-10px', '2rem', '-50px' for overlapping)
         },
-        description: "Sugar Rush (Editor's Choice) – 7×7 Cluster Pays with multiplier spots up to ×128, persistent in Free Spins. ~96.5% RTP standard (lower variants exist). High volatility; 5,000× max win.",
+        description: "Sugar Rush (Pragmatic Play) — 7×7 grid, Cluster Pays, high volatility, RTP up to ~96.5%. Wins occur via clusters of 5+ symbols, with cascading/tumble mechanics. Multiplier spots on the grid can accumulate up to ×128 for repeated wins on the same spot, especially during the Free Spins bonus where those multiplier spots stay in place. Maximum win: 5,000× stake.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/Sugar-Rush-slots.jpg",
         rating: 5.0,
@@ -147,7 +147,7 @@ const EDITORS_CHOICE_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Cluster Pays with persistent ×128 multiplier spots",
-        welcomePackage: "Free Spins via scatters; demo widely available",
+        welcomePackage: "Free Spins via scatters",
         addedBonus: "High volatility ~96.5% RTP standard",
         
         
@@ -370,8 +370,8 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "150,000× ceiling; Money Cart + base Respins",
-        welcomePackage: "Feature Buys incl. powerful modifiers (where allowed)",
-        addedBonus: "Scatter-pays; expanding rows; polished demo",
+        welcomePackage: "Feature Buys incl. powerful modifiers",
+        addedBonus: "Scatter-pays",
         
         affiliateLink: "https://www.relax-gaming.com/products/casino/moneytrain4",
         ctaText: "Demo", // This will be overridden by template config if needed
@@ -508,8 +508,8 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Tumbles + 2×–500× orbs; explosive Free Spins",
-        welcomePackage: "Ante Bet/Bonus Buy on many sites; frequent Drops & Wins",
-        addedBonus: "High volatility; iconic Greek theme",
+        welcomePackage: "Ante Bet/Bonus Buy on many sites",
+        addedBonus: "High volatility",
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/gates-of-olympus/",
         ctaText: "Demo",
@@ -643,8 +643,8 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Tumbles with bombs up to 100×; 21,100× cap",
-        welcomePackage: "Double Chance toggle; often in free spins promos",
-        addedBonus: "Low minimum stakes; broad availability",
+        welcomePackage: "Free Spins Promos",
+        addedBonus: "Low minimum stakes",
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/sweet-bonanza/",
         ctaText: "Demo",
@@ -779,7 +779,7 @@ const PRODUCTS_CONFIG = {
         // Casino Websites
         welcomeBonus: "Mode choice: Old Saloon / High Noon / Train Heist",
         welcomePackage: "Free Spins via scatters; sticky wild multipliers",
-        addedBonus: "Very high volatility; classic NetEnt polish",
+        addedBonus: "Very high volatility",
         
         affiliateLink: "https://games.netent.com/video-slots/dead-or-alive-2/",
         ctaText: "Demo",
@@ -912,9 +912,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Mystery Stacks + Nudge & Reveal core loop",
+        welcomeBonus: "Mystery Stacks",
         welcomePackage: "High RTP variant on many sites",
-        addedBonus: "Escalating multipliers in Free Spins; documented mega wins",
+        addedBonus: "Documented Mega Wins",
         
         affiliateLink: "https://www.pushgaming.com/games/razor-shark.html",
         ctaText: "Demo",
@@ -1048,8 +1048,8 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Up to 117,649 ways; cascades keep wins chaining",
-        welcomePackage: "Often in welcome/free-spin bundles",
-        addedBonus: "Unlimited bonus multiplier; iconic Megaways entry",
+        welcomePackage: "Free-spin bundles",
+        addedBonus: "Unlimited bonus multiplier",
         
         affiliateLink: "https://www.bigtimegaming.com/games/bonanza?srsltid=AfmBOopfs6g8d35nOduBn_JKtBKR4SMzr1EwUC14LPn19dPccGhZm2kY",
         ctaText: "Demo",
@@ -1183,8 +1183,8 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Pick Sticky or Raining Wilds bonus styles",
-        welcomePackage: "Frequently in Drops & Wins/welcome promos",
-        addedBonus: "~12,305× top with wild multipliers; upbeat theme",
+        welcomePackage: "Frequent Drops & Wins/welcome promos",
+        addedBonus: "~12,305× top with wild multipliers",
         
         affiliateLink: "https://www.pragmaticplay.com/en/games/the-dog-house-megaways-slot/",
         ctaText: "Demo",
@@ -1226,7 +1226,7 @@ const PRODUCTS_CONFIG = {
         perks: [
             { text: "Player choice on volatility", icon: "fas fa-sliders-h" },
             { text: "Charming visuals, readable UI", icon: "fas fa-paw" },
-            { text: "Frequent appearance in promos", icon: "fas fa-bullhorn" },
+            { text: "Frequent Bonuses/Promos", icon: "fas fa-bullhorn" },
             { text: "Strong RTP for the genre", icon: "fas fa-percentage" },
             { text: "Easy to parse for newcomers", icon: "fas fa-book-open" }
         ],
@@ -1319,7 +1319,7 @@ const PRODUCTS_CONFIG = {
         // Casino Websites
         welcomeBonus: "Fisherman collects cash fish; retriggers possible",
         welcomePackage: "~96.71% RTP variant available",
-        addedBonus: "Moderate volatility; broad availability; low learning curve",
+        addedBonus: "Moderate volatility",
         
         affiliateLink: "https://reelkingdom.com/games/big-bass-slot",
         ctaText: "Demo",
@@ -1360,7 +1360,7 @@ const PRODUCTS_CONFIG = {
         // Perks for product cards and detailed reviews
         perks: [
             { text: "Approachable collector mechanics", icon: "fas fa-handshake" },
-            { text: "Frequent promo appearances", icon: "fas fa-bullhorn" },
+            { text: "Frequent Bonuses/Promos", icon: "fas fa-bullhorn" },
             { text: "Broad bet range for bankrolls", icon: "fas fa-coins" },
             { text: "Consistent mobile/desktop feel", icon: "fas fa-mobile-alt" },
             { text: "Series depth (many spinoffs)", icon: "fas fa-layer-group" }
@@ -1453,8 +1453,8 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Lockdown Spins with Jumping Wilds and multipliers",
-        welcomePackage: "Bonus Buy options (where allowed)",
-        addedBonus: "Enhancer Cells, xWays/xSplit; 150,000× cap; extreme vol",
+        welcomePackage: "Enhancer Cells, xWays/xSplit; 150,000× cap; extreme volatility",
+        addedBonus: "Bonus Buy options",
         
         affiliateLink: "https://nolimitcity.com/games/san-quentin",
         ctaText: "Demo",
@@ -1587,9 +1587,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Four-tier progressive jackpots; Free Spins with 3× multiplier",
-        welcomePackage: "Verify jackpot eligibility in bonuses",
-        addedBonus: "Low minimum stake; iconic and widely available",
+        welcomeBonus: "Four-tier progressive jackpots; ",
+        welcomePackage: "Free Spins with 3× multiplier",
+        addedBonus: "Low minimum stake",
         
         affiliateLink: "https://gamesglobal.com/Products",
         ctaText: "Demo",

@@ -66,8 +66,8 @@ const MENU_CONFIG = {
         
         // Button configuration
         ctaButton: {
-            text: "Play on Rocketpot",
-            icon: "fas fa-external-link-alt",                // FontAwesome icon class
+            text: "Play Today!",
+            icon: "fas fa-dice",                // FontAwesome icon class
             link: "https://rocketpot.io/",          // CTA button link
             class: "promo-btn primary-btn"        // CTA button CSS class
         },
