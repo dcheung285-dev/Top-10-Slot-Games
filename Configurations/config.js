@@ -133,7 +133,7 @@ const EDITORS_CHOICE_CONFIG = {
         description: "Sugar Rush (Editor's Choice) – 7×7 Cluster Pays with multiplier spots up to ×128, persistent in Free Spins. ~96.5% RTP standard (lower variants exist). High volatility; 5,000× max win.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/Sugar-Rush-slots.jpg",
-        rating: 4.0,
+        rating: 5.0,
         reviewCount: 1200,
 
         // =============================================
@@ -357,7 +357,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 1,
         rankBadge: "MAX POTENTIAL",
-        rating: 5.0,
+        rating: 4.9,
         reviewCount: 2000,
         
         // =============================================
@@ -493,7 +493,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 2,
         rankBadge: "STREAMER FAVORITE",
-        rating: 4.3,
+        rating: 4.8,
         reviewCount: 1500,
         
         // =============================================
@@ -630,7 +630,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 3,
         rankBadge: "EASY ENTRY",
-        rating: 4.2,
+        rating: 4.8,
         reviewCount: 1400,
         
         // =============================================
@@ -765,7 +765,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 4,
         rankBadge: "OG HIGH VOL",
-        rating: 5.0,
+        rating: 4.7,
         reviewCount: 1800,
 
         // =============================================
@@ -900,7 +900,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 5,
         rankBadge: "HIGH RTP",
-        rating: 4.7,
+        rating: 4.6,
         reviewCount: 1600,
 
         // =============================================
@@ -1170,7 +1170,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 7,
         rankBadge: "PICK-YOUR-BONUS",
-        rating: 4.4,
+        rating: 4.5,
         reviewCount: 1300,
 
         // =============================================
@@ -1305,7 +1305,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 8,
         rankBadge: "ACCESSIBLE VALUE",
-        rating: 4.4,
+        rating: 4.5,
         reviewCount: 1500,
 
         // =============================================
@@ -1440,7 +1440,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 9,
         rankBadge: "EXTREME VOL",
-        rating: 4.6,
+        rating: 4.4,
         reviewCount: 1200,
 
         // =============================================
@@ -1575,7 +1575,7 @@ const PRODUCTS_CONFIG = {
         // Product ranking and affiliate data
         rank: 10,
         rankBadge: "JACKPOT HUNTERS",
-        rating: 4.0,
+        rating: 4.3,
         reviewCount: 1900,
 
         // =============================================
