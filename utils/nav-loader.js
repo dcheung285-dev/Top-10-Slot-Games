@@ -93,7 +93,7 @@ Brand settings are managed by Configurations/brand-config.js
                     <div class="popular-searches">
                         <a href="index.html#top10" class="search-option">
                             <span class="icon">🎰</span>
-                            <span>Top Crypto Slots</span>
+                            <span>Top Slot Games</span>
                         </a>
                         <a href="index.html#editors-choice-review" class="search-option">
                             <span class="icon">👑</span>
@@ -106,7 +106,7 @@ Brand settings are managed by Configurations/brand-config.js
                         
                         <a href="index.html#comparison" class="search-option">
                             <span class="icon">⚖️</span>
-                            <span>Compare Slots</span>
+                            <span>Compare Slot Games</span>
                         </a>
                     </div>
                 </div>

@@ -94,18 +94,18 @@ window.SEARCH_DATABASE = {
     // Blog posts and guides
     blog: [
         {
-            title: "Blog - Latest Crypto Slot News",
+            title: "Blog - Latest Slot Game News",
             description: "Stay updated with slot releases, provider promos, RTP changes, and strategy guides.",
             icon: "📰",
             url: "blog.html",
-            keywords: ["blog", "news", "slots", "crypto", "releases", "promos", "rtp", "guides"]
+            keywords: ["blog", "news", "slots", "crypto", "releases", "promos", "rtp", "guides", "slot games", "slot game news", "game"]
         },
         {
             title: "RTP & Volatility Explained",
             description: "Standard vs reduced RTP variants, volatility, and hit frequency—how to choose.",
             icon: "📰",
             url: "blogpost1.html",
-            keywords: ["rtp", "volatility", "hit frequency", "guide", "crypto slots"]
+            keywords: ["rtp", "volatility", "hit frequency", "guide", "crypto", "slots", "slot games", "slot game news", "game"]
         },
         {
             title: "Scatter, Tumbles, Cluster, Megaways",
@@ -139,11 +139,11 @@ window.SEARCH_DATABASE = {
             keywords: ["faq", "review", "slots", "rtp", "volatility", "features", "methodology"]
         },
         {
-            title: "What should I look for in a crypto slot?",
+            title: "What should I look for in a slot game?",
             description: "RTP variants, volatility, hit frequency, feature style, and session pacing.",
             icon: "❓",
             url: "contact.html#faq",
-            keywords: ["faq", "crypto", "slot", "rtp", "volatility", "hit", "frequency", "features"]
+            keywords: ["faq", "crypto", "slot", "rtp", "volatility", "hit", "frequency", "features", "slot games", "slot game news", "game"]
         },
         {
             title: "Do RTP variants matter?",
@@ -249,7 +249,7 @@ window.SEARCH_DATABASE = {
     // Slot categories
     categories: [
         {
-            title: "Crypto Slot Games",
+            title: "Slot Games",
             description: "Top crypto-friendly slots with RTP, volatility, features, and max-win specs.",
             icon: "🎰",
             url: "index.html#top10",
@@ -288,7 +288,7 @@ window.SEARCH_DATABASE = {
     // Website pages and sections
     pages: [
         {
-            title: "Home - Top 10 Crypto Slots",
+            title: "Home - Top 10 Slot Games",
             description: "Main homepage featuring our top-ranked crypto slot games and Editor’s Choice.",
             icon: "🏠",
             url: "index.html",
@@ -400,7 +400,7 @@ window.performSearch = function(query) {
         });
 };
 
-console.log('🔍 Crypto Slot Search Database loaded with', 
+console.log('🔍 Slot Game Search Database loaded with', 
     Object.values(window.SEARCH_DATABASE).reduce((total, category) => 
         total + (Array.isArray(category) ? category.length : 0), 0
     ), 'searchable items');

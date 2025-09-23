@@ -56,7 +56,7 @@ const CONTACT_FORM = {
 
 // ========== CTA BOX CONFIGURATION ==========
 const CONTACT_CTA_BOX = {
-    title: "Ready to Find the Best Crypto Slots?",              // ← CTA box main title
+    title: "Ready to Find the Best Slot Games?",              // ← CTA box main title
     subtitle: "Check out our expertly reviewed Top 10 slot game recommendations!", // ← CTA box description
     
     // Icon configuration (FontAwesome classes)
@@ -123,7 +123,7 @@ const CONTACT_INFO = {
 // ========== FAQ CONFIGURATION ==========
 const FAQ_CONFIG = {
     title: "Frequently Asked Questions",                     // ← FAQ section title
-    subtitle: "Quick answers to common crypto slot questions",           // ← FAQ section subtitle
+    subtitle: "Quick answers to common slot game questions",           // ← FAQ section subtitle
     
     // FAQ items - add/edit/remove as needed
     items: [
@@ -132,7 +132,7 @@ const FAQ_CONFIG = {
             answer: "We confirm the RTP variant shown in-game, assess volatility pacing and hit frequency, and evaluate features/perks and max-win potential. We favour transparent, crypto-friendly games from reputable providers."
         },
         {
-            question: "What should I look for in a crypto slot?",
+            question: "What should I look for in a slot game?",
             answer: "Check the live RTP variant, volatility band, hit frequency, and feature style (scatter pays, tumbles, cluster multipliers, Megaways). Match these to your goals: entertainment time, bonus-hunting, or ceiling chasing."
         },
         {

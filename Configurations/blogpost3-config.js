@@ -13,11 +13,11 @@ const BLOGPOST_META = {
     date: "December 5, 2024",
     author: "SpinRated Slot Experts",
     readTime: 11,
-    keywords: "crypto slot promos, Drops & Wins, welcome spins, jackpot networks, wagering requirements, bonus buys eligibility, T&Cs",
+    keywords: "slot game promos, Drops & Wins, welcome spins, jackpot networks, wagering requirements, bonus buys eligibility, T&Cs",
     
     // Featured Image
     image: "./assets/images/slot-games/bonus2.jpg",
-    imageAlt: "Crypto slot bonuses and promos guide",
+    imageAlt: "Slot game bonuses and promos guide",
     
     // Image positioning and scaling
     imageScale: 1.0,
@@ -42,7 +42,7 @@ const BLOGPOST_META = {
 const ARTICLE_CONTENT = {
     // Table of Contents
     tableOfContents: [
-        { id: "introduction", title: "Understanding Crypto Slot Promos", level: 1 },
+        { id: "introduction", title: "Understanding Slot Game Promos", level: 1 },
         { id: "drops-wins", title: "Provider Events: Drops & Wins", level: 1 },
         { id: "welcome-spins", title: "Welcome Spins and Site Offers", level: 1 },
         { id: "jackpot-networks", title: "Jackpot Networks and Progressives", level: 2 },
@@ -56,7 +56,7 @@ const ARTICLE_CONTENT = {
     sections: [
         {
             id: "introduction",
-            title: "Understanding Crypto Slot Promos",
+            title: "Understanding Slot Game Promos",
             content: `
                 <p>Promotions can stretch your bankroll—or derail expectations if terms aren’t clear. This guide covers provider events, site-level offers, and how to verify eligibility when bonus-buys are involved.</p>
                 <div class="highlight-box" style="background: var(--primary-color-light); padding: var(--spacing-lg); border-radius: var(--border-radius-md); margin: var(--spacing-lg) 0; border-left: 4px solid var(--primary-color);">
@@ -143,7 +143,7 @@ const ARTICLE_CONTENT = {
                 <p>Bonuses should enhance entertainment, not drive reckless decisions. Compare offers, understand the fine print, and choose reputable, licensed venues that support responsible play.</p>
                 <div class="final-cta">
                     <h4>Compare Value with Our Top 10</h4>
-                    <p>See RTP variants, volatility, and features at-a-glance for popular crypto slots.</p>
+                    <p>See RTP variants, volatility, and features at-a-glance for popular slot games.</p>
                     <a href="./index.html#top10" class="btn btn-primary">View Top 10 Slots</a>
                 </div>
             `
@@ -162,7 +162,7 @@ const CTA_CONTENT = {
 // ========== RELATED POSTS ==========
 const RELATED_POSTS = [
     {
-        title: "RTP & Volatility Explained: Picking Crypto Slots Wisely",
+        title: "RTP & Volatility Explained: Picking Slot Games Wisely",
         excerpt: "Understand standard vs reduced RTP, volatility, and hit frequency.",
         image: "./assets/images/slot-games/Volatility+RTP.jpg",
         imageScale: 1.0,

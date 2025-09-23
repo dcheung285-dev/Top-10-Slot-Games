@@ -8,7 +8,7 @@ Configure individual blog posts with all their content, images, categories, and 
 
 // ========== BLOG HERO SECTION ==========
 const BLOG_HERO = {
-    title: "Crypto Slot Blog",                                    // ← Blog page main title
+    title: "Slot Games Blog",                                    // ← Blog page main title
     subtitle: "Expert slot reviews, RTP and volatility explainers, feature breakdowns, and promo guides to help you pick the best crypto-friendly games."  // ← Blog page description
 };
 
@@ -29,7 +29,7 @@ const BLOG_CTA_BANNER = {
     },
     content: {
         icon: "fas fa-coins",                                  // ← Header icon
-        title: "Looking for the Best Crypto Slots?",      // ← Main headline
+        title: "Looking for the Best Slot Games?",      // ← Main headline
         subtitle: "Skip the guesswork—our research backs every pick with RTP, volatility, and features.", // ← Description text
         button: {
             text: "View Our Top 10 Slots",              // ← Button text
@@ -93,10 +93,10 @@ const BLOG_POSTS = {
 
     // Blog Post 3 - RTP & Volatility Guide
     post3: {
-        title: "RTP & Volatility Explained: Picking Crypto Slots Wisely",
+        title: "RTP & Volatility Explained: Picking Slot Games Wisely",
         excerpt: "Understand standard vs reduced RTP variants, how volatility and hit frequency shape sessions, and the trade-offs behind max-win ceilings.",
         image: "./assets/images/slot-games/Volatility+RTP.jpg",
-        imageAlt: "Crypto slots RTP and volatility guide",
+        imageAlt: "Slot games RTP and volatility guide",
         
         // Image positioning and scaling settings
         imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)
@@ -146,7 +146,7 @@ const BLOG_POSTS = {
         title: "Drops & Wins, Welcome Spins, and Jackpot Networks",
         excerpt: "How to evaluate provider promos and site offers, what bonus T&Cs to check, and how bonus-buys affect eligibility.",
         image: "./assets/images/slot-games/bonus2.jpg",
-        imageAlt: "Crypto slot bonuses and promos guide",
+        imageAlt: "Slot games bonuses and promos guide",
         
         // Image positioning and scaling settings
         imageScale: 1.0,                                               // Scale for blog post image (1.0 = 100%, 1.2 = 120%, etc.)

@@ -101,10 +101,10 @@ const MENU_CONFIG = {
     columns: [
         {
             id: "main-categories",
-            title: "Crypto Slot Games",
+            title: "Slot Games",
             enabled: true,
             links: [
-                { text: "🏆 Top 10 Rankings", url: "./index.html#top10", description: "Best crypto slots 2025" },
+                { text: "🏆 Top 10 Rankings", url: "./index.html#top10", description: "Best slot games 2025" },
                 { text: "⚖️ Compare Options", url: "./index.html#comparison", description: "Side-by-side comparisons" },
                 { text: "📝 Latest Articles", url: "./blog.html", description: "Reviews and guides" },
                 { text: "📞 Contact Us", url: "./contact.html", description: "Get in touch" },

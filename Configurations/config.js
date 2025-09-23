@@ -6,9 +6,9 @@ AFFILIATE WEBSITE TEMPLATE - CONFIGURATION
 */
 
 // ========== MAIN SETTINGS - EDIT THESE LINES ONLY ==========
-const NICHE = "Crypto Slot Games";                          // ← Your niche (e.g., "Gaming Laptops", "Coffee Makers")
-const PRODUCT_TYPE = "Crypto Slots";                   // ← Product type eg. "Gaming Laptops"
-const AUDIENCE = "Crypto casino players";                       // ← Target audience eg. "Gamers"
+const NICHE = "Slot Games";                          // ← Your niche (e.g., "Gaming Laptops", "Coffee Makers")
+const PRODUCT_TYPE = "Slot Games";                   // ← Product type eg. "Gaming Laptops"
+const AUDIENCE = "Slot game players";                       // ← Target audience eg. "Gamers"
 const CONTACT_EMAIL = "contact@SpinRated.com";           // ← Your contact email "eg. contact@yoursite.com"
 // const SITE_URL = "{{Site URL}}";                // ← COMMENTED OUT - using smart detection below instead
 
@@ -38,7 +38,7 @@ const SITE_URL = (() => {
 const FAVICON = "./assets/images/slot-games/slots_icon.png";       // ← Your favicon path (browser tab icon)
 
 // Don't touch INDEX_PAGE_TITLE - it's automatically generated from the settings above
-const INDEX_PAGE_TITLE = "Top 10 Crypto Slot Games - Best Slot Reviews 2025"; // ← Homepage browser tab title 
+const INDEX_PAGE_TITLE = "Top 10 Slot Games - Best Slot Reviews 2025"; // ← Homepage browser tab title 
 
 // ========== TRUST INDICATORS - EDIT THESE ==========
 const REVIEW_COUNT = "10 million";                      // ← Number of reviews "+"
@@ -151,8 +151,8 @@ const EDITORS_CHOICE_CONFIG = {
         addedBonus: "High volatility ~96.5% RTP standard",
         
         
-        affiliateLink: "https://www.pragmaticplay.com/en/games/sugar-rush/",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/pragmatic-play/sugar-rush/",
+        ctaText: "Play Now",
         
         /*
         logoScale: {
@@ -239,7 +239,8 @@ const EDITORS_CHOICE_CONFIG = {
             paragraphs: [
                 "Sugar Rush blends cluster-pays with cascading wins and multiplier spots that can stack up to ×128 at positions you reuse.",
                 "The Free Spins preserve built multipliers, so setups can snowball dramatically despite high volatility.",
-                "Standard RTP sits around ~96.5% with lower variants on some sites; max win is 5,000× your stake."
+                "Standard RTP sits around ~96.5% with lower variants on some sites; max win is 5,000× your stake.",
+                "Available at: Rocketpot.io, Stake, Bitcasino.io, Rainbet, BetFury."
             ]
         },
         
@@ -373,8 +374,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Feature Buys incl. powerful modifiers",
         addedBonus: "Scatter-pays",
         
-        affiliateLink: "https://www.relax-gaming.com/products/casino/moneytrain4",
-        ctaText: "Demo", // This will be overridden by template config if needed
+        affiliateLink: "https://rocketpot.io/relax-gaming/money-train-4/",
+        ctaText: "Play Now", // This will be overridden by template config if needed
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -405,7 +406,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "Money Train 4 closes Relax's blockbuster series with a 6×6 scatter-pays grid and feature synergies that can snowball into explosive outcomes.",
                 "Base-game Respins add interactivity by holding symbols and multipliers, while the Money Cart layers Collectors, Payers, Snipers and persistent variants for readable, thrilling bonus rounds.",
-                "With a 150,000× ceiling and 96.1% default RTP (96.5% on feature buy), it earns its 10/10 'Masterpiece' status—just expect spiky variance and savor the presentation."
+                "With a 150,000× ceiling and 96.1% default RTP (96.5% on feature buy), it earns its 10/10 'Masterpiece' status—just expect spiky variance and savor the presentation.",
+                "Available at: Rocketpot.io, Stake, Rainbet, BetFury, Shuffle."
             ]
         },
         
@@ -511,8 +513,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Ante Bet/Bonus Buy on many sites",
         addedBonus: "High volatility",
         
-        affiliateLink: "https://www.pragmaticplay.com/en/games/gates-of-olympus/",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/pragmatic-play/gates-of-olympus/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -541,9 +543,10 @@ const PRODUCTS_CONFIG = {
         fullReview: {
             tagline: "Tumbles + multipliers up to 500×.",
             paragraphs: [
-                "Gates distills the scatter-pays + tumble formula into an instantly readable loop where eight-of-a-kind anywhere keeps the whole grid in play.",
+                "Gates of Olympus distills the scatter-pays + tumble formula into an instantly readable loop where eight-of-a-kind anywhere keeps the whole grid in play.",
                 "Zeus's multiplier orbs (2×–500×) are the star—especially when multiple orbs land and add during Free Spins, creating clip-worthy spikes.",
-                "Volatility is punishing on cold runs, but paired with Drops & Wins leaderboards, it remains a top pick for stream-ready drama."
+                "Volatility is punishing on cold runs, but paired with Drops & Wins leaderboards, it remains a top pick for stream-ready drama.",
+                "Available at: Rocketpot.io, Roobet, Stake, Bitcasino.io, Rainbet."
             ]
         },
         
@@ -646,8 +649,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Free Spins Promos",
         addedBonus: "Low minimum stakes",
         
-        affiliateLink: "https://www.pragmaticplay.com/en/games/sweet-bonanza/",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/pragmatic-play/sweet-bonanza/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -678,7 +681,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "The archetypal scatter-pays + tumble slot that set the tone for the genre, with clean mobile visuals and breezy pacing.",
                 "Rainbow bombs up to 100× provide the fireworks—especially in Free Spins where cascades keep the grid refilling.",
-                "A higher 21,100× cap than Gates trades off some on-screen drama; still a staple, especially alongside Drops & Wins."
+                "A higher 21,100× cap than Gates trades off some on-screen drama; still a staple, especially alongside Drops & Wins.",
+                "Available at: Rocketpot.io, Stake, Rainbet, Bitcasino.io, BetFury."
             ]
         },
         
@@ -781,8 +785,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Free Spins via scatters; sticky wild multipliers",
         addedBonus: "Very high volatility",
         
-        affiliateLink: "https://games.netent.com/video-slots/dead-or-alive-2/",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/netent/dead-or-alive-2/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -813,7 +817,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "DoA2's tight math profile snaps from calm to catastrophic when sticky wilds line up, particularly in High Noon for viral moments.",
                 "The three bonus modes let you pick your flavor—classic set-piece or multiplier mayhem—keeping replayability high.",
-                "Cold stretches are real, but the ~111,111× cited cap and cult status justify its evergreen appeal."
+                "Cold stretches are real, but the ~111,111× cited cap and cult status justify its evergreen appeal.",
+                "Available at: Rocketpot.io, Roobet, Stake, Rainbet, BetFury."
             ]
         },
         
@@ -916,8 +921,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "High RTP variant on many sites",
         addedBonus: "Documented Mega Wins",
         
-        affiliateLink: "https://www.pushgaming.com/games/razor-shark.html",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/push-gaming/razor-shark/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -948,7 +953,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "Razor Shark succeeds with a simple but addictive loop: Mystery Stacks + Nudge & Reveal that can cascade into huge reveals.",
                 "Razor Reveal coins and a rising global multiplier in Free Spins enable seismic late-round swings—while variance remains ferocious.",
-                "The 96.7% RTP stands out in a field of lower-RTP clones; community-documented mega wins cement its highlight-reel status."
+                "The 96.7% RTP stands out in a field of lower-RTP clones; community-documented mega wins cement its highlight-reel status.",
+                "Available at: Rocketpot.io, Stake, Rainbet, Bitcasino.io, BetFury."
             ]
         },
         
@@ -1051,8 +1057,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Free-spin bundles",
         addedBonus: "Unlimited bonus multiplier",
         
-        affiliateLink: "https://www.bigtimegaming.com/games/bonanza?srsltid=AfmBOopfs6g8d35nOduBn_JKtBKR4SMzr1EwUC14LPn19dPccGhZm2kY",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/big-time-gaming/bonanza/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -1083,7 +1089,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "Bonanza pioneered Megaways: reaction wins and carts feeding fresh symbols, with a progressive multiplier in Free Spins.",
                 "Lean by modern standards—fewer gimmicks, pure cascades—which keeps it welcoming for learners and satisfying for grinders.",
-                "The 26,000× revision gives modern teeth; its methodical progression loop still shines in long crypto sessions."
+                "The 26,000× revision gives modern teeth; its methodical progression loop still shines in long crypto sessions.",
+                "Available at: Rocketpot.io, Roobet, Stake, Rainbet, BetFury."
             ]
         },
         
@@ -1186,8 +1193,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Frequent Drops & Wins/welcome promos",
         addedBonus: "~12,305× top with wild multipliers",
         
-        affiliateLink: "https://www.pragmaticplay.com/en/games/the-dog-house-megaways-slot/",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/pragmatic-play/the-dog-house-megaways/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -1218,7 +1225,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "Two bonus styles keep replay value high: Sticky Wilds can snowball with multipliers, while Raining Wilds offers swingy surprise hits.",
                 "Megaways variable heights and fast play make it a friendly entry point for new players without losing spice for veterans.",
-                "Often eligible for network promos, it's a frequent tournament pick for consistent engagement." 
+                "Often eligible for network promos, it's a frequent tournament pick for consistent engagement.",
+                "Available at: Rocketpot.io, Rainbet, Stake, Bitcasino.io, BetFury."
             ]
         },
         
@@ -1321,8 +1329,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "~96.71% RTP variant available",
         addedBonus: "Moderate volatility",
         
-        affiliateLink: "https://reelkingdom.com/games/big-bass-slot",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/pragmatic-play/big-bass-bonanza/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -1353,7 +1361,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "Big Bass nails the collector loop: the fisherman wild scoops up cash fish, and retriggers escalate multipliers up to 10×.",
                 "The base is sparse by design to spotlight the bonus, keeping variance manageable for casual sessions and on mobile.",
-                "The ~96.71% RTP variant sits above many clones, and the series offers deeper alternatives if you want more nuance."
+                "The ~96.71% RTP variant sits above many clones, and the series offers deeper alternatives if you want more nuance.",
+                "Available at: Rocketpot.io, Stake, Cloudbet, Shuffle, Bspin.io."
             ]
         },
         
@@ -1456,8 +1465,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Enhancer Cells, xWays/xSplit; 150,000× cap; extreme volatility",
         addedBonus: "Bonus Buy options",
         
-        affiliateLink: "https://nolimitcity.com/games/san-quentin",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/nolimit-city/san-quentin/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -1488,7 +1497,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "San Quentin’s enhancer suite turns a simple grid into a tangle of splits and expansions that can explode when aligned.",
                 "When Lockdown Spins cook, they really cook—but the variance is brutal; bankroll planning is essential.",
-                "The 150,000× cap remains a benchmark for max-win chasers across crypto casinos."
+                "The 150,000× cap remains a benchmark for max-win chasers across crypto casinos.",
+                "Available at: Rocketpot.io, Stake, Rainbet, BetFury, Bitcasino.io."
             ]
         },
         
@@ -1591,8 +1601,8 @@ const PRODUCTS_CONFIG = {
         welcomePackage: "Free Spins with 3× multiplier",
         addedBonus: "Low minimum stake",
         
-        affiliateLink: "https://gamesglobal.com/Products",
-        ctaText: "Demo",
+        affiliateLink: "https://rocketpot.io/games-global/mega-moolah/",
+        ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
@@ -1610,7 +1620,7 @@ const PRODUCTS_CONFIG = {
         
         // Features for product cards (short list)
         features: [
-            { text: "Four progressive jackpots", icon: "fas fa-jack-o-lantern" },
+            { text: "Four progressive jackpots", icon: "fas fa-coins" },
             { text: "Random jackpot wheel", icon: "fas fa-chart-pie" },
             { text: "Free Spins 3× multiplier", icon: "fas fa-gift" },
             { text: "~88.12% RTP (progressive)", icon: "fas fa-percentage" },
@@ -1623,7 +1633,8 @@ const PRODUCTS_CONFIG = {
             paragraphs: [
                 "Mega Moolah is about rolling the dice at a life-changer—the random jackpot wheel is the star and funds come from the lower 88.12% RTP.",
                 "Base game outcomes are modest versus non-progressives; treat it as a side quest with a fixed budget for jackpot shots.",
-                "Many hybrid crypto casinos still offer it; variants and sequels exist, but the original remains the most iconic." 
+                "Many hybrid crypto casinos still offer it; variants and sequels exist, but the original remains the most iconic.",
+                "Available at: Rocketpot.io, Stake, Bitcasino.io, Rainbet, BetFury."
             ]
         },
         

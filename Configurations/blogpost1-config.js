@@ -6,18 +6,18 @@
 
 // ========== POST META DATA ==========
 const BLOGPOST_META = {
-    title: "RTP & Volatility Explained: Picking Crypto Slots Wisely",
+    title: "RTP & Volatility Explained: Picking Slot Games Wisely",
     excerpt: "Understand standard vs reduced RTP variants, how volatility and hit frequency shape sessions, and the trade-offs behind max-win ceilings.",
     category: "Guide",
     categoryColor: "primary",
     date: "December 10, 2024",
     author: "SpinRated Slot Experts",
     readTime: 8,
-    keywords: "RTP, volatility, crypto slots, hit frequency, RTP variants, bankroll management, max win",
+    keywords: "RTP, volatility, slot games, hit frequency, RTP variants, bankroll management, max win",
     
     // Featured Image
     image: "./assets/images/slot-games/Volatility+RTP.jpg",
-    imageAlt: "Crypto slots RTP and volatility guide",
+    imageAlt: "Slot games RTP and volatility guide",
     
     // Image positioning and scaling
     imageScale: 1.0,
@@ -57,7 +57,7 @@ const ARTICLE_CONTENT = {
             id: "introduction",
             title: "Why RTP and Volatility Matter",
             content: `
-                <p>Crypto slot games publish <strong>RTP</strong> (return to player) and <strong>volatility</strong> so you can set expectations. RTP is a long-run average, not a prediction for a single session, while volatility describes the <em>distribution</em> of outcomes—small frequent hits vs rare bigger spikes.</p>
+                <p>Slot games publish <strong>RTP</strong> (return to player) and <strong>volatility</strong> so you can set expectations. RTP is a long-run average, not a prediction for a single session, while volatility describes the <em>distribution</em> of outcomes—small frequent hits vs rare bigger spikes.</p>
                 
                 <div class="highlight-box" style="background: var(--background-secondary); padding: var(--spacing-lg); border-radius: var(--border-radius-md); margin: var(--spacing-lg) 0; border-left: 4px solid var(--primary-color);">
                     <h4 style="color: var(--primary-color); margin-bottom: var(--spacing-sm);">📊 Practical takeaway</h4>
@@ -128,7 +128,7 @@ const ARTICLE_CONTENT = {
             id: "conclusion",
             title: "Smart Slot Selection",
             content: `
-                <p>Pick crypto slots by confirming the RTP variant, matching volatility to your goals, and managing bankroll by spins. Then compare features that suit your style.</p>
+                <p>Pick slot games by confirming the RTP variant, matching volatility to your goals, and managing bankroll by spins. Then compare features that suit your style.</p>
                 <div class="final-cta">
                     <h4>Ready to Compare RTP and Volatility?</h4>
                     <p>Explore our research-backed Top 10 and see specs side-by-side.</p>
@@ -141,7 +141,7 @@ const ARTICLE_CONTENT = {
 
 // ========== CTA CONTENT ==========
 const CTA_CONTENT = {
-    title: "🎰 Find Your Perfect Crypto Slot",
+    title: "🎰 Find Your Perfect Slot Game",
     description: "Our Top 10 compares RTP variants, volatility, hit frequency, and key features so you can pick confidently.",
     buttonText: "View Top 10 Slots",
     buttonLink: "./index.html#top10"

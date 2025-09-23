@@ -4,13 +4,13 @@
  */
 
 // ========== PAGE TITLE CONFIGURATION ==========
-const HOME_PAGE_TITLE = "Home | {{BRAND_NAME}} – Top Crypto Slot Games";     // ← Home page browser tab title
+const HOME_PAGE_TITLE = "Home | {{BRAND_NAME}} – Top Slot Games";     // ← Home page browser tab title
 
 const HOME_CONFIG = {
     // Hero Section Configuration
     hero: {
         enabled: true,
-        title: "Top 10 Crypto Slot Games 2025",
+        title: "Top 10 Slot Games 2025",
         subtitle: "Expert Reviews & Comprehensive Rankings",
         description: "Discover fan-favourite crypto-casino slots with verified RTP, volatility, hit rate, and max-win specs. From Money Train 4 to Sugar Rush—find your perfect game.",
         ctaButton: {
@@ -93,7 +93,7 @@ const HOME_CONFIG = {
     videoSections: [
         {
             enabled: true,
-            title: "How to Choose Crypto Slots Wisely",
+            title: "How to Choose Slot Games Wisely",
             description: "Understand RTP variants, volatility, hit frequency, and bonus features before you play.",
             videoUrl: "./assets/videos/slot-games/slots.mp4", // Local video file path
             externalUrl: "https://www.youtube.com/watch?v=ejHx7pyeOf0", // External URL (YouTube, etc.) - opens in new tab when clicked

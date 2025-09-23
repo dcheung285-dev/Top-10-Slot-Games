@@ -13,7 +13,7 @@ const BLOGPOST_META = {
     date: "December 8, 2024",
     author: "SpinRated Slot Experts",
     readTime: 9,
-    keywords: "slot features, scatter pays, tumbles, cluster pays, Megaways, bonus buys, crypto slots",
+    keywords: "slot features, scatter pays, tumbles, cluster pays, Megaways, bonus buys, slot games",
     
     // Featured Image
     image: "./assets/images/slot-games/features-outcomes.png",
@@ -58,7 +58,7 @@ const ARTICLE_CONTENT = {
             id: "introduction",
             title: "How Slot Features Shape Outcomes",
             content: `
-                <p>Crypto slots use distinct mechanics that change how wins form, how sessions feel, and what peak potential looks like. Knowing the differences helps you pick games that match your goals.</p>
+                <p>Slot games use distinct mechanics that change how wins form, how sessions feel, and what peak potential looks like. Knowing the differences helps you pick games that match your goals.</p>
                 <div class="highlight-box" style="background: var(--accent-color-light); padding: var(--spacing-lg); border-radius: var(--border-radius-md); margin: var(--spacing-lg) 0; border-left: 4px solid var(--accent-color);">
                     <h4 style="color: var(--accent-color); margin-bottom: var(--spacing-sm);">🧭 Quick orientation</h4>
                     <p style="margin: 0;">We’ll reference examples from Gates of Olympus (scatter + tumbles), Sweet Bonanza (tumbles), Sugar Rush (cluster + sticky multipliers), and Bonanza Megaways (variable reels).</p>
@@ -158,7 +158,7 @@ const CTA_CONTENT = {
 // ========== RELATED POSTS ==========
 const RELATED_POSTS = [
     {
-        title: "RTP & Volatility Explained: Picking Crypto Slots Wisely",
+        title: "RTP & Volatility Explained: Picking Slot Games Wisely",
         excerpt: "Understand RTP variants, volatility, and hit frequency to set expectations.",
         image: "./assets/images/slot-games/Volatility+RTP.jpg",
         imageScale: 1.0,
