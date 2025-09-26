@@ -146,9 +146,9 @@ const EDITORS_CHOICE_CONFIG = {
         
         
         // Casino Websites
-        welcomeBonus: "Cluster Pays with persistent ×128 multiplier spots",
-        welcomePackage: "Free Spins via scatters",
-        addedBonus: "High volatility ~96.5% RTP standard",
+        welcomeBonus: "Cluster Pays with tumbles; multiplier spots up to ×128",
+        welcomePackage: "Free Spins via scatters; retriggers",
+        addedBonus: "RTP up to 96.5% (alts 95.5%, 94.5%)",
         
         
         affiliateLink: "https://rocketpot.io/pragmatic-play/sugar-rush/",
@@ -213,8 +213,8 @@ const EDITORS_CHOICE_CONFIG = {
         // CTA section configuration for detailed reviews
         cta: {
             title: "Indulge in the sugar rush",
-            description: "Trigger Free Spins, lock in multiplier spots, chase 5,000×.",
-            boxInfo: "~96.5% RTP standard (lower variants exist). High volatility.",
+            description: "Trigger Free Spins; multiplier spots up to ×128.",
+            boxInfo: "RTP up to 96.5% (alts 95.5%, 94.5%). High volatility.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -227,39 +227,40 @@ const EDITORS_CHOICE_CONFIG = {
         // Features for product cards (short list)
         features: [
             { text: "7×7 Cluster Pays", icon: "fas fa-th" },
-            { text: "Multiplier Spots up to ×128", icon: "fas fa-bolt" },
-            { text: "Tumbles/Cascades", icon: "fas fa-sync-alt" },
-            { text: "Free Spins retain multipliers", icon: "fas fa-star" },
-            { text: "~96.5% RTP (variant dependent)", icon: "fas fa-percentage" }
+            { text: "Tumbles + doubling multipliers", icon: "fas fa-sync-alt" },
+            { text: "Spots persist in Free Spins", icon: "fas fa-magnet" },
+            { text: "Multipliers up to ×128", icon: "fas fa-bolt" },
+            { text: "RTP up to 96.5%", icon: "fas fa-percentage" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "A sugar-coated cluster explosion with sticky multipliers",
             paragraphs: [
-                "Sugar Rush blends cluster-pays with cascading wins and multiplier spots that can stack up to ×128 at positions you reuse.",
-                "The Free Spins preserve built multipliers, so setups can snowball dramatically despite high volatility.",
-                "Standard RTP sits around ~96.5% with lower variants on some sites; max win is 5,000× your stake.",
+                "Sugar Rush by Pragmatic Play is a high-volatility video slot played on a 7x7 grid with a Cluster Pays system, where wins are formed by landing 5 or more matching symbols in a cluster rather than across traditional paylines. Released in June 2022, it brings players into a candy-filled world with pastel visuals, gummy bears, sweets, and a light, playful soundtrack. The slot is fully mobile-compatible on iOS, Android, Windows, and desktop devices, making it easy to enjoy anywhere. Bets range from $/£/€0.20 up to $/£/€100 per spin, with a default bet of $/£/€2, and the RTP can reach 96.5% (though many sites use the 95.5% or 94.5% versions). With a hit frequency of 34.48%, you can expect a win roughly every 2.9 spins, while the game offers a max payout of 5,000x your stake, though this occurs on average once in 2.34 million spins, with wins over 1,000x landing once every 37,900 spins.",
+                "Gameplay centers around the Tumble feature, where winning clusters are removed and replaced by new symbols, potentially leading to chain reactions. Each win also leaves a multiplier spot behind, starting at 2x and doubling with each new win on the same position up to 128x. In the base game, multipliers reset at the end of each sequence, but in the Free Spins feature, triggered by landing 3 to 7 Rocket Gumball Machine scatters (for 10 to 30 free spins), multiplier spots remain on the grid throughout, allowing them to grow much faster. Free spins can also be retriggered with no limits, giving the chance for extended sessions with powerful multipliers. For players (depending on the country), a Buy Free Spins option is available for 100x your bet, guaranteeing 3–7 scatters.",
+                "The symbols are a mix of colorful sweets, with orange, purple, and red gummy bears, stars, jelly beans, hearts, and the top-paying pink ball sweet worth up to 150x your stake for 15 or more. Wrapper symbols appear in exploded spots to add multipliers, while Rocket Gumball Machine scatters are the key to unlocking bonuses. The game also includes convenience features like Autoplay (up to 1,000 spins), Quick Spin, and Turbo Spin for faster play.",
+                "Overall, Sugar Rush is a simple yet engaging slot with its appeal lying in the thrill of tumbles, sticky multipliers, and the potential of unlimited free spins. While it doesn’t include a wild symbol and its bonus features aren’t groundbreaking, the high RTP of up to 96.5%, multipliers reaching 128x, and the potential for big wins make it one of Pragmatic Play’s most popular titles. The success of the game has even led to follow-ups such as Sugar Rush Xmas (Nov 2023) and the sequel Sugar Rush 1000, which offers an increased 97.5% RTP and a massive 25,000x max win potential.",
                 "Available at: Rocketpot.io, Stake, Bitcasino.io, Rainbet, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Above-average RTP for high-volatility slot", icon: "fas fa-percentage" },
-            { text: "Multipliers persist in Free Spins", icon: "fas fa-magnet" },
+            { text: "Simple, readable cluster gameplay", icon: "fas fa-eye" },
+            { text: "Sticky multipliers in bonus", icon: "fas fa-magnet" },
+            { text: "Unlimited retriggers possible", icon: "fas fa-redo" },
+            { text: "Popular across major sites", icon: "fas fa-globe" },
             { text: "Good for casuals and risk-tolerant players", icon: "fas fa-users" },
-            { text: "Strong visuals and smooth animations", icon: "fas fa-film" },
-            { text: "Retriggers possible for extended runs", icon: "fas fa-redo" }
         ],
         
         // Technical specifications (slot specs)
         specifications: [
             { name: "Layout", value: "7×7 Cluster Pays", icon: "fas fa-th" },
-            { name: "RTP", value: "~96.5% (alt 95.5%, 94.5%)", icon: "fas fa-percentage" },
+            { name: "RTP", value: "Up to 96.5% (alts 95.5%, 94.5%)", icon: "fas fa-percentage" },
             { name: "Volatility", value: "High (5/5)", icon: "fas fa-exclamation-triangle" },
             { name: "Max Win", value: "5,000×", icon: "fas fa-trophy" },
-            { name: "Bet Range", value: "~$0.20–$100 typical", icon: "fas fa-coins" }
+            { name: "Bet Range", value: "$0.20–$100 (varies)", icon: "fas fa-coins" }
         ]
     }
     
@@ -370,9 +371,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "150,000× ceiling; Money Cart + base Respins",
-        welcomePackage: "Feature Buys incl. powerful modifiers",
-        addedBonus: "Scatter-pays",
+        welcomeBonus: "Base Respin feature + Money Cart (20+ modifiers)",
+        welcomePackage: "Buy Bonus: 100× (Original) or 500× (Persistent)",
+        addedBonus: "6×6 Scatter Pays; 150,000× cap",
         
         affiliateLink: "https://rocketpot.io/relax-gaming/money-train-4/",
         ctaText: "Play Now", // This will be overridden by template config if needed
@@ -381,7 +382,7 @@ const PRODUCTS_CONFIG = {
         cta: {
             title: "Board the last train",
             description: "Hit the Money Cart and chase 150,000×.",
-            boxInfo: "RTP 96.1% (96.5% on feature buy). Very high volatility.",
+            boxInfo: "RTP 96.1% (96.5% on buy); ~20.14% hit rate; high volatility.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -393,32 +394,33 @@ const PRODUCTS_CONFIG = {
         
         // Features for product cards (short list)
         features: [
-            { text: "Money Cart bonus with special symbols", icon: "fas fa-train" },
-            { text: "Base-game Respins with sticky symbols", icon: "fas fa-undo" },
-            { text: "Feature Buys: 100× and 500×", icon: "fas fa-shopping-bag" },
-            { text: "Expanding rows & persistent variants", icon: "fas fa-expand-arrows-alt" },
-            { text: "Cinematic dystopian audio-visual polish", icon: "fas fa-film" }
+            { text: "Respin feature (sticky most-common symbol)", icon: "fas fa-undo" },
+            { text: "Money Cart: 20+ modifiers (incl. Persistent)", icon: "fas fa-train" },
+            { text: "Reel unlocks & expansions", icon: "fas fa-expand-arrows-alt" },
+            { text: "Bonus Buys: 100× / 500×", icon: "fas fa-shopping-bag" },
+            { text: "6×6 Scatter Pays engine", icon: "fas fa-th" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "One last ride, absurd potential.",
             paragraphs: [
-                "Money Train 4 closes Relax's blockbuster series with a 6×6 scatter-pays grid and feature synergies that can snowball into explosive outcomes.",
-                "Base-game Respins add interactivity by holding symbols and multipliers, while the Money Cart layers Collectors, Payers, Snipers and persistent variants for readable, thrilling bonus rounds.",
-                "With a 150,000× ceiling and 96.1% default RTP (96.5% on feature buy), it earns its 10/10 'Masterpiece' status—just expect spiky variance and savor the presentation.",
+                "Money Train 4 by Relax Gaming is the fourth and final chapter in the legendary series, delivering a futuristic heist adventure with a scatter pays engine on a 6x6 grid. Wins are formed by landing 8 or more matching symbols anywhere on the reels, with bet limits ranging from $/£/€0.10 to $/£/€6 per spin. The slot comes with an RTP of 96.1% (though some casinos use 94.1% or even 90% versions), a hit rate of 20.14%, and high volatility rated 5/5. Autoplay (up to 1,000 spins), turbo mode, and spacebar play are available in certain regions. The standout feature is the enormous 150,000x max win, making it one of the most rewarding online slots ever, and a big step up from its predecessors in the franchise.",
+                "The theme blends steampunk and sci-fi, with reels set inside a weaponized futuristic train in a desert wasteland, accompanied by a cinematic orchestral soundtrack. Symbols include diamonds, clubs, spades, and hearts, alongside four high-paying bandits: Payer, Sniper, Collector, and Necromancer. These deliver payouts up to 1,000x your bet, while bonus scatters trigger the slot’s main feature. All 36 reel positions spin individually, giving gameplay a dynamic and fluid feel, and it runs smoothly across desktop, iOS, and Android devices, though the stunning visuals are best enjoyed on larger screens.",
+                "Money Train 4 comes with two major features: the Re-Spin feature and the Money Cart Bonus. The Re-Spin can trigger randomly after any base spin, holding the most common symbol and awarding respins until no new matches or multipliers land. Multiplier symbols can also appear, combining to boost final payouts. The Money Cart Bonus, activated by 3 or more scatters, transports you to a 6x4 bonus grid with 3 starting spins. Each new symbol resets the spin counter, and modifiers are where the action heats up. There are over 20 different modifiers, ranging from Collectors, Payers, Snipers, Necromancers, and Arms Dealers, many of which also come in Persistent forms that activate every spin rather than once. Filling rows unlocks extra reels, and the bonus continues until spins run out. While the round can look complex, its mechanics are straightforward, with persistent modifiers offering the biggest payout potential. On average, the bonus pays around 96.5x your bet.",
+                "Players (depending on the country) can also access a Buy Bonus option: the standard Money Cart feature costs 100x your bet, while the Persistent Bonus costs 500x. Opting for the buy feature increases the RTP slightly to 96.5%. With such immense win potential, the slot is highly volatile, so bankroll management is essential.",
+                "Overall, Money Train 4 is a spectacular conclusion to the series, raising the stakes with its 150,000x top prize, stunning visuals, atmospheric soundtrack, and deep modifier-driven bonus round. While highly volatile and risky, its potential rewards are unmatched, cementing it as arguably the best slot release of 2023. The franchise began in 2019 with the original Money Train (20,000x max win), followed by Money Train 2 (50,000x), Money Train 3 (100,000x), and now Money Train 4, which blows past them all. For those who prefer shorter bonus-focused versions, Relax Gaming has also released the Money Cart series to mirror each main game.",
                 "Available at: Rocketpot.io, Stake, Rainbet, BetFury, Shuffle."
             ]
         },
         
         // Perks for product cards and detailed reviews - Simple format: text + icon
         perks: [
+            { text: "150,000× top potential", icon: "fas fa-trophy" },
+            { text: "Respin sequences add sticky state", icon: "fas fa-sync-alt" },
             { text: "Low entry stakes from €/$0.10", icon: "fas fa-coins" },
             { text: "Scatter-pays system (no paylines)", icon: "fas fa-th" },
             { text: "Clear paytable and symbol explanations", icon: "fas fa-book" },
-            { text: "Recognized franchise with community content", icon: "fas fa-users" },
-            { text: "Base Respins evolve the reel state", icon: "fas fa-sync-alt" },
-            { text: "Bigwinboard 10/10 'Masterpiece'", icon: "fas fa-award" }
         ],
         
         // Technical specifications - Simple format: name + value + icon
@@ -511,7 +513,7 @@ const PRODUCTS_CONFIG = {
         // Casino Websites
         welcomeBonus: "Tumbles + 2×–500× orbs; explosive Free Spins",
         welcomePackage: "Ante Bet/Bonus Buy on many sites",
-        addedBonus: "High volatility",
+        addedBonus: "High volatility; multipliers accumulate; retriggers",
         
         affiliateLink: "https://rocketpot.io/pragmatic-play/gates-of-olympus/",
         ctaText: "Play Now",
@@ -519,8 +521,8 @@ const PRODUCTS_CONFIG = {
         // CTA section configuration for detailed reviews
         cta: {
             title: "Catch the orb",
-            description: "Hit tumbles and stack 2×–500× multipliers.",
-            boxInfo: "RTP 96.5% default (95.51%/94.5% alts). 5,000× cap.",
+            description: "Tumbles + orbs up to 500×. Retrigger for more.",
+            boxInfo: "RTP 96.5% default (alts 95.51%/94.5%). 5,000× cap.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -534,7 +536,7 @@ const PRODUCTS_CONFIG = {
         features: [
             { text: "Scatter-Pays + Tumbles", icon: "fas fa-sync-alt" },
             { text: "Multiplier Orbs 2×–500×", icon: "fas fa-bolt" },
-            { text: "15 Free Spins Bonus", icon: "fas fa-gift" },
+            { text: "Free Spins Bonus", icon: "fas fa-gift" },
             { text: "Ante/Bonus Buy (varies)", icon: "fas fa-shopping-bag" },
             { text: "Mobile-first UI", icon: "fas fa-mobile-alt" }
         ],
@@ -543,9 +545,11 @@ const PRODUCTS_CONFIG = {
         fullReview: {
             tagline: "Tumbles + multipliers up to 500×.",
             paragraphs: [
-                "Gates of Olympus distills the scatter-pays + tumble formula into an instantly readable loop where eight-of-a-kind anywhere keeps the whole grid in play.",
-                "Zeus's multiplier orbs (2×–500×) are the star—especially when multiple orbs land and add during Free Spins, creating clip-worthy spikes.",
-                "Volatility is punishing on cold runs, but paired with Drops & Wins leaderboards, it remains a top pick for stream-ready drama.",
+                "Gates of Olympus by Pragmatic Play is a high-volatility video slot themed around the mighty Zeus and set against the backdrop of an epic Mount Olympus temple. Released in 2021, it runs on a 6x5 grid with an All Ways Pays mechanic, meaning you need 8 or more matching symbols anywhere on the reels to score a win, regardless of paylines. Betting ranges from $/€0.20 to $/€125 per spin (depending on the country), with autoplay, quick spin, and turbo spin options also available in certain jurisdictions. The RTP sits at 96.5% by default—slightly above average—but can also appear in reduced versions of 95.51% or 94.5%, so it’s worth checking which version is being offered. With maximum wins capped at 5,000x your bet, and a probability of hitting that top prize at 1 in 697,350 spins, the game delivers plenty of excitement but also packs volatility at the highest level, rated 5/5.",
+                "The game’s presentation is one of its highlights. Against purple skies and gleaming marble columns, reels are edged in gold and filled with colorful gemstones in blue, green, yellow, purple, and red, alongside premium symbols like a goblet, a jeweled ring, a sand timer, and the top-paying golden crown, worth up to 50x your stake. Zeus himself serves as the scatter symbol, awarding payouts up to 100x your bet while also triggering the Free Spins feature when 4 or more land. An animated Zeus stands beside the reels, hurling multiplier orbs and adding dramatic flair to the gameplay. The orchestral soundtrack, enhanced by clanging bells and epic choral effects, intensifies during bonuses to match the slot’s mythological grandeur.",
+                "Gameplay is built around three main mechanics: Tumbling Reels, Random Orb Multipliers, and Free Spins with Progressive Multipliers. After every win, tumbling reels remove the winning symbols and drop new ones, continuing until no new win appears. At any time, Zeus can unleash glowing multiplier orbs worth between 2x and 500x. Multiple orbs in a single tumble sequence combine their values, creating explosive payout potential. The Free Spins round is triggered by 4–6 Zeus scatters, awarding payouts of 3x, 5x, or 100x your bet plus 15 free spins. Here, multipliers become even more powerful: instead of resetting, they accumulate throughout the feature, leading to huge win possibilities if multiple orbs hit in succession. Retriggers are possible by landing 3 additional scatters, adding 5 more free spins. Statistically, free spins trigger once every 448 spins on average.",
+                "Depending on the country, players may also access two paid features. The Bonus Buy option costs 100x your stake, granting instant access to the Free Spins feature. There’s also a Double Chance Ante Bet, increasing your wager by 25% while doubling your odds of triggering free spins naturally. Both enhance the gameplay for those seeking more frequent access to the slot’s main attraction.",
+                "Overall, Gates of Olympus is one of Pragmatic Play’s flagship releases and remains highly popular due to its slick presentation, exciting features, and enormous multiplier potential. While its 5,000x max win is lower than comparable slots such as Sweet Bonanza (21,175x), the appeal lies in the way multipliers stack and snowball during free spins, creating thrilling moments of anticipation. Its high volatility won’t suit every player, but for those chasing big wins, Gates of Olympus stands out as one of the most iconic and rewarding Greek-mythology-themed slots on the market today.",
                 "Available at: Rocketpot.io, Roobet, Stake, Bitcasino.io, Rainbet."
             ]
         },
@@ -554,7 +558,7 @@ const PRODUCTS_CONFIG = {
         perks: [
             { text: "Huge multiplier ceiling (up to 500×)", icon: "fas fa-bolt" },
             { text: "Simple to learn scatter-pays", icon: "fas fa-th" },
-            { text: "Fast cascades and mobile polish", icon: "fas fa-mobile-alt" },
+            { text: "Retriggers for extended runs", icon: "fas fa-redo" },
             { text: "RTP variants disclosed", icon: "fas fa-file-alt" },
             { text: "Pairs with Drops & Wins", icon: "fas fa-trophy" }
         ],
@@ -563,7 +567,7 @@ const PRODUCTS_CONFIG = {
         specifications: [
             { name: "Layout", value: "6×5 Scatter-Pays; Tumbles", icon: "fas fa-th" },
             { name: "RTP", value: "96.5% (alts 95.51%, 94.5%)", icon: "fas fa-percentage" },
-            { name: "Volatility", value: "Very High", icon: "fas fa-exclamation-triangle" },
+            { name: "Volatility", value: "High", icon: "fas fa-exclamation-triangle" },
             { name: "Max Win", value: "5,000×", icon: "fas fa-trophy" },
             { name: "Multipliers", value: "Orbs 2×–500×", icon: "fas fa-bolt" }
         ]
@@ -572,7 +576,7 @@ const PRODUCTS_CONFIG = {
     // Product 3 Configuration - Sweet Bonanza — Candy-Land Classic with 21,100× Cap
     product3: {
         name: "Sweet Bonanza",
-        description: "Sweet Bonanza - 6×5 scatter-pays with tumbles and rainbow bombs up to 100×. RTP ~96.5% variants; medium-high volatility with a 21,100× cap and Double Chance option.",
+        description: "Sweet Bonanza - 6×5 scatter-pays with tumbles and rainbow bombs up to 100×. 96.49% RTP (95.45% alt); medium-high volatility with a 21,175× cap and Double Chance option.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/Sweet-Bonanza-slots.jpg",
         logoScale: {
@@ -645,9 +649,9 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Tumbles with bombs up to 100×; 21,100× cap",
-        welcomePackage: "Free Spins Promos",
-        addedBonus: "Low minimum stakes",
+        welcomeBonus: "Tumbles + Rainbow Bomb multipliers up to 100×",
+        welcomePackage: "Free Spins with stacking multipliers; retriggers",
+        addedBonus: "Double Chance (Ante Bet) and Bonus Buy (varies)",
         
         affiliateLink: "https://rocketpot.io/pragmatic-play/sweet-bonanza/",
         ctaText: "Play Now",
@@ -656,7 +660,7 @@ const PRODUCTS_CONFIG = {
         cta: {
             title: "Flip on Double Chance",
             description: "Chase candy bombs up to 100×.",
-            boxInfo: "RTP ~96.5% (variants). 21,100× max win.",
+            boxInfo: "RTP 96.49% (95.45% alt). 21,175× max win.",
             // CTA box display controls - Example with some elements hidden
             display: {
                 showTitle: false,         // Show CTA title
@@ -672,35 +676,38 @@ const PRODUCTS_CONFIG = {
             { text: "Rainbow Bombs up to 100×", icon: "fas fa-bomb" },
             { text: "Free Spins Bonus", icon: "fas fa-gift" },
             { text: "Double Chance toggle", icon: "fas fa-toggle-on" },
-            { text: "~96.5% RTP variants", icon: "fas fa-percentage" }
+            { text: "96.49% RTP (variant dependent)", icon: "fas fa-percentage" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "Sugar rushes, rainbow bombs.",
             paragraphs: [
-                "The archetypal scatter-pays + tumble slot that set the tone for the genre, with clean mobile visuals and breezy pacing.",
-                "Rainbow bombs up to 100× provide the fireworks—especially in Free Spins where cascades keep the grid refilling.",
-                "A higher 21,100× cap than Gates trades off some on-screen drama; still a staple, especially alongside Drops & Wins.",
+                "Sweet Bonanza by Pragmatic Play is a vibrant, medium-to-high volatility slot drenched in sugary themes and fruity symbols. Launched in 2019, this candy-coated adventure is set on a 6x5 grid and uses the Scatter Pays system, meaning you’ll need 8 or more matching symbols anywhere on the reels to form a win. With bets ranging from $/€0.20 to $/€100 per spin, Sweet Bonanza caters to both casual spinners and higher-stake players, depending on the country. The default RTP sits at 96.49%, above the industry average, but reduced versions at 95.45% also exist, so it’s worth checking before you play. With maximum wins of 21,175x your bet—more than four times that of Gates of Olympus—the game offers significant payout potential without hitting the extremes of volatility.",
+                "The slot’s visuals are one of its most inviting features. Against a pastel dreamscape of candy floss skies, lollipop trees, and sugary mountains, reels are filled with juicy fruits like bananas, grapes, watermelons, plums, and apples, alongside brightly colored sweets. Premiums include blue, green, purple, and red candies, with the top-paying red heart sweet delivering up to 50x your stake for 12 or more on the grid. The red-and-white lollipop serves as the scatter symbol, triggering free spins when 4 or more appear, while a special rainbow bomb acts as the multiplier during bonuses. The soundtrack is cheerful and upbeat, matching the lighthearted aesthetic, though it’s subtle enough not to overwhelm extended sessions.",
+                "Gameplay revolves around the Tumbling Reels mechanic and the all-important Free Spins feature with multipliers. Tumbles trigger whenever a win occurs, removing winning symbols and cascading new ones into place, continuing until no new win forms. The Free Spins round is activated by landing 4–6 lollipop scatters, awarding payouts of 3x, 5x, or 100x your bet along with 10 free spins. Here, the Rainbow Bomb Multiplier comes into play, ranging from 2x to 100x. If multiple bombs land in the same sequence, their values stack, which can catapult small wins into major payouts. Retriggers are also possible by landing 3 additional scatters, awarding 5 extra free spins each time. Statistically, free spins trigger on average every 400–500 spins, keeping the feature relatively accessible.",
+                "For players seeking faster access to bonuses, Sweet Bonanza offers two optional enhancements in certain jurisdictions. The Bonus Buy feature costs 100x your stake and instantly launches the free spins round. Alternatively, the Ante Bet option increases your wager by 25% while doubling the likelihood of triggering free spins naturally. These features add flexibility for players who prefer more frequent bonus play.",
+                "Overall, Sweet Bonanza has become one of Pragmatic Play’s flagship titles thanks to its simple yet rewarding mechanics, colorful presentation, and explosive win potential. While its theme may be overly saccharine for some, the balance of medium-to-high volatility with a top prize of 21,175x makes it both approachable and exciting. Compared to its mythological cousin Gates of Olympus, Sweet Bonanza offers a smoother ride with larger maximum payouts, though its reliance on multipliers for big wins can make outcomes swingy. For players with a sweet tooth for tumbling reels and juicy bonuses, Sweet Bonanza remains a timeless classic in the candy-themed slot genre.",
                 "Available at: Rocketpot.io, Stake, Rainbet, Bitcasino.io, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Iconic candy theme with broad appeal", icon: "fas fa-candy-cane" },
-            { text: "Widely available on crypto sites", icon: "fas fa-globe" },
-            { text: "RTP transparency and variants", icon: "fas fa-file-alt" },
-            { text: "Huge 21,100× top potential", icon: "fas fa-trophy" },
+            { text: "Rainbow Bomb multipliers up to 100×", icon: "fas fa-bomb" },
+            { text: "Retriggers extend free spins", icon: "fas fa-redo" },
+            { text: "Simple scatter-pays + tumbles", icon: "fas fa-sync-alt" },
+            { text: "96.49% RTP default (variant dependent)", icon: "fas fa-percentage" },
+            { text: "Medium–High volatility sweet spot", icon: "fas fa-exclamation-triangle" },
             { text: "Pairs with Drops & Wins", icon: "fas fa-medal" }
         ],
         
         // Technical specifications (slot specs)
         specifications: [
             { name: "Layout", value: "6×5 Scatter-Pays; Tumbles", icon: "fas fa-th" },
-            { name: "RTP", value: "~96.48–96.51% (variants)", icon: "fas fa-percentage" },
+            { name: "RTP", value: "96.49% (95.45% alt)", icon: "fas fa-percentage" },
             { name: "Volatility", value: "Medium–High", icon: "fas fa-exclamation-triangle" },
-            { name: "Max Win", value: "21,100×", icon: "fas fa-trophy" },
+            { name: "Max Win", value: "21,175×", icon: "fas fa-trophy" },
             { name: "Bet Range", value: "$0.20–$125 (with Double Chance)", icon: "fas fa-coins" }
         ]
     },
@@ -783,7 +790,7 @@ const PRODUCTS_CONFIG = {
         // Casino Websites
         welcomeBonus: "Mode choice: Old Saloon / High Noon / Train Heist",
         welcomePackage: "Free Spins via scatters; sticky wild multipliers",
-        addedBonus: "Very high volatility",
+        addedBonus: "Feature Buy 66.66× (varies)",
         
         affiliateLink: "https://rocketpot.io/netent/dead-or-alive-2/",
         ctaText: "Play Now",
@@ -792,7 +799,7 @@ const PRODUCTS_CONFIG = {
         cta: {
             title: "Pick your free-spins mode",
             description: "Hunt the wildline—Old Saloon, High Noon, or Train Heist.",
-            boxInfo: "RTP up to ~96.8% (variants). Very high volatility. ~111,111× cited cap.",
+            boxInfo: "RTP 96.8% default (variants). High volatility. ~111,111× cap.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -804,38 +811,41 @@ const PRODUCTS_CONFIG = {
         
         // Features for product cards (short list)
         features: [
+            { text: "Three distinct free spins modes: Train Heist / Old Saloon / High Noon", icon: "fas fa-gift" },
             { text: "Sticky Wilds / multipliers", icon: "fas fa-magnet" },
-            { text: "Three distinct free spins modes", icon: "fas fa-gift" },
-            { text: "Very high volatility", icon: "fas fa-exclamation-triangle" },
-            { text: "Classic 9-line structure", icon: "fas fa-stream" },
-            { text: "Lightweight client (mobile friendly)", icon: "fas fa-mobile-alt" }
+            { text: "Feature Buy 66.66× (varies by region)", icon: "fas fa-shopping-bag" },
+            { text: "Classic 9-line grid; high volatility", icon: "fas fa-exclamation-triangle" },
+            { text: "Low min bets; mobile friendly", icon: "fas fa-mobile-alt" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "Sticky wilds. Monster caps.",
             paragraphs: [
-                "DoA2's tight math profile snaps from calm to catastrophic when sticky wilds line up, particularly in High Noon for viral moments.",
-                "The three bonus modes let you pick your flavor—classic set-piece or multiplier mayhem—keeping replayability high.",
-                "Cold stretches are real, but the ~111,111× cited cap and cult status justify its evergreen appeal.",
+                "Dead or Alive 2 by NetEnt is one of the most iconic Wild West-themed slots on the market, a 2019 release that took everything players loved about the original and amplified it with slicker visuals, bigger multipliers, and colossal win potential. Played on a 5x3 grid with 9 fixed paylines, the slot is a high-volatility adventure offering payouts up to 111,111x your bet—making it one of the highest-paying slots ever created. Betting starts from just $/€0.09 per spin and goes up to $/€9, making it relatively low-stakes friendly compared to many modern high-volatility titles. The RTP sits at a very strong 96.8%, above industry averages, with 68.6% allocated to the base game and a hefty 28.2% to free spins, where the real excitement lies.",
+                "The presentation is suitably gritty and cinematic. The reels are framed by wooden gallows on a deserted frontier street, while the audio track mixes twanging guitars, clanging bells, and pistol cocks to heighten the tension. Symbols are a mix of low-paying metallic royals (10–A) and thematic icons such as whiskey bottles, cowboy boots, Stetsons, revolvers, and the top-paying sheriff’s badge worth up to 111.11x for five of a kind. Each outlaw character—Apache the Kid, Della Rose, Jesse James, Belle Star, and Billy the Kid—serves as a wild, one per reel, substituting for all standard symbols and delivering payouts up to 166.66x for five. The scatter, represented by crossed pistols over a cattle skull, is the key to unlocking free spins and pays up to 2,500x your bet for five in view.",
+                "Gameplay shines thanks to its three distinct Free Spins features, each offering different volatility levels and win dynamics. Triggered by landing 3+ scatters, players first receive a scatter payout of up to 2,500x and then choose between Train Heist, Old Saloon, or High Noon Saloon free spins. Train Heist is the lowest volatility option, starting with 12 spins where every wild increases a global multiplier by 1x and adds another spin, potentially climbing up to 16x before awarding 5 more free spins. Old Saloon offers medium volatility, also with 12 spins, but here all wins are doubled, and wilds stick in place for the duration. Land sticky wilds on all five reels and you’ll get 5 extra spins. The most volatile—and most famous—option is High Noon Saloon. Here, sticky wilds can transform into 2x or 3x multiplier wilds when stacked, and if multipliers land across multiple reels they combine, creating monstrous potential. This is where the legendary 111,111x max win can be hit, though the odds are 1 in 142 million spins, underlining its high volatility.",
+                "In certain jurisdictions, players can shortcut to the action with the Feature Buy option (costing 66.66x your stake), which allows direct access to free spins without altering the RTP. On mobile, the Dead or Alive 2 Touch version runs seamlessly, maintaining sharp visuals and smooth performance even on smaller screens, ensuring that the Wild West experience is as immersive on the go as it is on desktop.",
+                "Overall, Dead or Alive 2 has cemented its place as a cult classic among slot fans. It combines a gritty Western theme with immense payout potential, a strong RTP, and a choice of bonus rounds that cater to different volatility preferences. While the High Noon Saloon feature is the star of the show for high-risk thrill-seekers, the other options ensure there’s variety for players who prefer a steadier pace. Its high volatility means long dry spells are common, but the possibility of life-changing wins keeps players coming back. For those chasing some of the biggest multipliers in slot history, Dead or Alive 2 stands as one of NetEnt’s finest creations and a must-try for fans of outlaw-themed slots.",
                 "Available at: Rocketpot.io, Roobet, Stake, Rainbet, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Cult classic with huge knowledge base", icon: "fas fa-users" },
+            { text: "Three volatility options via mode choice", icon: "fas fa-sliders-h" },
+            { text: "High RTP for the genre (~96.8%)", icon: "fas fa-percentage" },
             { text: "Low min bets for long sessions", icon: "fas fa-coins" },
+            { text: "Proven 'wildline' highlight potential", icon: "fas fa-bullseye" },
+            { text: "Feature Buy (where permitted)", icon: "fas fa-shopping-bag" }, 
             { text: "Transparent mechanics & paytable", icon: "fas fa-book" },
-            { text: "Proven highlight 'wildline' potential", icon: "fas fa-bullseye" },
-            { text: "Critical 10/10 scores", icon: "fas fa-award" }
         ],
         
         // Technical specifications (slot specs)
         specifications: [
             { name: "Reels/Lines", value: "5×3, 9 paylines", icon: "fas fa-th" },
-            { name: "RTP", value: "~96.8% (variants)", icon: "fas fa-percentage" },
-            { name: "Volatility", value: "Very High", icon: "fas fa-exclamation-triangle" },
+            { name: "RTP", value: "96.8% (default; variants)", icon: "fas fa-percentage" },
+            { name: "Volatility", value: "High", icon: "fas fa-exclamation-triangle" },
             { name: "Max Win", value: "~111,111× (cited)", icon: "fas fa-trophy" },
             { name: "Bets", value: "~£0.09–£9 (examples)", icon: "fas fa-coins" }
         ]
@@ -917,8 +927,8 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Mystery Stacks",
-        welcomePackage: "High RTP variant on many sites",
+        welcomeBonus: "Mystery Stacks with Nudge & Reveal",
+        welcomePackage: "Rising multipliers during Free Spins",
         addedBonus: "Documented Mega Wins",
         
         affiliateLink: "https://rocketpot.io/push-gaming/razor-shark/",
@@ -928,7 +938,7 @@ const PRODUCTS_CONFIG = {
         cta: {
             title: "Dive into Mystery Stacks",
             description: "Nudge & Reveal toward huge multipliers.",
-            boxInfo: "RTP 96.7% (site variants may differ). Very high volatility.",
+            boxInfo: "RTP 96.70% (variants). High volatility.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -941,7 +951,7 @@ const PRODUCTS_CONFIG = {
         // Features for product cards (short list)
         features: [
             { text: "Mystery Stacks + Nudge & Reveal", icon: "fas fa-layer-group" },
-            { text: "Razor Reveal coin multipliers", icon: "fas fa-coins" },
+            { text: "Razor Reveal coins (prizes/scatters)", icon: "fas fa-coins" },
             { text: "Free Spins with rising multiplier", icon: "fas fa-chart-line" },
             { text: "96.7% RTP (variant dependent)", icon: "fas fa-percentage" },
             { text: "Very high volatility", icon: "fas fa-exclamation-triangle" }
@@ -951,29 +961,32 @@ const PRODUCTS_CONFIG = {
         fullReview: {
             tagline: "Mystery stacks; unlimited observed potential.",
             paragraphs: [
-                "Razor Shark succeeds with a simple but addictive loop: Mystery Stacks + Nudge & Reveal that can cascade into huge reveals.",
-                "Razor Reveal coins and a rising global multiplier in Free Spins enable seismic late-round swings—while variance remains ferocious.",
-                "The 96.7% RTP stands out in a field of lower-RTP clones; community-documented mega wins cement its highlight-reel status.",
+                "Razor Shark by Push Gaming is a high-volatility underwater adventure that has earned cult status for its suspenseful gameplay and enormous multiplier potential. Released in 2019, it runs on a 5x4 grid with 20 paylines and an RTP of 96.7%, slightly above average for online slots. Bets range from $/€0.10 up to $/€100 per spin, offering accessibility for casual players while still appealing to high-rollers. While there’s no listed maximum win cap, the combination of progressive multipliers and retriggering free spins theoretically allows for immense payouts, with single-spin potential reaching well over 50,000x in practice. This makes Razor Shark one of Push Gaming’s flagship releases and popular enough to spawn a sequel, Razor Returns.",
+                "The slot’s presentation is striking and immersive. Set in the deep blue ocean, reels are framed against a backdrop of coral and shoals of fish that dart around with each spin. Symbols mix diving gear such as flippers, snorkels, and oxygen tanks with vividly designed sharks in various colors. The great white shark is both the wild and the highest-paying symbol, awarding up to 50x your stake for five of a kind. The sea mine scatter triggers free spins, while stacks of seaweed trigger the Mystery Stack mechanic. Sound design adds to the tension: light Caribbean-style music contrasts with ominous, Jaws-inspired tones that swell during high-stakes moments, perfectly capturing the game’s mix of fun and menace.",
+                "Gameplay is built around three key features: Mystery Stacks, the Razor Reveal, and Free Spins with unlimited multipliers. Mystery Stacks—seaweed symbols covering entire reels—land frequently and nudge down one position per spin until they leave the grid. When they reveal golden sharks, the Razor Reveal feature activates, where each position reveals either instant coin prizes (worth up to 2,500x your stake) or scatter symbols. This mechanic creates thrilling moments of anticipation, as entire reels can suddenly transform into massive payouts or free spin triggers.",
+                "The Free Spins feature begins with 3 or more scatter mines, transporting players to a deeper underwater setting. Here, reels 2 and 4 start with guaranteed Mystery Stacks that continue to nudge down on each spin. Crucially, a progressive multiplier comes into play, starting at 1x and increasing by +1 with every nudge of the Mystery Stacks. Free spins only end when no stacks remain on the reels, meaning the round can, in theory, last indefinitely. This creates a high-risk, high-reward environment where multipliers can escalate into the hundreds, turning small wins into gigantic ones. The ability to retrigger stacks mid-feature keeps tension high throughout.",
+                "On mobile, Razor Shark performs flawlessly thanks to Push Gaming’s HTML5 design. The visuals and audio scale seamlessly, and the mechanics are easy to follow even on smaller screens, making it just as engaging on the go.",
+                "Overall, Razor Shark is an adrenaline-charged slot that thrives on its mix of Mystery Stacks, escalating multipliers, and retriggering free spins. Its unpredictable volatility can mean long stretches without a feature, but the potential for sky-high payouts ensures that anticipation never fades. While some players may find the wait for free spins frustrating, those who enjoy high-risk, big-reward gameplay will find it among the most exciting underwater-themed slots on the market. With its combination of stylish presentation, innovative mechanics, and limitless free spins potential, Razor Shark has rightfully become one of Push Gaming’s most enduring classics.",
                 "Available at: Rocketpot.io, Stake, Rainbet, Bitcasino.io, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Higher-than-average RTP for the genre", icon: "fas fa-percentage" },
-            { text: "Documented mega wins (community proof)", icon: "fas fa-award" },
-            { text: "Broad casino availability", icon: "fas fa-globe" },
-            { text: "Clean, readable symbol set", icon: "fas fa-eye" },
-            { text: "Portrait-mode mobile polish", icon: "fas fa-mobile-alt" }
+            { text: "Mystery Stacks create sustained suspense", icon: "fas fa-layer-group" },
+            { text: "Razor Reveal coins or bonus scatters", icon: "fas fa-coins" },
+            { text: "Free Spins with escalating multiplier", icon: "fas fa-chart-line" },
+            { text: "Retriggers can extend bonus runs", icon: "fas fa-redo" },
+            { text: "96.70% RTP (variant dependent)", icon: "fas fa-percentage" }
         ],
         
         // Technical specifications (slot specs)
         specifications: [
             { name: "Reels/Lines", value: "5×4, 20 paylines", icon: "fas fa-th" },
-            { name: "RTP", value: "96.7% (variants differ)", icon: "fas fa-percentage" },
-            { name: "Volatility", value: "Very High", icon: "fas fa-exclamation-triangle" },
-            { name: "Max Observed", value: "85,475× documented", icon: "fas fa-trophy" },
-            { name: "Stakes", value: "10p–£100 typical", icon: "fas fa-coins" }
+            { name: "RTP", value: "96.70% (variants differ)", icon: "fas fa-percentage" },
+            { name: "Volatility", value: "High", icon: "fas fa-exclamation-triangle" },
+            { name: "Max Observed", value: "Uncapped; long free spins potential", icon: "fas fa-trophy" },
+            { name: "Stakes", value: "£0.10–£100 typical", icon: "fas fa-coins" }
         ]
     },
     
@@ -1053,18 +1066,18 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Up to 117,649 ways; cascades keep wins chaining",
-        welcomePackage: "Free-spin bundles",
-        addedBonus: "Unlimited bonus multiplier",
+        welcomeBonus: "Cascades (Reactions) + carts add symbols",
+        welcomePackage: "Free Spins with unlimited win multiplier",
+        addedBonus: "Minecart scatters retrigger",
         
         affiliateLink: "https://rocketpot.io/big-time-gaming/bonanza/",
         ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
-            title: "Trigger Free Spins",
-            description: "Watch the multiplier climb.",
-            boxInfo: "~96% RTP, ~37.47% hit rate, 26,000× max win.",
+            title: "Spell G.O.L.D for spins",
+            description: "Chain reactions and build an unlimited multiplier.",
+            boxInfo: "RTP 96%; ~37.47% hit rate; 26,000× max win.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -1079,7 +1092,7 @@ const PRODUCTS_CONFIG = {
             { text: "Up to 117,649 ways", icon: "fas fa-random" },
             { text: "Reaction wins (cascades)", icon: "fas fa-sync-alt" },
             { text: "Unlimited bonus multiplier", icon: "fas fa-infinity" },
-            { text: "Re-triggers common enough to matter", icon: "fas fa-redo" },
+            { text: "Minecart scatter retriggers", icon: "fas fa-redo" },
             { text: "~96% RTP (BTG)", icon: "fas fa-percentage" }
         ],
         
@@ -1087,27 +1100,29 @@ const PRODUCTS_CONFIG = {
         fullReview: {
             tagline: "The original ‘reaction wins’ gold rush.",
             paragraphs: [
-                "Bonanza pioneered Megaways: reaction wins and carts feeding fresh symbols, with a progressive multiplier in Free Spins.",
-                "Lean by modern standards—fewer gimmicks, pure cascades—which keeps it welcoming for learners and satisfying for grinders.",
-                "The 26,000× revision gives modern teeth; its methodical progression loop still shines in long crypto sessions.",
+                "Bonanza Megaways by Big Time Gaming is a landmark slot release that transformed the online casino landscape and popularized the now-ubiquitous Megaways mechanic. First launched in 2016, this mining-themed slot plays on a 6-reel setup with between 2 and 7 symbols per reel, creating up to 117,649 ways to win on any given spin. With medium-to-high volatility, a default RTP of 96%, and maximum wins of 26,000x your bet, Bonanza combines accessible gameplay with explosive potential. Stakes start at $/€0.20 and go up to $/€20, making it approachable for a wide range of players. The game remains one of the most-played Megaways titles ever released, largely thanks to its dynamic mechanics and free spins with unlimited multipliers.",
+                "The presentation leans heavily on its mining theme. The reels are set against a rustic mountainside with a cascading waterfall and a miner’s hut to the side, giving the impression of a remote gold-mining settlement. Symbols appear carved into stone blocks and include low-value royals (9–A), mid-value gemstones in green, blue, and red, and the top-paying diamond worth up to 50x your stake for six of a kind. Above the main grid, a minecart adds extra symbols to reels 2–5, where wilds (sticks of dynamite) can appear to substitute for all standard symbols. The scatter symbols are golden letters spelling “GOLD,” which not only fit the theme but are key to unlocking the bonus round. The audio track is quirky and hillbilly-inspired, a toe-tapping banjo tune that keeps energy levels high during gameplay.",
+                "Gameplay revolves around Reaction Wins and the all-important Free Spins feature with expanding multipliers. Reaction Wins act like tumbling reels—every winning combination disappears, and new symbols cascade down to fill the gaps, potentially creating chains of successive wins. This becomes especially powerful during the Free Spins feature. To trigger free spins, you’ll need to land four scatters spelling “GOLD,” awarding 12 free spins, with each extra scatter adding 5 more (up to 22). During free spins, every Reaction Win increases a global multiplier by +1, with no upper limit. This multiplier does not reset between spins, meaning long chains can quickly escalate into enormous payouts. Additional scatters in the minecarts above reels 2–5 can retrigger the feature with up to 10 more free spins, keeping the round alive.",
+                "The slot runs smoothly across platforms, with the Bonanza Megaways mobile version delivering crisp visuals and seamless gameplay on both iOS and Android devices. While the fast-paced action and fluctuating reel sizes are most striking on larger screens, the game remains intuitive and immersive on smaller displays.",
+                "Overall, Bonanza Megaways is widely regarded as one of the most important slots of the last decade. Its innovative design and thrilling gameplay inspired countless imitators and sequels, cementing Big Time Gaming’s place as a pioneer in slot development. The blend of Reaction Wins, free spins with unlimited multipliers, and up to 117,649 ways to win makes for an exhilarating experience that balances frequent small wins with the potential for massive payouts. With a top prize of 26,000x your bet, this mining adventure remains one of the best Megaways slots ever made.",
                 "Available at: Rocketpot.io, Roobet, Stake, Rainbet, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Icon status; tons of guides", icon: "fas fa-book" },
-            { text: "Smooth performance even on older phones", icon: "fas fa-mobile-alt" },
-            { text: "Free-spin re-triggers common enough to matter", icon: "fas fa-redo" },
-            { text: "Entry stakes stay low for long sessions", icon: "fas fa-coins" },
-            { text: "Spawns linked titles (Bonanza Falls/Megapays)", icon: "fas fa-network-wired" }
+            { text: "Reaction wins (cascades) keep chains alive", icon: "fas fa-sync-alt" },
+            { text: "Unlimited win multiplier in Free Spins", icon: "fas fa-infinity" },
+            { text: "Minecart scatters retrigger spins", icon: "fas fa-redo" },
+            { text: "96% RTP; ~37.47% hit rate", icon: "fas fa-percentage" },
+            { text: "Medium–High volatility Megaways core", icon: "fas fa-exclamation-triangle" }
         ],
         
         // Technical specifications
         specifications: [
             { name: "Reels/Ways", value: "6 reels, up to 117,649 ways", icon: "fas fa-th" },
-            { name: "RTP", value: "~96%", icon: "fas fa-percentage" },
-            { name: "Hit Rate", value: "~37.47%", icon: "fas fa-bullseye" },
+            { name: "RTP", value: "96%", icon: "fas fa-percentage" },
+            { name: "Hit Rate", value: "37.47%", icon: "fas fa-bullseye" },
             { name: "Volatility", value: "Medium–High", icon: "fas fa-exclamation-triangle" },
             { name: "Max Win", value: "26,000×", icon: "fas fa-trophy" }
         ]
@@ -1116,7 +1131,7 @@ const PRODUCTS_CONFIG = {
     // Product 7 Configuration - The Dog House Megaways — Sticky vs Raining Free Spins
     product7: {
         name: "The Dog House Megaways",
-        description: "The Dog House Megaways - 6-reel Megaways slot with player choice: Sticky Wilds vs Raining Wilds. High volatility, ~96.55% RTP, ~12,305× max win.",
+        description: "The Dog House Megaways - 6-reel Megaways slot with player choice: Sticky Wilds vs Raining Wilds. High volatility, ~96.55% RTP, ~12,000× max win.",
         productLogo: "./assets/images/slot-games/pragmatic-play-logo.webp",
         productImage: "./assets/images/slot-games/The-Dog-House-Megaways-slots.webp",
         logoScale: {
@@ -1190,17 +1205,17 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Pick Sticky or Raining Wilds bonus styles",
-        welcomePackage: "Frequent Drops & Wins/welcome promos",
-        addedBonus: "~12,305× top with wild multipliers",
+        welcomePackage: "Frequent Drops & Wins",
+        addedBonus: "~12,000× top with wild multipliers",
         
         affiliateLink: "https://rocketpot.io/pragmatic-play/the-dog-house-megaways/",
         ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
-            title: "Pick your bonus",
-            description: "Sticky for compounding chaos, or Raining for pure thrills.",
-            boxInfo: "~96.55% RTP, high volatility, ~12,305× top.",
+            title: "Sticky or Raining?",
+            description: "Choose your free spins style—stack multipliers or chase rains.",
+            boxInfo: "~96.55% RTP; high volatility; ~12,000× top.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -1213,30 +1228,34 @@ const PRODUCTS_CONFIG = {
         // Features for product cards (short list)
         features: [
             { text: "Megaways up to 117,649", icon: "fas fa-random" },
-            { text: "Sticky or Raining Wilds", icon: "fas fa-cloud-showers-heavy" },
-            { text: "High volatility", icon: "fas fa-exclamation-triangle" },
+            { text: "Sticky Wilds: 7–20 FS; 2–7 sticky per reel", icon: "fas fa-thumbtack" },
+            { text: "Raining Wilds: 15–30 FS; up to 6 wilds/spin", icon: "fas fa-cloud-showers-heavy" },
+            { text: "Random 2×/3× wild multipliers", icon: "fas fa-times-circle" },
             { text: "~96.55% RTP", icon: "fas fa-percentage" },
-            { text: "~12,305× max win", icon: "fas fa-trophy" }
+            { text: "~12,000× max win", icon: "fas fa-trophy" },
+            { text: "Pairs with Drops & Wins", icon: "fas fa-medal" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "Cuddly visuals, serious math.",
             paragraphs: [
-                "Two bonus styles keep replay value high: Sticky Wilds can snowball with multipliers, while Raining Wilds offers swingy surprise hits.",
-                "Megaways variable heights and fast play make it a friendly entry point for new players without losing spice for veterans.",
-                "Often eligible for network promos, it's a frequent tournament pick for consistent engagement.",
+                "The Dog House Megaways by Pragmatic Play is a cheerful yet high-volatility slot that takes the much-loved canine theme of the original and upgrades it with the Megaways engine. Released in 2020, it features a 6-reel setup with up to 117,649 ways to win, powered by dynamic reel sizes that change on each spin. The RTP sits at a solid 96.55%, while maximum wins are capped at 12,000x your bet—making it significantly more rewarding than its predecessor. Bets range from $/€0.20 up to $/€100 per spin, ensuring the game caters to both casual players and high-stakes spinners, depending on the jurisdiction. With two distinct free spin options offering different volatility profiles, The Dog House Megaways has become one of Pragmatic Play’s most popular releases.",
+                "The presentation is as playful as the theme suggests. The reels are set in a cartoonish suburban neighborhood with a kennel acting as the game’s logo, bright skies, and animated paw prints. Symbols include bones, collars, and four breeds of dogs, with the rottweiler acting as the top-paying premium. The wild is represented by a colorful kennel and can land on reels 2–6, applying a random 2x or 3x multiplier. When multiple wilds form part of a win, their multipliers stack together, setting up the potential for explosive payouts. The scatter is a golden paw-print coin, which triggers the bonus round when three or more land anywhere on the reels.",
+                "The real variety in gameplay comes from the two Free Spins features: Sticky Wilds and Raining Wilds. If you choose Sticky Wild Free Spins, you’ll receive 7–20 spins depending on the number of triggering scatters, with 2–7 guaranteed sticky wilds per reel. Any wild that lands remains in place for the duration of the feature, each with a multiplier of 1x–3x. Over time, the reels can fill with sticky multipliers, creating thrilling sequences of consecutive wins. Alternatively, the Raining Wilds Free Spins option offers 15–30 spins, with up to 6 wilds dropping randomly on each spin, each carrying multipliers of 1x–3x. While Sticky Wilds tend to deliver fewer but higher-value hits, Raining Wilds provide more consistent action with a higher number of spins.",
+                "On mobile, The Dog House Megaways is smooth and vibrant thanks to its HTML5 design. The colorful graphics scale well on smaller screens, and the fast-paced gameplay with cascading reels and shifting paylines remains easy to follow even during busy win animations. Autoplay options with turbo and quick spin modes are available in some jurisdictions, making it a flexible title for players who prefer faster sessions.",
+                "Overall, The Dog House Megaways successfully combines the lighthearted charm of the original with the intensity of Megaways gameplay. The 12,000x max win potential, coupled with stacked multipliers and two different free spin modes, ensures both casual and hardcore players have reasons to return. While its high volatility won’t appeal to everyone, the ability to choose between Sticky or Raining Wilds adds strategic depth and replayability. With its fun theme, engaging mechanics, and serious payout potential, The Dog House Megaways stands as one of Pragmatic Play’s most enduring crowd-pleasers.",
                 "Available at: Rocketpot.io, Rainbet, Stake, Bitcasino.io, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Player choice on volatility", icon: "fas fa-sliders-h" },
-            { text: "Charming visuals, readable UI", icon: "fas fa-paw" },
-            { text: "Frequent Bonuses/Promos", icon: "fas fa-bullhorn" },
-            { text: "Strong RTP for the genre", icon: "fas fa-percentage" },
-            { text: "Easy to parse for newcomers", icon: "fas fa-book-open" }
+            { text: "Choose Sticky vs Raining for style fit", icon: "fas fa-sliders-h" },
+            { text: "Stacking wild multipliers can snowball", icon: "fas fa-layer-group" },
+            { text: "Readable, playful presentation", icon: "fas fa-paw" },
+            { text: "High-volatility with ~12,000× top", icon: "fas fa-exclamation-triangle" },
+            { text: "Solid RTP for genre (~96.55%)", icon: "fas fa-percentage" }
         ],
         
         // Technical specifications
@@ -1244,7 +1263,7 @@ const PRODUCTS_CONFIG = {
             { name: "Reels/Ways", value: "6 reels; up to 117,649 ways", icon: "fas fa-th" },
             { name: "RTP", value: "~96.55%", icon: "fas fa-percentage" },
             { name: "Volatility", value: "High", icon: "fas fa-exclamation-triangle" },
-            { name: "Max Win", value: "~12,305×", icon: "fas fa-trophy" },
+            { name: "Max Win", value: "~12,000×", icon: "fas fa-trophy" },
             { name: "Bets", value: "~£0.20–£100 typical", icon: "fas fa-coins" }
         ]
     },
@@ -1325,18 +1344,18 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Fisherman collects cash fish; retriggers possible",
-        welcomePackage: "~96.71% RTP variant available",
-        addedBonus: "Moderate volatility",
+        welcomeBonus: "Fisherman Wild collects cash fish values",
+        welcomePackage: "10–20 Free Spins; retriggers add 2×/3×/10×",
+        addedBonus: "~96.71% RTP variant; ~2,100× cap",
         
         affiliateLink: "https://rocketpot.io/pragmatic-play/big-bass-bonanza/",
         ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
-            title: "Hook the bonus",
-            description: "Stack those 2×–10× retriggers.",
-            boxInfo: "~96.71% RTP variant; medium–high volatility; ~2,100× max.",
+            title: "Catch & Collect",
+            description: "Land fishermen to collect cash fish and boost multipliers.",
+            boxInfo: "RTP up to 96.71% (alts 95.67%, 94.5%); ~2,100× max; med-high vol.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -1349,46 +1368,48 @@ const PRODUCTS_CONFIG = {
         // Features for product cards (short list)
         features: [
             { text: "Fisherman collects cash fish", icon: "fas fa-fish" },
-            { text: "Retriggers to 2×–10×", icon: "fas fa-level-up-alt" },
-            { text: "Cash symbols in bonus", icon: "fas fa-coins" },
+            { text: "Retriggers add 2×/3×/10×", icon: "fas fa-level-up-alt" },
+            { text: "Cash symbols up to 2,000×", icon: "fas fa-coins" },
             { text: "Medium–High volatility", icon: "fas fa-exclamation-triangle" },
-            { text: "~96.71% RTP variant", icon: "fas fa-percentage" }
+            { text: "RTP up to 96.71%", icon: "fas fa-percentage" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "Catch fish, collect multipliers.",
             paragraphs: [
-                "Big Bass nails the collector loop: the fisherman wild scoops up cash fish, and retriggers escalate multipliers up to 10×.",
-                "The base is sparse by design to spotlight the bonus, keeping variance manageable for casual sessions and on mobile.",
-                "The ~96.71% RTP variant sits above many clones, and the series offers deeper alternatives if you want more nuance.",
+                "Big Bass Bonanza by Pragmatic Play is a lighthearted fishing-themed slot that has become one of the developer’s most recognizable titles. Released in 2020, it runs on a simple 5x3 reel grid with 10 paylines and carries medium-to-high volatility. With an RTP of up to 96.71% (though some casinos may offer lower versions at 95.67% or 94.5%), the game edges above average in terms of returns. Stakes range from $/€0.10 up to $/€250 per spin, appealing to both casual players and high-rollers depending on the casino. While the maximum win is capped at 2,100x your stake, relatively modest compared to many modern high-volatility slots, the gameplay’s charm lies in its free spins feature with retriggers and escalating multipliers.",
+                "Visually, the slot is kept deliberately simple, set against an underwater backdrop with bubbles and aquatic plant life. Symbols fit the fishing theme, ranging from tackle boxes, dragonflies, and rods to floats, the latter paying up to 200x your stake for five of a kind. Fish icons double as standard symbols and as carriers of cash values during free spins. The fisherman character serves as the wild, collecting fish values when he lands, while the scatter is represented by a golden fish, triggering the free spins. The soundtrack adds to the breezy tone, with a laid-back, jazz-inspired track that mirrors the leisurely pace of a day out on the lake.",
+                "The core mechanic centers on the Free Spins feature, triggered by landing 3, 4, or 5 scatters for 10, 15, or 20 spins, respectively. During free spins, every fisherman wild that lands collects the cash values attached to all fish symbols on the reels. Fish prizes range from 2x up to 2,000x your bet, making each spin potentially rewarding. Multiple fishermen on the same spin each collect the fish values, multiplying payouts. Retriggers add 10 more spins each time 4 fishermen are collected in a meter, and also escalate multipliers on collected fish: 2x for the first retrigger, 3x for the second, and 10x for the third. In theory, this allows the bonus round to extend and grow significantly, though max wins remain capped at 2,100x.",
+                "On mobile, Big Bass Bonanza is smooth and highly accessible thanks to its clean design and straightforward mechanics. It plays just as well on smartphones and tablets as on larger screens, with no loss of clarity or functionality. Autoplay, quick spin, and turbo modes are available in some jurisdictions, making it flexible for different playing styles.",
+                "Overall, Big Bass Bonanza keeps things simple but highly entertaining, which explains its enduring popularity and the many sequels it has spawned. While it doesn’t boast the sky-high win potential of titles like Gates of Olympus or Dead or Alive 2, its solid RTP, fun theme, and rewarding free spins make it a go-to slot for casual and seasoned players alike. The game’s success has spawned a whole Big Bass franchise, with variations like Big Bass Bonanza Megaways and Big Bass Amazon Xtreme adding new mechanics and far larger win caps for those who want to take the fishing trip to the next level.",
                 "Available at: Rocketpot.io, Stake, Cloudbet, Shuffle, Bspin.io."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Approachable collector mechanics", icon: "fas fa-handshake" },
-            { text: "Frequent Bonuses/Promos", icon: "fas fa-bullhorn" },
-            { text: "Broad bet range for bankrolls", icon: "fas fa-coins" },
-            { text: "Consistent mobile/desktop feel", icon: "fas fa-mobile-alt" },
-            { text: "Series depth (many spinoffs)", icon: "fas fa-layer-group" }
+            { text: "Fisherman collects all visible cash fish", icon: "fas fa-fish" },
+            { text: "Retriggers add 2×/3×/10× multipliers", icon: "fas fa-level-up-alt" },
+            { text: "Cash fish values up to 2,000×", icon: "fas fa-coins" },
+            { text: "Up to 96.71% RTP (variant dependent)", icon: "fas fa-percentage" },
+            { text: "Simple, readable gameplay on mobile", icon: "fas fa-mobile-alt" }
         ],
         
         // Technical specifications
         specifications: [
             { name: "Reels/Lines", value: "5×3, 10 paylines", icon: "fas fa-th" },
-            { name: "RTP", value: "~96.71% (variant dependent)", icon: "fas fa-percentage" },
+            { name: "RTP", value: "Up to 96.71% (alts 95.67%, 94.5%)", icon: "fas fa-percentage" },
             { name: "Volatility", value: "Medium–High", icon: "fas fa-exclamation-triangle" },
             { name: "Max Win", value: "~2,100×", icon: "fas fa-trophy" },
-            { name: "Bets", value: "~£0.10–£250 examples", icon: "fas fa-coins" }
+            { name: "Bets", value: "$0.10–$250 (varies)", icon: "fas fa-coins" }
         ]
     },
     
     // Product 9 Configuration - San Quentin xWays — Notorious Nolimit Volatility
     product9: {
         name: "San Quentin xWays",
-        description: "San Quentin xWays - xWays/xSplit enhancers with Lockdown Spins and extreme volatility. ~96.03% default RTP (lower variants exist); 150,000× max win.",
+        description: "San Quentin xWays - xWays/xSplit enhancers with Lockdown Spins and high volatility. ~96.03% default RTP (lower variants exist); 150,000× max win.",
         productLogo: "./assets/images/slot-games/nolimit-city-logo2.webp",
         productImage: "./assets/images/slot-games/San-Quentin-xWays-slots.webp",
         logoScale: {
@@ -1448,7 +1469,7 @@ const PRODUCTS_CONFIG = {
         
         // Product ranking and affiliate data
         rank: 9,
-        rankBadge: "EXTREME VOL",
+        rankBadge: "HIGH VOL",
         rating: 4.4,
         reviewCount: 1200,
 
@@ -1462,7 +1483,7 @@ const PRODUCTS_CONFIG = {
         
         // Casino Websites
         welcomeBonus: "Lockdown Spins with Jumping Wilds and multipliers",
-        welcomePackage: "Enhancer Cells, xWays/xSplit; 150,000× cap; extreme volatility",
+        welcomePackage: "Enhancer Cells, xWays/xSplit; 150,000× cap; high volatility",
         addedBonus: "Bonus Buy options",
         
         affiliateLink: "https://rocketpot.io/nolimit-city/san-quentin/",
@@ -1470,8 +1491,8 @@ const PRODUCTS_CONFIG = {
         
         // CTA section configuration for detailed reviews
         cta: {
-            title: "Trigger Lockdown Spins",
-            description: "Let xWays/xSplit go to work.",
+            title: "Unlock Lockdown Spins",
+            description: "Enhancer Cells, xWays/xSplit, and 512× multipliers.",
             boxInfo: "~96.03% default RTP (alts 94.11%, 90.11%). 150,000× cap.",
             // CTA box display controls
             display: {
@@ -1484,47 +1505,52 @@ const PRODUCTS_CONFIG = {
         
         // Features for product cards (short list)
         features: [
-            { text: "xWays/xSplit enhancers", icon: "fas fa-compress-arrows-alt" },
-            { text: "Lockdown Spins", icon: "fas fa-lock" },
-            { text: "Bonus buys (region dependent)", icon: "fas fa-shopping-bag" },
-            { text: "Extreme volatility", icon: "fas fa-exclamation-triangle" },
-            { text: "150,000× cap", icon: "fas fa-trophy" }
+            { text: "Enhancer Cells unlock extra symbol slots", icon: "fas fa-unlock" },
+            { text: "Razor Split doubles/quadruples reel symbols", icon: "fas fa-cut" },
+            { text: "xWays expands stacked high symbols", icon: "fas fa-compress-arrows-alt" },
+            { text: "Lockdown Spins with Jumping Wilds (up to 512×)", icon: "fas fa-lock" },
+            { text: "Bonus Buys: 100× / 400× / 2,000× (depending on region)", icon: "fas fa-shopping-bag" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "Lockdown Spins, prison-yard payouts.",
             paragraphs: [
-                "San Quentin’s enhancer suite turns a simple grid into a tangle of splits and expansions that can explode when aligned.",
-                "When Lockdown Spins cook, they really cook—but the variance is brutal; bankroll planning is essential.",
-                "The 150,000× cap remains a benchmark for max-win chasers across crypto casinos.",
+                "San Quentin xWays by Nolimit City is a brutally intense, high-volatility slot that plunges players into the gritty atmosphere of one of America’s most notorious prisons. Released in 2021, it features a 5x3 setup with 243 ways to win at its core, but thanks to Nolimit City’s innovative xWays and Razor Split mechanics, the number of win combinations can soar into the billions—literally over 13 billion ways. With a default RTP of 96.03% (though alternative versions exist as low as 94.11%), bets range from $/€0.20 to $/€32 per spin. The headline feature is the Lockdown Free Spins round, where multipliers can climb as high as 512x, leading to staggering maximum wins of 150,000x your bet—one of the largest ever offered in an online slot.",
+                "The theme and presentation are unapologetically raw. The reels are set within a maximum-security yard, complete with barbed wire, guard towers, and security cameras. The base game soundtrack leans on Latin-inspired hip-hop beats, before morphing into hard rock riffs during the bonus rounds, emphasizing the shift in intensity. Symbols include prison paraphernalia such as soap, lighters, knives, and handcuffs, alongside five inmate characters like Crazy Joe Labrador, Loco Luis, and the top-paying Beefy Dick. Split Wilds and xWays symbols expand gameplay variety, while bonus icons unlock access to the Lockdown Free Spins. The design feels part comic book, part gritty realism—an atmosphere that fits the controversial theme perfectly.",
+                "Gameplay is complex but rewarding once mastered. Enhancer Cells, locked at the top and bottom of each reel, unlock when bonus symbols land. These can reveal stacked convicts, xWays expansions, or Razor Splits that double or even quadruple all symbols on a reel. When multiple Enhancer Cells and Splits combine, the number of win ways can reach astronomical levels. Split Wilds also boost paylines by doubling adjacent symbols, while Jumping Wilds move across the grid during free spins, often carrying multipliers.",
+                "The slot’s centerpiece is the Lockdown Free Spins feature, triggered by landing 3–5 bonus symbols (on average every 230 spins). Here, all Enhancer Cells unlock, and players receive Jumping Wilds—1 for three scatters, 2 for four, and 3 for five. These wilds move to new reel positions on each spin and can interact with Razor Splits to double their multipliers, up to 512x. Extra scatters during the round add more spins and additional Jumping Wilds. The bonus is where the Psycho Manhunt max win of 150,000x lurks, though realistically, hitting it is a 1-in-1.8-million-spin event.",
+                "For players outside the UK, Nolimit Bonus buy options are available. You can purchase Lockdown Spins with 3 scatters for 100x bet, 4 scatters for 400x bet, or 5 scatters for a hefty 2,000x bet. RTP nudges up slightly for the most expensive option (96.95%). On mobile, San Quentin runs smoothly despite its symbol-heavy chaos, with responsive design ensuring the comic-book visuals remain crisp even when reels expand massively.",
+                "Overall, San Quentin xWays is a controversial but groundbreaking release that pushed the boundaries of what slot mechanics could do. Its high volatility and complex features mean it won’t suit everyone, but for players chasing record-breaking payouts and adrenaline-fueled gameplay, it remains one of Nolimit City’s most ambitious creations. With its 150,000x max win, layered mechanics, and prison-yard aesthetic, San Quentin stands as one of the most notorious—and rewarding—high-risk slots ever made.",
                 "Available at: Rocketpot.io, Stake, Rainbet, BetFury, Bitcasino.io."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Massive ceiling for highlight hunters", icon: "fas fa-mountain" },
-            { text: "Cult following and endless clips", icon: "fas fa-video" },
-            { text: "Clear variance expectations", icon: "fas fa-info-circle" },
-            { text: "Distinct identity among max-win titles", icon: "fas fa-id-card" },
-            { text: "Responsive runtime in browsers", icon: "fas fa-bolt" }
+            { text: "150,000× top (Psycho Manhunt)", icon: "fas fa-trophy" },
+            { text: "Jumping Wild multipliers can reach 512×", icon: "fas fa-bolt" },
+            { text: "Complex, rewarding enhancer combos", icon: "fas fa-layer-group" },
+            { text: "Bonus Buy RTP up to ~96.95% (5 scatters)", icon: "fas fa-percentage" },
+            { text: "Cult following; highlight-worthy volatility", icon: "fas fa-video" }
         ],
         
         // Technical specifications
         specifications: [
-            { name: "Layout", value: "5×3 base; enhancers expand ways", icon: "fas fa-th" },
-            { name: "RTP", value: "~96.03% (alts 94.11%, 90.11%)", icon: "fas fa-percentage" },
-            { name: "Volatility", value: "Extreme", icon: "fas fa-exclamation-triangle" },
+            { name: "Layout/Ways", value: "5×3; 243 ways (expand via enhancers)", icon: "fas fa-th" },
+            { name: "RTP", value: "96.03% default (alts 94.11%, 90.11%)", icon: "fas fa-percentage" },
+            { name: "Bonus Buy RTP", value: "Up to ~96.95% (5 scatters)", icon: "fas fa-percentage" },
+            { name: "Volatility", value: "High", icon: "fas fa-exclamation-triangle" },
             { name: "Max Win", value: "150,000×", icon: "fas fa-trophy" },
-            { name: "Bets", value: "~0.20–32 typical ranges", icon: "fas fa-coins" }
+            { name: "Multipliers", value: "Jumping Wilds up to 512×", icon: "fas fa-bolt" },
+            { name: "Bets", value: "$/€0.20–$/$/€32 typical", icon: "fas fa-coins" }
         ]
     },
     
     // Product 10 Configuration - Mega Moolah — Iconic Progressive Jackpot
     product10: {
         name: "Mega Moolah",
-        description: "Mega Moolah - 5×3, 25-line progressive with four jackpots and a random jackpot wheel. 88.12% RTP due to progressive contribution; medium volatility.",
+        description: "Mega Moolah - 5×3, 25-line progressive with four jackpots and a random jackpot wheel. 93.42% RTP overall (88.12% base + ~5.3% jackpot contribution); low volatility.",
         productLogo: "./assets/images/slot-games/games-global-logo2.webp",
         productImage: "./assets/images/slot-games/Mega-Moolah-slots.jpg",
         logoScale: {
@@ -1597,18 +1623,18 @@ const PRODUCTS_CONFIG = {
         },
         
         // Casino Websites
-        welcomeBonus: "Four-tier progressive jackpots; ",
-        welcomePackage: "Free Spins with 3× multiplier",
-        addedBonus: "Low minimum stake",
+        welcomeBonus: "Random Jackpot Wheel: Mini, Minor, Major, Mega",
+        welcomePackage: "15 Free Spins; all wins ×3; retriggers possible",
+        addedBonus: "Lion Wild doubles wins (up to 6× in free spins)",
         
         affiliateLink: "https://rocketpot.io/games-global/mega-moolah/",
         ctaText: "Play Now",
         
         // CTA section configuration for detailed reviews
         cta: {
-            title: "Aim for the wheel",
-            description: "Take a few low-stakes spins and chase the Mega.",
-            boxInfo: "RTP 88.12% (progressive); medium volatility; 4 jackpots.",
+            title: "Spin the Jackpot Wheel",
+            description: "Chase Mini, Minor, Major, or Mega jackpots.",
+            boxInfo: "RTP 93.42% overall; low volatility; 4 jackpots.",
             // CTA box display controls
             display: {
                 showTitle: false,        // Show/hide CTA title
@@ -1623,35 +1649,37 @@ const PRODUCTS_CONFIG = {
             { text: "Four progressive jackpots", icon: "fas fa-coins" },
             { text: "Random jackpot wheel", icon: "fas fa-chart-pie" },
             { text: "Free Spins 3× multiplier", icon: "fas fa-gift" },
-            { text: "~88.12% RTP (progressive)", icon: "fas fa-percentage" },
-            { text: "Medium volatility", icon: "fas fa-exclamation-triangle" }
+            { text: "93.42% RTP (overall)", icon: "fas fa-percentage" },
+            { text: "Low volatility", icon: "fas fa-exclamation-triangle" }
         ],
         
         // Detailed review content
         fullReview: {
             tagline: "Four jackpots; life-changing hits.",
             paragraphs: [
-                "Mega Moolah is about rolling the dice at a life-changer—the random jackpot wheel is the star and funds come from the lower 88.12% RTP.",
-                "Base game outcomes are modest versus non-progressives; treat it as a side quest with a fixed budget for jackpot shots.",
-                "Many hybrid crypto casinos still offer it; variants and sequels exist, but the original remains the most iconic.",
+                "Mega Moolah by Games Global (formerly Microgaming) is perhaps the most famous progressive jackpot slot in the world. First released in 2006, this 5x3 safari-themed slot runs across 25 paylines and has paid out hundreds of millions in prizes, including record-breaking jackpots exceeding €19 million. Its straightforward mechanics—wilds, scatters, and free spins with multipliers—make it accessible, while the randomly triggered Jackpot Bonus Wheel keeps players chasing life-changing wins. With a default RTP of 93.42% (lower than average but balanced by the jackpot contribution), bets range from $/€0.25 up to $/€6.25 per spin, ensuring approachable stakes for casual players. The volatility is low, meaning frequent smaller wins, while the main attraction remains its progressive jackpots, particularly the Mega Jackpot, seeded at €2 million and often growing far higher.",
+                "Visually, the game is simple but charming, set against the African savannah with reels populated by brightly colored royals (A–10) and safari animals like antelopes, zebras, giraffes, buffalos, and elephants. The elephant is the highest-paying standard symbol, awarding up to 30x your stake for five of a kind. The Lion Wild is both the game’s most lucrative symbol—paying up to 600x your stake—and a 2x multiplier whenever it forms part of a win. The Witch Doctor Scatter triggers the free spins round and pays up to 100x your stake, adding variety to the gameplay. While the graphics show their age compared to modern releases, the roars of animals and African-inspired choir soundtrack add atmosphere and keep the safari theme engaging.",
+                "The slot’s features are modest but effective. Landing three or more scatters triggers the Free Spins feature, awarding 15 spins with all payouts tripled. When a Lion Wild is involved, its 2x multiplier combines with the free spins boost for a powerful 6x payout. Retriggers are possible, extending the feature with an additional 15 spins. Beyond free spins, the true star is the Jackpot Wheel Bonus, triggered randomly on any spin. The wheel consists of colored segments corresponding to four progressive jackpots: the Mini (starting at €10), Minor (starting at €100), Major (starting at €10,000), and the Mega (starting at €2 million). Each spin carries a chance at the wheel, with higher bets improving your odds of triggering it.",
+                "On mobile, Mega Moolah is well-optimized, with simple visuals that scale effectively across iOS and Android devices. Its low-complexity design makes it easy to play on smaller screens, and the short spin cycle ensures smooth, fast-paced sessions.",
+                "Overall, Mega Moolah remains a cornerstone of online jackpot slots. Its base game is simple and dated compared to modern releases, but the allure of life-changing payouts continues to draw players worldwide. With a hit frequency of nearly 46%, wins come regularly, though the biggest prizes are reserved for those lucky enough to trigger the Jackpot Wheel. While the RTP is lower than many other slots, this is more than offset by the potential to join the long list of instant millionaires created by this title. For players chasing the thrill of record-breaking jackpots, Mega Moolah is still the undisputed king of progressive slots.",
                 "Available at: Rocketpot.io, Stake, Bitcasino.io, Rainbet, BetFury."
             ]
         },
         
         // Perks for product cards and detailed reviews
         perks: [
-            { text: "Mega progressive with headline wins", icon: "fas fa-crown" },
-            { text: "Low min bet for casual chasing", icon: "fas fa-coins" },
-            { text: "Available at many mainstream sites", icon: "fas fa-globe" },
-            { text: "Transparent RTP rationale", icon: "fas fa-file-alt" },
-            { text: "Mobile-friendly legacy pacing", icon: "fas fa-mobile-alt" }
+            { text: "Random Jackpot Wheel (Mini/Minor/Major/Mega)", icon: "fas fa-chart-pie" },
+            { text: "Free Spins 3×; Lion Wild doubles wins (to 6×)", icon: "fas fa-gift" },
+            { text: "Low volatility; frequent smaller hits", icon: "fas fa-exclamation-triangle" },
+            { text: "Approachable min stake (~$0.25)", icon: "fas fa-coins" },
+            { text: "Record Mega payouts (e.g., €19.4M)", icon: "fas fa-crown" }
         ],
         
         // Technical specifications
         specifications: [
             { name: "Reels/Lines", value: "5×3, 25 paylines", icon: "fas fa-th" },
-            { name: "RTP", value: "88.12% (progressive)", icon: "fas fa-percentage" },
-            { name: "Volatility", value: "Medium", icon: "fas fa-exclamation-triangle" },
+            { name: "RTP", value: "93.42% overall (88.12% base + ~5.3% jackpot)", icon: "fas fa-percentage" },
+            { name: "Volatility", value: "Low", icon: "fas fa-exclamation-triangle" },
             { name: "Jackpots", value: "Mini, Minor, Major, Mega", icon: "fas fa-crown" },
             { name: "Bets", value: "~$0.01–$6.25 typical", icon: "fas fa-coins" }
         ]
